@@ -11,7 +11,7 @@ $(function(){
   thePrompt.document.body.innerHTML = theHTML;
   thePrompt.document.getElementById("authOK").onclick = function () {
     if ( thePrompt.document.getElementById("pass").value != "stockhausen" ) {
-      window.alert(x+": Not correct. Please refresh the page.");
+      window.alert("Incorrect Password. Please refresh the page.");
       thePrompt.close();
     } else {
       window.alert("Success!");
