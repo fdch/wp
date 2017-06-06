@@ -1,11 +1,11 @@
 <script>
-$(loadTo(about.txt, "#description"));
+$(wploadTo(about.txt, "#description"));
 </script>
 
 <article>
 
 <h3>About</h3>
-<img class="imagetop" src="img/about" />
+<img src="img/about" height=180 />
 <p id=description></p>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
