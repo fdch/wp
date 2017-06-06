@@ -11,7 +11,7 @@ $(function(){
     } else {
       thePrompt.close();
       window.alert("Sucess!\n\n\"I no longer limit myself.\"\n\n Karlheinz Stockhausen");
-      $("body").append("<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w*0.9 + " height=" + h*0.9 + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe>");
+      $("body").append("<div style='padding:10%'><iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w*0.9 + " height=" + h*0.9 + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe></div>");
     }
 }
 });
