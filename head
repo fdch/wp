@@ -1,28 +1,16 @@
-
-<head>
-
-<title>[waverly_project~]</title>
-<meta property="og:url" content="http://waverlyproject.org/index.php" />
-<meta property="og:title" content="waverly project~" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="http://waverlyproject.org/waverlyproject-thumb.jpg" />
-<meta property="og:description" content="new music force by nyu gsas composers"/><meta name="keywords" content="waverly, project, music, festival, organization, nyu, nyc, new york university, proyecto, nueva musica, neue musik, contemporary, art, multimedia, ensemble, lectures, masterclasses, concerts, performers, performances, the soon another, talea, iktus percussion, mise-en, angelakis, camara, halac, oliver la rosa" />
-<meta name="description" content="new music force by nyu gsas composers" />
-<meta name="robots" content="index, follow">
-<meta name="author" content="MR. S" />
-
-<link rel="stylesheet" type="text/css" href="style.css"></link>
-<link rel="stylesheet" type="text/css" href="css/lightbox.css"></link>
-<link rel="shortcut icon" href="favicon/favicon.png"></link>
-
-<meta property="og:site_name" content="waverly project~"/>
-<meta property="fb:app_id" content="340917979440583" />
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
- 
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/lightbox.min.js"></script>
-<script type="text/javascript" src="js/menu.js"></script>
-<script type="text/javascript" src="animations.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/color/jquery.color-2.1.0.min.js"></script>
-
-</head>
+<!--------------------[js and css linking]------------------------------------>
+<script type="text/javascript" src="js/main.js"></script>
+<link rel=stylesheet href="css/style.css"></style>
+<link rel="shortcut icon" href="img/favicon.png"></link>
+<!----------------------[metaproperties]-------------------------------------->
+<meta property="og:image" content="fdch.github.io/wp/img/logo" />
+<meta name="keywords" content="waverly, project, music, festival, organization, nyu, nyc, new york university, proyecto, nueva musica, neue musik, contemporary, art, multimedia, ensemble, lectures, masterclasses, concerts, performers, performances, the soon another, talea, iktus percussion, mise-en, angelakis, camara, halac, oliver la rosa" />
+<meta name="description" content="https://waverlyproject.org" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="nyu composers" />
+<meta property="fb:app_id" content="123442671081764" />
+<meta property="og:url" content="http://waverlyproject.org" />
+<meta property="og:title" content="waverly project" />
+<meta property="og:site_name" content="waverly project"/>
+<!-------------------------------[title]-------------------------------------->
+<title>waverly project | new music force by nyu gsas composers</title>
