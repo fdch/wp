@@ -1,8 +1,38 @@
 <!DOCTYPE html> 
 <html>
 <head>
+<script>
+$(function(){
+	var w = $(window).width();
+	var h = $(window).height();
+	if (w >= 600) {
+		w = w*0.5;
+	}
+	$("article").width(w);
+	$("article img").width(w);
+	});
+	
+	var thePrompt = window.open("", "", "width=500");
+    var theHTML = "";
+
+    theHTML += "<p>Please provide username and password</p>";
+    theHTML += "<br/>";
+    theHTML += "Username: <input type='text' id='theUser' placeholder='Enter Username...'/>";
+    theHTML += "<br />";
+    theHTML += "Password: <input type='text' id='thePass' placeholder='Enter Password...'/>";
+    theHTML += "<br />";
+    theHTML += "<input type='button' value='OK' id='authOK'/>";
+    thePrompt.document.body.innerHTML = theHTML;
+
+    var theUser = thePrompt.document.getElementById("theUser").value;
+    var thePass = thePrompt.document.getElementById("thePass").value;
+    thePrompt.document.getElementById("authOK").onclick = function () {
+        doAuthentication(theUser, thePass);
+    }
+    $("body").append("<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w + " height=" + h + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe>");
+});
+</script>
 </head>
 <body>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </body>
 </html>
