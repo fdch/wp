@@ -1,8 +1,8 @@
 $(function(){
   var w = $(window).width();
   var h = $(window).height();
-  var thePrompt = window.open("", "", "width=300,height=200");
-  var theHTML = "<head><link rel=stylesheet href='css/style.css'></style><link rel='shortcut icon' href='img/favicon.png'></link><title>Waverly Project Event Form</title></head><body><h3>Enter password to access Waverly Project Event Form</h3><input type=password id=karlheinz size=9/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></body>"
+  var thePrompt = window.open("", "", "width=300,height=200,location=0,toolbar=0, resizable=0,scrollbars=0");
+  var theHTML = "<head><link rel=stylesheet href='css/style.css'></style><link rel='shortcut icon' href='img/favicon.png'></link><title>Waverly Project Event Form</title></head><body><form><h3>Enter password to access Waverly Project Event Form</h3><input type=password id=karlheinz size=9/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></body>"
   thePrompt.document.documentElement.innerHTML = theHTML;
   thePrompt.document.getElementById("authOK").onclick = function () {
     if ( thePrompt.document.getElementById("karlheinz").value != "stockhausen" ) {
