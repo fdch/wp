@@ -1,21 +1,16 @@
 $(function(){
   var w = $(window).width();
   var h = $(window).height();
-  if (w >= 600) w = w*0.5;
   var thePrompt = window.open("", "", "width=300,height=200");
-  var theHTML = "";
-
-  theHTML += "Password: <input type=password id='pass' />";
-  theHTML += "<p>Click OK when done</p>";
-  theHTML += "<input type=button value=OK id='authOK' />";
-  thePrompt.document.body.innerHTML = theHTML;
+  var theHTML = "<head><link rel=stylesheet href='css/style.css'></style><link rel='shortcut icon' href='img/favicon.png'></link><title>Waverly Project Event Form</title></head><body><h3>Enter password to access Waverly Project Event Form</h3><input type=password id=karlheinz size=9/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></body>"
+  thePrompt.document.documentElement.innerHTML = theHTML;
   thePrompt.document.getElementById("authOK").onclick = function () {
-    if ( thePrompt.document.getElementById("pass").value != "stockhausen" ) {
+    if ( thePrompt.document.getElementById("karlheinz").value != "stockhausen" ) {
+      thePrompt.close();
       window.alert("Incorrect Password. Please refresh the page.");
-      thePrompt.close();
     } else {
-      window.alert("Success!");
       thePrompt.close();
+      window.alert("Sucess!\n\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"\n KS");
       $("body").append("<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w + " height=" + h + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe>");
     }
 }
