@@ -6,7 +6,7 @@ $(function(){
   var theHTML = "";
 
   theHTML += "<h4>User</h4>: <input type=text id=mrkfir />";
-  theHTML += "<h4>Pass</h4>: <input type=hidden id=mrklas />";
+  theHTML += "<h4>Pass</h4>: <input type=password id=mrklas />";
   theHTML += "<br/>";
   theHTML += "<input type=button value=OK id=authOK />";
   thePrompt.document.body.innerHTML = theHTML;
