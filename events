@@ -1,14 +1,43 @@
+<script>
+/*
+This script looks for the file "people-list", which contains a single line with a person's name, e.g.:
 
+fede_camara_halac
+viola_yip
+etc.
+
+These names should match the names on the .jpg files in img/people/ like this:
+
+	$ ls img/people > people-list
+
+*/
+function getContent() {
+  jQuery.get('people-list', function(data){
+    lines = data.split("\n");
+    $.each(lines, function(n, elem) {
+      $("#people-list")
+      .append("<div id=" + elem + " onClick=wpLoadId(this) >")
+      .append("<h4>" + elem + "</h4>")
+      .append("<img src='img/people/" + elem + "'.jpg height=180 width=180 />")
+      .append("</div>")
+    });
+  });
+}
+$(getContent());
+</script>
 <article>
 
 <h3>Events</h3>
-<p>Below are listed all events (past, present or future) hosted by Waverly Project. We invite you to click on any event to see its information and documentation. Be sure to <a href="mailto:waverlyproject1@gmail.com">contact us</a> if you have something to share with us.</p><p>Thanks and enjoy!</p><p>The Waverly Project Team</p>
+<p>Below are listed all events (past, present or future) hosted by Waverly Project. We invite you to click on any event to see its information and documentation. Be sure to <a href="mailto:waverlyproject1@gmail.com">contact us</a> if you have something to share with us.</p>
+<p>Thanks and enjoy!</p>
+<p>The Waverly Project Team</p>
 <nav>
-<span id=2014-2015 class=menulink onClick="wpLoadTo()">Season 2016 - 2017</h4>
-<?php include("2016-2017-events.html"); ?>
+<h4>Season 2016 - 2017</h4>
+<script>$("#season").load("2016-2017-events.html");</script>
+
 <h4>Season 2015 - 2016</h4>
 <?php include("2015-2016-events.html"); ?>
 <h4>Season 2014 - 2015</h4>
 <?php include("2014-2015-events.html"); ?>
-
+<div id=season></div>
 </article>
