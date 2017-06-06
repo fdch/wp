@@ -1,4 +1,4 @@
-int function doAuthentification(x, y) {
+function doAuthentification(x, y) {
   if(x !== 'karlheinz' ) {
     return 0;
   } else if (y !== 'stockhausen') {
