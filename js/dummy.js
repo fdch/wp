@@ -5,11 +5,9 @@ $(function(){
   var thePrompt = window.open("", "", "width="+w/2+", height="+h/2);
   var theHTML = "";
 
-  theHTML += "<h4>User</h4>: <input type=text id=mrkfir placeholder='Enter Username...'/>";
-  theHTML += "<br />";
-  theHTML += "<h4>Pass</h4>: <input type=text id=mrklas placeholder='Enter Password...'/>";
-  theHTML += "<br />";
-  theHTML += "<input type=button value=OK id=authOK/>";
+  theHTML += "<h4>User</h4>: <input type=text id=mrkfir />";
+  theHTML += "<h4>Pass</h4>: <input type=text id=mrklas />";
+  theHTML += "<input type=button value=OK id=authOK />";
   thePrompt.document.body.innerHTML = theHTML;
 
   var mrkfir = thePrompt.document.getElementById("mrkfir").value;
