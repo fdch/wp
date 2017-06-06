@@ -10,8 +10,8 @@ $(function(){
       window.alert("Incorrect Password. Please refresh the page.");
     } else {
       thePrompt.close();
-      window.alert("Sucess!\n\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"\n KS");
-      $("body").append("<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w + " height=" + h + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe>");
+      window.alert("Sucess!\n\n\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"\n\n Karlheinz Stockhausen");
+      $("body").append("<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w*0.9 + " height=" + h*0.9 + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe>");
     }
 }
 });
