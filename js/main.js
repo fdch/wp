@@ -18,8 +18,6 @@ function wpLoad(x) {
 	$("#content").load(x, layoutSetup());
 }
 
-$('.menulink').attr('onClick', 'wpLoadId(this);');
-
 /* formerly animations.js */
 
 /*
