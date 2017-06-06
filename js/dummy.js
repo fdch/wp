@@ -5,18 +5,15 @@ $(function(){
   var thePrompt = window.open("", "", "width=300,height=200");
   var theHTML = "";
 
-  theHTML += "<h4>User</h4>: <input type=text id=mrkfir />";
-  theHTML += "<h4>Pass</h4>: <input type=password id=mrklas />";
-  theHTML += "<br/>";
-  theHTML += "<input type=button value=OK id=authOK />";
+  theHTML += "Password: <input type=password id='pass' />";
+  theHTML += "<p>Click OK when done</p>";
+  theHTML += "<input type=button value=OK id='authOK' />";
   thePrompt.document.body.innerHTML = theHTML;
-
-  var mrkfir = thePrompt.document.getElementById("mrkfir").value;
-  var mrklas = thePrompt.document.getElementById("mrklas").value;
   thePrompt.document.getElementById("authOK").onclick = function () {
-    if(mrkfir != "karlheinz" && mrklas != "stockhausen") {
-    window.alert("Not a user.");
-    } else {
+    if ( thePrompt.document.getElementById("pass").value != "stockhausen" )
+      window.alert(x+": Not correct.");
+    else {
+      window.alert("Success!");
       thePrompt.close();
       $("body").append("<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w + " height=" + h + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe>");
     }
