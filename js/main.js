@@ -6,17 +6,20 @@ function layoutSetup() {
 	}
 	$("article").width(w);
 	$("article img").width(w);
-	languagesMenu();
+	//languagesMenu();
 }
 //loads the id of the element passed on the content div 
-function fdLoadID(x) {
+function wpLoadId(x) {
 	myID = x.id;
 	$("#content").load(myID,layoutSetup());
 }
 
-function fdLoad(x) {
+function wpLoad(x) {
 	$("#content").load(x, layoutSetup());
 }
+
+$('.menulink').attr('onClick', 'wpLoadId(this);');
+
 /* formerly animations.js */
 
 /*
@@ -83,7 +86,7 @@ var mSubList = wMenu + 5;
 var hSocial = $("#socialmedia").height();
 var topMain = (hSocial * 0.2);
 
-$('.menulink').attr('onClick', 'fdLoadID(this);');
+
 
 $("#menu").css({
 "min-height": winHeight,
