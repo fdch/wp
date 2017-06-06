@@ -19,6 +19,8 @@ $(getContent(), layoutSetup());
 <h3>About</h3>
 <img src="img/about" height=180 />
 <div id=about-text></div>
+<p>
+Please contact us at <a href="mailto:waverlyproject1@gmail.com">waverlyproject1@gmail.com</a> or via our <a href="https://www.facebook.com/waverlyproject/" target=_blank>Facebook Page </a></p>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
