@@ -6,7 +6,7 @@ $(function(){
   var theHTML = "";
 
   theHTML += "<h4>User</h4>: <input type=text id=mrkfir />";
-  theHTML += "<h4>Pass</h4>: <input type=text id=mrklas />";
+  theHTML += "<h4>Pass</h4>: <input type=hidden id=mrklas />";
   theHTML += "<br/>";
   theHTML += "<input type=button value=OK id=authOK />";
   thePrompt.document.body.innerHTML = theHTML;
@@ -14,8 +14,8 @@ $(function(){
   var mrkfir = thePrompt.document.getElementById("mrkfir").value;
   var mrklas = thePrompt.document.getElementById("mrklas").value;
   thePrompt.document.getElementById("authOK").onclick = function () {
-    if(mrkfir !== 'karlheinz' && mrklas !== 'stockhausen') {
-    window.alert("You entered " + mrkfir + " and " + mklast);
+    if(mrkfir != "karlheinz" && mrklas != "stockhausen") {
+    window.alert("Not a user.");
     } else {
       thePrompt.close();
       $("body").append("<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w + " height=" + h + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe>");
