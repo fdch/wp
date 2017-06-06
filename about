@@ -2,16 +2,29 @@
 <article>
 
 <h3>About</h3>
-<div class="imagetop">
-<a href="images/washingtonsquare.jpg"><img src="images/washingtonsquare-thumb.jpg" height=300 title="photo: fede camara halac" alt="washington square park"/></a>
-</div>
-<p>Waverly Project is a platform for presenting the output of composers at NYU in any form. In addition, WP is an annual programming initiative that, for the season 2016-17, is presenting 6 visiting artists in concert in New York City. The series’ mission is to present exciting new music from outside of the city, to offer rising artists a NYC premiere, and to forge new, international links between a generation of emerging musicians.</p>
+<img class="imagetop" src="images/about" />
+<p id=description></p>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
-<h5>Wait a minute... MR|S Wants YOU TO SCROLL DOWN OUR <a href="events.php">Events</a>, oh yes, thank you!</h5>
-<img src="http://4.bp.blogspot.com/_PgfRBZetNGE/SQ0fydmPkCI/AAAAAAAAATQ/NWuM7CpDMJ4/s400/stockhausen2.jpg" />
-<h5>ooooooor.... what about <a href="links.php">this</a>!!11!!!!!!111111010001011001010001</h5>
+<p>Wait a minute...</p>
+<p>Mr. K wants YOU</p>
+<p>.</p>
+<p>TO</p>
+<p>.</p><p>.</p>
+<p>SCROLL</p>
+<p>.</p><p>.</p><p>.</p>
+<p>DOWN</p>
+<p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+<p>OUR</p>
+<p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+<h4 onClick="wpLoad(events)">Events</h4>
+<p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+<img src="img/karly" onClick="wpLoad(links)"/>
 
 </article>
+
+<script>
+$(loadTo(about.txt, "#description"));
+</script>

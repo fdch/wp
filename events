@@ -3,7 +3,8 @@
 
 <h3>Events</h3>
 <p>Below are listed all events (past, present or future) hosted by Waverly Project. We invite you to click on any event to see its information and documentation. Be sure to <a href="mailto:waverlyproject1@gmail.com">contact us</a> if you have something to share with us.</p><p>Thanks and enjoy!</p><p>The Waverly Project Team</p>
-<h4>Season 2016 - 2017</h4>
+<nav>
+<span id=2014-2015 class=menulink onClick="wpLoadTo()">Season 2016 - 2017</h4>
 <?php include("2016-2017-events.html"); ?>
 <h4>Season 2015 - 2016</h4>
 <?php include("2015-2016-events.html"); ?>
