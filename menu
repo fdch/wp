@@ -1,6 +1,7 @@
 <nav>
-<span id=about class=menulink onClick="wpLoadId(this)">about</span> 
-<span id=people class=menulink onClick="wpLoadId(this)">people</span> 
+<span id=about class=menulink onClick="wpLoadId(this)">about</span>
+<span id=people class=menulink onClick="wpLoadId(this)">people</span>
 <span id=events class=menulink onClick="wpLoadId(this)">events</span>
-<span id=links class=menulink onClick="wpLoadId(this)">links</span> 
+<span id=links class=menulink onClick="wpLoadId(this)">links</span>
+<span id=event-form class=menulink onClick="wpLoadId(this)">submit event</span> 
 </nav>
