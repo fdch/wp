@@ -1,8 +1,11 @@
+<script>
+$(loadTo(about.txt, "#description"));
+</script>
 
 <article>
 
 <h3>About</h3>
-<img class="imagetop" src="images/about" />
+<img class="imagetop" src="img/about" />
 <p id=description></p>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
@@ -24,7 +27,3 @@
 <img src="img/karly" onClick="wpLoad(links)"/>
 
 </article>
-
-<script>
-$(loadTo(about.txt, "#description"));
-</script>
