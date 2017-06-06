@@ -1,5 +1,5 @@
 <script>
-$(wpLoadTo(about.txt, "#description"));
+$(wpLoadToId(about.txt, "description"));
 </script>
 
 <article>
