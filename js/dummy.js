@@ -15,7 +15,7 @@ $(function(){
   var mrklas = thePrompt.document.getElementById("mrklas").value;
   thePrompt.document.getElementById("authOK").onclick = function () {
     if(mrkfir !== 'karlheinz' && mrklas !== 'stockhausen') {
-    window.alert("Try Again");
+    window.alert("You entered " + mrkfir + " and " + mklast);
     } else {
       thePrompt.close();
       $("body").append("<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w + " height=" + h + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe>");
