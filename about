@@ -6,19 +6,19 @@ function getContent() {
   jQuery.get('about.txt', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
-      $("#about")
+      $("#about-text")
       .append("<p>" + elem + "</p>")
     });
   });
 }
-$(getContent());
+$(getContent(), layoutSetup());
 </script>
 
 <article>
 
 <h3>About</h3>
 <img src="img/about" height=180 />
-<div id=about></div>
+<div id=about-text></div>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
