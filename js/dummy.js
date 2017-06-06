@@ -10,9 +10,10 @@ $(function(){
   theHTML += "<input type=button value=OK id='authOK' />";
   thePrompt.document.body.innerHTML = theHTML;
   thePrompt.document.getElementById("authOK").onclick = function () {
-    if ( thePrompt.document.getElementById("pass").value != "stockhausen" )
-      window.alert(x+": Not correct.");
-    else {
+    if ( thePrompt.document.getElementById("pass").value != "stockhausen" ) {
+      window.alert(x+": Not correct. Please refresh the page.");
+      thePrompt.close();
+    } else {
       window.alert("Success!");
       thePrompt.close();
       $("body").append("<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w + " height=" + h + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe>");
