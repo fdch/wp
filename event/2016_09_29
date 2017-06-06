@@ -1,0 +1,25 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Tak</h3>
+<h4>September 29th, 2016</h4>
+<a href="images/2015-2016/tak.jpg"><img src="images/2015-2016/tak-thumb.jpg"/></a>
+<h5>Laura Cocks, flutes</h5>
+<h5>Ellery Trafford, percussion</h5>
+<h5>Charlotte Mundy, soprano</h5>
+<h5>Liam Kinson, clarinets</h5>
+<h5>Marina Kifferstein, violin</h5>
+<h5 class="concert-program">Program:</h5>
+<p>TAK performs six new works by five composers from NYU's doctoral composition program. Expect lyric songs; études on embodiment; monodramas; de- and reconstructions of language; and multimedia extravaganzas of chaos. TAK is a quintet that delivers energetic and virtuosic performances of contemporary classical music. Read more at takensemble.com</p>
+<ul class="concert-program">
+<li>Ioannis Angelakis: "Les Bonnes Pouilleuses"</li>
+<li>Fede Camara Halac: "sk"</li>
+<li>Michael Rose: "Lullaby" and "Occupied City"</li>
+<li>Joel Rust: "Hope Follows Hope"</li>
+<li>Viola Yip: "-un"</li>
+</ul>
+
+<h6>NYU GSAS Music 220</h6>
+
+
+<?php include("tailproperties.php"); ?>

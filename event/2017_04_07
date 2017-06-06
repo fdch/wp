@@ -1,0 +1,13 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Talea Ensemble</h3>
+<h4>April 7th, 2017</h4>
+<a href="images/2014-2015/talea.jpg"><img src="images/2014-2015/talea-thumb.jpg"/></a>
+
+<h5 class="concert-program">Program:</h5>
+<p>new works by Joel Rust, Vasiliki Krimitza, Ioannis Angelakis, Fede Cámara Halac</p>
+<p>Free admission</p>
+<h6>8pm Cary Hall, The DiMenna Center for Classical Music</h6>
+
+<?php include("tailproperties.php"); ?>

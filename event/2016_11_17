@@ -1,0 +1,20 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Rage Thormbones present Ciudad Invertida</h3>
+<h4>November 17th, 2016</h4>
+<a href="images/2016-2017/ciudad_invertida.jpg"><img src="images/2016-2017/ciudad_invertida.jpg"/></a>
+<h5 class="concert-program"><a href="http://www.ragethormbones.rocks/" target="_blank">Rage Thormbones</a></h5>
+<p>RAGE THORMBONES IS A COLLABORATION BETWEEN TROMBONISTS MATT BARBIER AND WESTON OLENCKI. IT IS A BLOG RESOURCE, A COMMISSIONING RESOURCE, AN ANNOYING RESOURCE, AND A RESOURCE THAT CONSISTENTLY PUSHES THE EXTREMES OF BRASS TECHNIQUES. RAGE HAS RECORDED FOR HATHUT RECORDS AND WILL BE IN RESIDENCE AT BOTH HARVARD AND STANFORD UNIVERSITIES IN 2017.
+</p>
+<h5 class="concert-program">Program:</h5>
+
+<p><a href="http://www.fedecamarahalac.com/ciudad.php" target="_blank">Ciudad Invertida</a> (Inverted City) is a work that seeks to raise questions about chance and interactivity in the multiplicity of the media involved. Just as live electronics propagates multiple extensions of the actions of the trombone, an algorithm was constructed as a source of material and form during the process of composition. The video is projected onto the body of the trombonists and controlled live by the audio signal they produce. The images are abstractions, both of the instrumentalists and the city of Cordoba that surrounds this room.
+
+Premiered by Rocio Elizalde and Manuel Pastrana, on 08/20/2015 at B3CIM, CePIA, National University of Córdoba, Argentina
+</p>
+
+<p>Free admission</p>
+<h6>8pm ShapeShifter Lab - <a href="http://www.nyu-waverlylabs.org/pdcon16" target="_blank">PdCon16~</a></h6>
+
+<?php include("tailproperties.php"); ?>

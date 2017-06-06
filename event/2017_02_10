@@ -1,0 +1,24 @@
+
+<?php include("headproperties.php"); ?>
+<div style="font-family:Times New Roman">
+<h3>Judy Klein</h3>
+<h4>February 10th, 2017</h4>
+<a href="images/2016-2017/wolves.jpg"><img style="width:100%" src="images/2016-2017/wolves-thumb.jpg" title="Navarro, Kashtin and Djenoun."/></a>
+
+<h5 class="concert-program">Presentation:</h5>
+<p>Judy Klein will present some of her electroacoustic music pieces and talk about her approach to composing and the issues which are central to her work.</p>
+
+
+<h5 class="concert-program"><a href="https://en.wikipedia.org/wiki/Judy_Klein">Judy Klein</a></h5>
+<p>
+<?php print file_get_contents("images/2016-2017/judy_klein_bio_for_Lueneburg.rtf");?>
+
+</p>
+<a href="images/2016-2017/klein.jpg"><img src="images/2016-2017/klein.jpg" alt="Judy Klein" title="Judy Klein"/></a>
+
+</div>
+
+<h6> 3pm, Room 220, NYU Music Department</h6>
+<?php include("tailproperties.php"); ?>
+
+

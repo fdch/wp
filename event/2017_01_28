@@ -1,0 +1,40 @@
+
+<?php include("headproperties.php"); ?>
+	
+<h3>An Afternoon of Incidental Noise</h3>
+<h4>January 28th, 2017</h4>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<h5>Marcela Lucatelli</h5>
+<h5>Fede Camara Halac</h5>
+<h5>Adele Fournet</h5>
+<h5 class="concert-program">Program:</h5>
+<code>
+CONCEPT: Incidental 1.accompanying but not a major part of something. 2. liable to happen as a consequence of (an activity). Thinking that noise is everywhere already, what is an afternoon like this adding to? In which ways it can be different from human in locus noise observation? A room for the devotional experience of practicing miscommunication, where the participant performers are encouraged to interact sound-wise with each other and the audience in riotous ways not expected to be serialised or logically assimilated. Maybe we can hear it then.
+
+SOUND: There are 8 performers in a room with 8 speakers. Spread throughout the room there are 8 small contact mics, with which the performers can interact with. The speaker and the mics can also be used as percussive instruments.  Each contact mic will send its signal to the remaining 7 speakers, and this signal will be constantly fed back and looped randomly. The spatialization of the overall noise will thus depend on the feedback position and its volume will be mostly loud. In addition, there is a microphone in the room that any performer can use to perform a solo.
+
+LIGHTS: there are 2 projectors covering as much of the room as possible. There will be curves and points of different lenght, directions and positions reacting to the signals. At first onlt white, simple shapes will be projected on the dark background, and will eventually change into colored, more complex ones.
+
+</code>
+<a href="http://www.marcelalucatelli.co/" target="_blank">marcelalucatelli.co</a>
+<a href="http://www.fedecamarahalac.com/" target="_blank">fedecamarahalac.com</a>
+<h6>NYU GSAS Music 220</h6>
+
+<?php include("tailproperties.php"); ?>

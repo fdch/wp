@@ -1,0 +1,46 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Talea Ensemble</h3>
+<h4>April 16th, 2015</h4>
+<a href="images/2014-2015/talea1.jpg"><img src="images/2014-2015/talea1-thumb.jpg"/></a>
+<h5>Program:</h5>
+<ul>
+<li>
+<h5>WANG JIE: "Nose on fire"</h5>
+<p>Some say that a composer's unconscious state of mind finds ways to shape a composition. That may be true. Around the time Nose On Fire was conceived, my internal sound world was filled with a sense of urgency. So it's no surprise to me that my musical ideas were humming with anxiety. Originally, I titled it Sonata for Clarinet and Piano.</p>
+<p>But towards the final week of completion, my dear friend Terry Tapp presented me with a portrait he drew of a horse with human eyes. The horse was illuminated by an internal glow and looked like it was feeling anxiety, seeking serenity and hoping to earn peace all at the same time. The feeling was so intense that the horse's snout was burning from within. "A creature after my own heart", I thought: "I'm calling it Nose On Fire." So I immediately changed the title of my new composition to reflect this happy coincidence. </p>
+<p>I am hopeful that after hearing it you'll agree with me that this composition, which begins from an anxious place, is driven to find that little bit of tenderness to relieve itself of that burden and earn peace.</p>
+</li>
+
+<li>
+<h5>IOANNIS ANGELAKIS: "D R E A M P L A Y (III) : un court r&eacute;cit sur le voyage reveur d' Agn&eacute;s au pays des aelaT"</h5>
+<iframe height="240" width="320" class="videoplayer" src="https://www.youtube.com/embed/7XB133qbnw4" frameborder="0" allowfullscreen></iframe>
+<p>"[I] attempted in this dream play to imitate the disconnected but apparently logical form of a dream. Anything can happen, everything is possible and probable. Space and time do not exist. Based on a slight foundation of reality, imagination wanders afield and weaves new patterns comprised of mixtures of recollections, experiences, unconstrained fantasies, absurdities and improvisations. Characters split, double and multiply; they evaporate, crystallize, dissolve, and reconverge. But one single consciousness governs them all, that of the dreamer. For him, there are no secrets, no incongruities, no scruples, and no laws. And since there is more pain than pleasure in the dream, a tone of melancholy and sympathy for all things runs through the swaying narrative. Sleep, the liberator, is often tortuous; and yet when pain is at its worst, the sufferer is wakened and reconciled with reality. For however agonizing reality may be, it is, at this moment, when compared with the torments of the dream, a joy".</br>
+[August Strindberg, 1901]</p>
+</li>
+
+<li>
+<h5>TIMUCIN SAHIN: "Tikiti 2015"</h5>
+<iframe src="https://player.vimeo.com/video/136270967?byline=0&portrait=0" height="240" width="320"class="videoplayer"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<h5>for 7 string fretless & 6 string fretted guitars, percussions, piano, clarinet, flute, violin and cello</h5>
+<p>Guitars will be perfomed by the composer.</p>
+</li>
+
+<li>
+<h5>GORDON BEEFERMAN: "RITES OF SUMMER (East Coast Version) 2007/2015" *NY Premiere </h5>
+<iframe height="240" width="320"class="videoplayer" src="https://www.youtube.com/embed/ZEl0SJaM_W4" frameborder="0" allowfullscreen></iframe>
+<p>RITES OF SUMMER is a lengthy work for sextet I composed in 2007 for the Los Angeles-based California EAR Unit on commission from 20th Century Unlimited. My idea was to write something sprawling, like L.A. itself, something that moves in gigantic strides with sunny clarity but dark, craggy desert undertones. For this concert, I've radically cut and re-worked the piece to fit a New York sensibility: short, impatient, and to the point. Hence, "East Coast Version." I think of this piece as an imaginary ballet; what the "rites" are I don't want to suggest, but I hope the music will conjure up something different for everyone.</p>
+</li>
+
+<li>
+<h3>JUE WANG</h3>
+<h4>Puppet Show</h4>
+<iframe height="240" width="320"class="videoplayer" src="https://www.youtube.com/embed/unXbNX_D_K4" frameborder="0" allowfullscreen></iframe>
+<p>Movement I: It's me! (silent puppetry)<br/>Movement II: The Shadow <br/>Movement III: My Words.<br/>Puppeteers: Joshua Hudelson, Joseph Pfender.<br/>This is not merely a concert piece, but a fun show for young and old audiences! The piece depicts a lonely girl who hides in her own private space playing by herself. Let her walk you through her thoughts, her dreams and her sounds! </p>
+</li>
+</ul>
+
+<h6><a href="http://www.csvcenter.org" target="_blank">Clemente Soto Velez Cultural Center</a></h6>
+
+<?php include("tailproperties.php"); ?>

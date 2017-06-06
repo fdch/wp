@@ -1,0 +1,37 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Nils Vigelands : Presentation on his works</h3>
+<h4>November 30th, 2016</h4>
+<a href="images/2016-2017/vigeland.jpg"><img src="images/2016-2017/vigeland.jpg"/></a>
+<h5 class="concert-program">Program:</h5>
+<p>Nils Vigeland was born in Buffalo, NY in 1950, the son of musicians. He made his professional debut as a pianist in 1969 with the Buffalo Philharmonic Orchestra, Lukas Foss, conductor. He later studied composition with Foss at Harvard College, graduating with a B.A. in 1972. He earned his Ph.D at The University at Buffalo where he studied composition with Morton Feldman and piano with Yvar Mikhashoff. With these mentors he was fortunate in developing long personal and professional associations.
+</p>
+<p>
+His first orchestral piece was conducted by Foss with the Buffalo Philharmonic Orchestra in 1970 and Foss gave the first performance of One, Three, Five with the Milwaikee Symphony Orchestra in 1983.
+Mikhashoff was instrumental in the comission and performance of many pieces, including the Piano Concerto (1984), premiered by Mikhashoff  and the Oslo Radio Orchestra, Christian Eggen, conductor, In Black and White for piano and chamber orchestra and False Love/True Love (1992), premiered by the English National Opera at the Almeida Theater, London.
+</p>
+<p>
+With Eberhard Blum, flute and Jan Williams, percussion, Vigeland toured for eight years with Feldman as “Morton Feldman and Solists”, performing the extended length works for flute, percusion and piano that Feldman composed for them. They recorded these pieces on HAT ART.
+</p>
+<p>
+For eight years (1980-89) Mr. Vigeland directed The Bowery Ensemble which gave an annual series of concerts in Cooper Union, NYC. The ensemble was strongly associated with the music of the New York School and gave the first performance of over thirty works by composers including Pauline Oliveros, Christian Wolf, Leo Smit, Chris Newman and John Thow.
+His own work appears on CDs from Mode, EMF, Focus, Lovely Music, and Naxos. His choral music is published by Boosey and Hawkes. He taught at Manhattan School of Music for thirty years, retiring as Chair of the Composition Department in 2013.
+</p>
+<p>Free admission</p>
+<h6>5pm NYU Waverly Building Room 365</h6>
+
+<?php include("tailproperties.php"); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+

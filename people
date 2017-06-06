@@ -1,0 +1,57 @@
+<article>
+<h3>People</h3>
+<div class="titles3" onclick="javascript:location.href='viola_yip.php'">
+<h4>Viola Yip</h4>
+<img src="images/violayip-thumb.jpg" height="180"/>
+</div>
+<div class="titles3" onclick="javascript:location.href='viola_yip.php'">
+<h4>Joe Snape</h4>
+<img src="images/joe_snape-thumb.jpg" height="180"/>
+</div>
+<div class=titles3 onclick="javascript:location.href='fede_camara_halac.php'">
+<h4>Fede Camara Halac</h4>
+<img src="http://www.fedecamarahalac.com/bio-pic-thumb.jpg" height="180" title="Photo: Aye Savid"/>
+</div>
+<div class=clear>
+</div>
+<div class=titles3 onclick="javascript:location.href='efrain_rozas.php'">
+<h4>Efrain Rozas</h4>
+<img src="images/efrain-thumb.jpg" height="180"/>
+</div>
+<div class=titles3 onclick="javascript:location.href='timucin_sahin.php'">
+<h4>Timucin Sahin</h4>
+<img src="images/timucin_sahin-thumb.jpg" height="180"/>
+</div>
+<div class=titles3 onclick="javascript:location.href='vasiliki_krimitza.php'">
+<h4>Vasiliki Krimitza</h4>
+<img src="images/vasiliki-thumb.jpg" height="180"/>
+</div>
+<div class=clear>
+</div>
+<div class=titles3 onclick="javascript:location.href='bernardo_barros.php'">
+<h4>Bernardo Barros</h4>
+<img src="images/barros-thumb.jpg" height="180"/>
+</div>
+<div class=titles3 onclick="javascript:location.href='joel_rust.php'">
+<h4>Joel Rust</h4>
+<img src="images/joelphoto-thumb.jpg" height="180"/>
+</div>
+<div class=titles3 onclick="javascript:location.href='michael_rose.php'">
+<h4>Michael Rose</h4>
+<img src="images/rose-thumb.jpg" height="180"/>
+</div>
+<div class=clear>
+</div>
+<div class=titles3 onclick="javascript:location.href='adele_fournet.php'">
+<h4>Adele Fournet</h4>
+<img src="images/adelefournet-thumb.jpg" height="180"/>
+</div>
+<div class=titles3 onclick="javascript:location.href='ioannis_angelakis.php'">
+<h4>Ioannis Angelakis</h4>
+<img src="images/angelakis-thumb.jpg" height="180"/>
+</div>
+<div class=titles3 onclick="javascript:location.href='jue_wang.php'">
+<h4>Jue Wang</h4>
+<img src="images/juewang-thumb.jpg" height="180"/>
+</div>
+</article>

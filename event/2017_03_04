@@ -1,0 +1,21 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Almost Credible Music</h3>
+<h4>February 28th, 2017</h4>
+<a href="images/2016-2017/forawhile.jpg"><img style="width:50%" src="images/2016-2017/forawhile.jpg"/></a>
+<p class=small>design credit: Michael Holland</p>
+<h5>Robbie Gardiner, Clarinet + objects</h5>
+<h5>Michael Cutting, 12-stringed instrument + objects</h5>
+<h5>Joe Snape, Melodica + objects</h5>
+<h5>Vitalija Glovackyte, live electronics + live lights</h5>
+<h5 class="concert-program">Program:</h5>
+<ul class="concert-program">
+<li>Vitalija Glovackyte: <i>WE ARE FOR A WHILE</i> (2016) </li>
+<li>Joe Snape: Who is Raymond? (2016)</li>
+</ul>
+
+
+<h6>8pm NYU GSAS Music 220</h6>
+
+<?php include("tailproperties.php"); ?>

@@ -1,0 +1,15 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>The Soon Another</h3>
+<h4>April 17th, 2015</h4>
+<a href="images/2014-2015/the_soon_another.jpg"><img src="images/2014-2015/the_soon_another-thumb.jpg"/></a>
+<h5>Program:</h5>
+
+<h5>Adele Fournet with The Soon-Another: "ColorWHEEL"</h5>
+<iframe height="240" width="320"class="videoplayer" src="https://www.youtube.com/embed/8XuS-ztSOIc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<p>In this piece I am experimenting with texture, space and color (both visually and musically) through the integration of pop idioms, minimalism and live electronic manipulation.  Written for electric guitar, piano and live electronics, ColorWHEEL is a meditation, an experiment, and an extension of what we normally play as a band.  While it's not New Music per se, it's certainly a new direction for us. Performed by Felipe Wurst and <a href="adele_fourner.php">Adele Fournet</a>, members of <a href="http://www.thesoonanother.com" target="_blank" title="www.thesoonanother.com">The Soon-Another</a>.</p>
+
+<h6><a href="http://www.csvcenter.org" target="_blank">Clemente Soto Velez Cultural Center</a></h6>
+
+<?php include("tailproperties.php"); ?>

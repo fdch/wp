@@ -1,0 +1,15 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Mirjam Frank</h3>
+<div class="imagetop">
+<a href="images/2014-2015/mirjamfrank.jpg"><img src="images/2014-2015/mirjamfrank-thumb.jpg" title="Mirjam Frank"/></a>
+</div>
+<h4><a href="http://www.mirjam-frank.com" target="_blank">www.mirjam-frank.com</a></h4>
+<p>Mezzo-Soprano Mirjam Frank currently lives in New York City where she is a PhD candidate in Musicology at NYU and recipient of the MacCracken fellowship.</p><p>
+Mirjam has performed with renowned ensembles and as soloist. In 2014, she sang with the Arnold Schoenberg Choir in Vienna (director: Erwin Ortner). Conductors she worked with include Nikolaus Harnoncourt, Franz Welser-Most and Cornelius Meister (RSO ORF). As a soloist, she regularly appears in concerts and recitals. In 2014, she also worked with the Augsburger Kammeroper. Apart from her keen interest in Baroque music, repertoire Mirjam performed includes Alban Berg's 7 Fruhe Lieder, Gyorgy Kutag's song cycle Scenes from a Novel, Folk Songs by Luciano Berio, Helmut Lachenmann's TemA as well as a large number of pieces by Kurt Weill. In 2012, Mirjam was invited to perform at the International John Cage Festival in York, UK.</p><p>
+Mirjam holds a MSt in Music (Performance) from the University of Oxford (2012), as well as a Bachelor of Arts degree in Drama & Music from Royal Holloway, University of London (2011). She received a scholarship and stipend from the Arts and Humanities Research Council (AHRC) during her time at Oxford.</p><p>
+Mirjam has participated in coachings and master classes with prolific musicians like Malcolm Martineau, Ann Murray, Robin Bowman, Kurt Widmer and Roger Vignoles.</p><p>
+Mirjam grew up in Augsburg/Germany where she gained her first and formative performance experiences at the Theater Augsburg (2003-2007), which mainly included repertoire for Brechtian theatre and Cabaret. Roles performed as actress include Andromache in Troades (Euripides), a fairy in Shakespeare's A Midsummer Night's Dream and Agave in The Bacchae (Euripides). Mirjam currently studies with soprano Judith Natalucci.</p>
+				
+<?php include("tailproperties.php"); ?>

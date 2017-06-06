@@ -1,0 +1,15 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Mirjam Frank</h3>
+<h4>May 5th, 2015</h4>
+<a href="images/2014-2015/mirjamfrank.jpg"><img src="images/2014-2015/mirjamfrank-thumb.jpg"/></a>
+<h5>Program:</h5>
+
+<h5>Monodrama - Hommage &agrave; Cathy Berberian</h5>
+<p>The programme I am compiling consists of four pieces: two scenes from <i>L' Incoronazione di Poppea</i> by Claudio Monteverdi (c. 1643), <i>Aria</i> by John Cage (1958) and <i>Stripsody</i> by Cathy Berberian (1966). They are separated by over 300 years, yet all have in common a personal drama unfolding through 'musical monologues'. My aim is to form one coherent piece, i.e., to perform the programme without the pauses that are typically used during a recital to switch characters between songs. I often find these 'switches' somewhat problematic because the performer usually falls into 'private mode' for a while, which can at times be distracting. Instead, I want to tell one story, and therefore guide the audience through one character's drama, rather than presenting four different destinies. I have been interested in doing such a programme for a long time because, as a singer, I always try to understand a piece of vocal music from a character's inner motivation to act, rather than through the more external aspects alone (such as style, period, etc.). Vocal compositions, no matter what era they stem from, have in common the human being as actor, and the voice as vehicle, the function and quality of which has not changed in hundreds of years (as opposed to the development of instruments)</p>
+<p>Cathy Berberian (1925-1983), Luciano Berio's wife, was one of the most versatile singers of her time. Cage's Aria was in fact written for her. She was an exquisite performer of both contemporary and early music, and sang all pieces that appear in this programme. Particularly her interpretations of Monteverdi and her album of Beatles songs in 'baroque style' demonstrate(d) how 'contemporary' 17th Century music indeed is.</p>
+
+<h6>NYU GSAS Music 220</h6>
+
+<?php include("tailproperties.php"); ?>

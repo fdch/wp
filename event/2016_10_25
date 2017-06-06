@@ -1,0 +1,18 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Scapegoat</h3>
+<h4>October 25th, 2016</h4>
+<a href="images/2016-2017/scapegoat.jpg"><img src="images/2016-2017/scapegoat-thumb.jpg"/></a>
+<h5>Noam Bierstone, percussion</h5>
+<h5>Joshua Hyde, saxophone</h5>
+<h5 class="concert-program">Program:</h5>
+<ul class="concert-program">
+<li>Santiago Díez Fischer: "Plastic Disorder" (2016) *World premiere</li>
+<li>Mauricio Pauly: "The Threshing Floor" (2014)</li>
+<li>Fede Cámara Halac: new [un]work (2016) *world premiere </li>
+</ul>
+
+<h6>NYU GSAS Music 220</h6>
+
+<?php include("tailproperties.php"); ?>

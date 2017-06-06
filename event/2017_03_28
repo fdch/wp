@@ -1,0 +1,21 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Thomas Rosenkranz</h3>
+<h4>March 28th, 2017</h4>
+<a href="images/2016-2017/rosenkranz.jpg"><img src="images/2016-2017/rosenkranz-thumb.jpg"/></a>
+<h5>Thomas Rosenkranz, piano</h5>
+<h5 class="concert-program">Program:</h5>
+
+<ul class="concert-program">
+<li>J.S. Bach: Selections from the Goldberg Variations</li>
+<li>Gyorgy Ligeti: “White on White” Etude no. 15</li>
+<li>Peter Ablinger: Orson Wells, Mother Teresa, Hannah Schygulla, Billie Holiday</li>
+<li>Anton Webern: Variations</li>
+<li>Stefan Prins: Piano Hero #1</li>
+<li>Michael Rose: new work </li>
+</ul>
+
+<h6>NYU GSAS Music 220</h6>
+
+<?php include("tailproperties.php"); ?>

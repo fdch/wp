@@ -1,0 +1,18 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Marco Fusi</h3>
+<h4>April 24th 2017</h4>
+<a href="images/2016-2017/marco.jpg"><img src="images/2016-2017/marco-thumb.jpg" title="Photo: @marcosartirana"/></a>
+<h5>Marco Fusi, violin and viola d'amore</h5>
+<h5 class="concert-program">Program:</h5>
+
+<ul class="concert-program">
+<li>Pierluigi Billone: Equilibrio.Cerchio (2015) *North American premiere</li>
+<li>Viola Yip: new work for viola d’amore (2017) * world premiere</li>
+<li>Joel Rust: new work for viola d’amore (2017) * world premiere</li>
+</ul>
+
+<h6>Casa Italiana Zerilli / Marimò</h6>
+
+<?php include("tailproperties.php"); ?>

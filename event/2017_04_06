@@ -1,0 +1,13 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>JACK Quartet</h3>
+<h4>April 6th, 2017</h4>
+<a href="images/2016-2017/jack.jpg"><img src="images/2016-2017/jack-thumb.jpg"/></a>
+
+<h5 class="concert-program">Program:</h5>
+<p>new works by  Jue Wang, Michael Rose, Viola Yip, Bernardo Barros</p>
+<p>Free admission</p>
+<h6>8pm Cary Hall, The DiMenna Center for Classical Music</h6>
+
+<?php include("tailproperties.php"); ?>

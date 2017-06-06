@@ -1,0 +1,12 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Aureate Darkness</h3>
+<h4>May 6th, 2016</h4>
+<a href="images/2015-2016/aureate_darkness.jpg"><img src="images/2015-2016/aureate_darkness-thumb.jpg"/></a>
+<h5>Film Screening | Talk</h5>
+<p>This is a screening of an artistic film created by film maker Aleksey Nuzhnov basing on a musical theatrical performance titled Aureate Darkness. The original performance was a collaborative project between several artists. The artistic team for the performance include William Lang (trombone performer), Mei Ann Teo (director), Aleksey Nuzhnov (film maker), Alison Clemente (set designer), Jennifer Reiser(lighting designer), and composer Jue Wang. The screening will be followed by a talk concerning the process of making this collaborative project among the artists whom worked on the original performance.</p>
+
+<h6>NYU GSAS Music 365</h6>
+
+<?php include("tailproperties.php"); ?>

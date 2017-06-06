@@ -1,0 +1,21 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>DCNSTRCTD</h3>
+<h4>December 13th, 2016</h4>
+<a href="images/2016-2017/cordeiro.jpg"><img src="images/2016-2017/cordeiro.jpg"/></a>
+<h5>Carlos Cordeiro, clarinets</h5>
+<h5 class="concert-program">Program:</h5>
+<ul>
+	<li>Karlheinz Stockhausen: Der Kleine Harlekin </li>
+	<li>Hakan Ulus: Halaq II </li>
+	<li>Mauricio Kagel: Schattenklänge  </li>
+	<li>Salvatore Sciarrino: Let Me Die Before I Wake </li>
+	<li>Timothy McCormack: Raw Matter </li>
+	<li>Michael Maierhof: splitting </li>
+
+</ul>
+<p>Free admission</p>
+<h6>8pm NYU Silver Building room 220</h6>
+
+<?php include("tailproperties.php"); ?>

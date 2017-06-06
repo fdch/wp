@@ -1,0 +1,14 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Iktus Percussion</h3>
+<h4>February 2nd, 2015</h4>
+<a href="images/2014-2015/iktus_04.jpg"><img src="images/2014-2015/iktus_04-thumb.jpg"/></a>
+<h5>Workshop</h5>
+<p>Iktus Percussion will be working with NYU composers on a 4-hour long workshop leading to the premieres on <a href="2015_04_17.php">April 17th</a></p>
+
+<h6>NYU Steinhardt Education Building</h6>
+
+<?php include("slideshow-iktus.html"); ?>
+
+<?php include("tailproperties.php"); ?>

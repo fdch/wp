@@ -1,0 +1,19 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Yarn | Wire</h3>
+<h4>April 16th, 2016</h4>
+<a href="images/2015-2016/yarnwire.jpg"><img src="images/2015-2016/yarnwire-thumb.jpg" /></a>
+<h5>Program:</h5>
+<ul>
+<li>Bernardo Barros: broken</li>
+<li>Joel Rust: Who will we be</li>
+<li>Michael Rose: Time Will Have Its Way</li>
+<li>Viola Yip: Yin Yang Yin-yang II</li>
+<li>Ioannis Angelakis: Hell's Kitchen: IV16/g-Bay 'n NIL-r</li>
+</ul>
+
+<h6><a href="https://www.oslmusic.org/dimenna-center-welcome" target="_blank">The Dimenna Center for Classical Music</a></h6>
+
+
+<?php include("tailproperties.php"); ?>

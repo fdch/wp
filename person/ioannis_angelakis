@@ -1,0 +1,10 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Ioannis Angelakis</h3>
+<div class="imagetop">
+<a href="images/angelakis.jpg"><img src="images/angelakis-thumb.jpg" alt="Ioannis Angelakis" title="Ioannis Angelakis"/></a>
+</div>
+<p>Ioannis Angelakis is a Greek composer born in 1988. He is currently pursuing his Ph.D. in Music Composition in New York University.</p>
+
+<?php include("tailproperties.php"); ?>

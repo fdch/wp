@@ -1,0 +1,37 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>"They Shoot Lasers, Don't They? Electronic Music with Instruments of Interferometry"</h3>
+<h4>December 2nd, 2016</h4>
+<a href="images/2016-2017/cresota.jpg"><img src="images/2016-2017/cresota.jpg"/></a>
+<h5>Duo Creosota: Joe Mariglio and Adam Tinkle</h5>
+<h5 class="concert-program">Program:</h5>
+<p>They Shoot Lasers, Don't They?: Electronic Music with Instruments of Interferometry employs a sculptural assemblage of balloons, transducers, vibrated water, and an overhead projector to create a visceral audio-visual experience evocative of 60s liquid visuals and Kubrickian space travel. Developed out of Joe Mariglio's doctoral research and inveterate penchant for instrument invention, the piece explores the musical applications of laser microphones--little used in the arts and most famous as Cold War-era spy tools-- to probe and activate a multisensory continuum of vibration, invoking cymatics and inducing feedback that freely crosses back and forth between forms of energy--light, water waves, sparkling rhythms, blistering tones, and the tactile heave of the lower frequencies.
+</p>
+<p>
+Adam Tinkle is a multidisciplinary artist teaching at Skidmore College. Interested in immersion, transformation and the audio-visionary, he works in sound, intermedia, performance, and participatory/collaborative modalities. Trained in music, his practice remains grounded in reverence for the moment, whether he is improvising on the saxophone, constructing unstable electronic systems, DJing on the radio, or singing American song form musics. Recent collaborations include a tasting-concert with Chris Kallmyer/Machine Project, a sound installation produced with performance art icon Marina Abramovic, and a radio play with science fiction novelist Kim Stanley Robinson. He records (and tweets) for the netlabel Risky Forager, holds a PhD from UC San Diego, and has been published in Leonardo Music Journal and Organised Sound.
+</p>
+<p>
+Joe Mariglio is a sound artist and inventor based in San Diego, CA. A doctoral candidate at UCSD, his academic work focuses on the application of nonlinear systems to sound synthesis and analysis. As a software engineer specializing in audio, he has contributed to the Microsoft HoloLens project, and is currently working at Go Pro. As a sound artist, his work spans popular and experimental forms, including ambient, noise, and drone genres, and typically explores materiality, immersion, and the abject. 
+</p>
+<p>
+As the duo Creosota, Joe and Adam's collaboration began at Wesleyan University, where both studied composition with Alvin Lucier, Anthony Braxton, and Ron Kuivila. Moving to the West Coast, they released a tape of folk music made with custom software, co-founded the Universal Language Orchestra (a children's ensemble that composed its own scores and built its own instruments) and presented sound art works--usually some combination of sculptural, durational, and interactive--at venues ranging from the San Diego Museum of Art, the Museum of Contemporary Art, San Diego, UC Santa Barbara, Stanford University, and the Institute of Perception, as well as a permanent installation at the Media Arts Center, San Diego.
+</p>
+
+
+<p>Free admission</p>
+<h6>8pm NYU Silver Building Room 220</h6>
+
+<?php include("tailproperties.php"); ?>
+
+
+
+
+
+
+
+
+
+
+
+

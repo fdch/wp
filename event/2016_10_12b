@@ -1,0 +1,25 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Presentation: Georgina Born </h3>
+<h4>October 12th, 2016</h4>
+<h4>10:00-12:00 am</h4>
+<a href="images/2016-2017/born.jpg"><img src="images/2016-2017/born.jpg"/></a>
+<h5 class="concert-program">Description: “Beyond the Sound Object: on nonhuman sound”</h5>
+<p>
+On Wednesday October 12th, professor of Music and Anthropology Georgina Born (Oxford University) will be a guest speaker at NYU as part of Waverly Project’s annual program of talks, masterclasses, and concerts. Professor Born will present new work that considers the ways in which sounds forge relations across yawning divides between human and non-human agents. Grounded in recent post-humanist theory and philosophy of sound, Born’s story draws from a provocative pair of auto-ethnographic accounts: a violent rainstorm in Cambridge, and the quieter environs of a hospital room, the site of her mother’s last days and death.
+</p>
+<p>
+All are welcome, though to facilitate discussion participation is limited to 20. A final draft of the paper will be circulated to attendees in advance. To avoid disappointment, please RSVP as soon as possible by emailing joe.snape@nyu.edu, including your name, department, and program of study. Please feel free to circulate this email among your own networks.
+</p>
+<h5 class="concert-program">BIOGRAPHY</h5>
+<p>
+Georgina Born is Professor of Music and Anthropology at Oxford University and a Professorial Fellow of Mansfield College. Previously she was Professor of Sociology, Anthropology and Music at Cambridge University and a Professorial Fellow of Girton College Cambridge. Earlier in her life she worked as a musician on cello and bass guitar, performing with the group Henry Cow, as well as with the Art Bears, the Mike Westbrook Orckestra, the Michael Nyman Band and other ensembles, as well as playing improvised music in various combinations as a member of the London Musicians’ Collective. She studied Anthropology at University College London at BSc and PhD levels, being awarded her PhD in 1989 for an ethnography of IRCAM, the computer music institute in Paris, a study that became her first book.
+</p>
+<p>
+Georgina Born’s work combines ethnographic and theoretical writings on music, media and cultural production. Her ethnographies have often focused on major institutions – television production at the BBC, computer music at IRCAM, interdisciplinary art-science and new media art at the University of California, Irvine. Her books are Rationalizing Culture: IRCAM, Boulez, and the Institutionalization of the Musical Avant-Garde (California 1995), Western Music and Its Others: Difference, Representation, and Appropriation in Music (edited with David Hesmondhalgh, California 2000), and Uncertain Vision: Birt, Dyke and the Reinvention of the BBC(Vintage 2005). Two edited books were published in 2013: Music, Sound and Space: Transformations of Public and Private Experience (Cambridge 2013), andInterdisciplinarity: Reconfigurations of the Social and Natural Sciences (edited with Andrew Barry, Routledge 2013). From 2010 to 2015 Born is directing the research programme ‘Music, Digitisation, Mediation: Towards Interdisciplinary Music Studies’, funded by the European Research Council, which examines the transformation of music and musical practices by digitisation and digital media through comparative ethnographies in seven countries in the developing and developed world.
+</p>
+<p>
+From 2013 to 2015 she holds the Schulich Distinguished Visiting Professorship and Dean’s Chair in Music in the Schulich School of Music at McGill University, Montreal, and in spring semester 2014 she held the Bloch Distinguished Visiting Professorship in the Department of Music, University of California, Berkeley. She has been a visiting professor in the Department of Film Studies and Audiovisual Culture at Masaryk University, Czech Republic, and a visiting professor in the Department of Social Anthropology, University of Stockholm. In spring 2015 she gave the British Academy Radcliffe-Brown Lecture in Social Anthropology. She has been appointed an Honorary Professor at University College London, in the Department of Anthropology (2015-19).
+</p>
+<?php include("tailproperties.php"); ?>

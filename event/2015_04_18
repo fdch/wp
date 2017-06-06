@@ -1,0 +1,46 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Ensemble Mise-en</h3>
+<h4>April 18th, 2015</h4>
+<a href="images/2014-2015/mise-en.jpg"><img src="images/2014-2015/mise-en-thumb.jpg"/></a>
+<h5>Program:</h5>
+<ul>
+<li>
+<h5>GORDON BEEFERMAN: "HABITATS 2011/2012"</h5>
+<p>HABITATS (Three movements, nonet version)<br/>
+	1.<br/>
+	2.<br/>
+	3.<br/>
+Habitats was originally created for choreographer Anita Cheng as a six-movement dance suite, scored for chamber quartet.  This large ensemble version maps three of the movements onto a larger canvas.<br/> The harmonic language is microtonal throughout: I use sixth-tones (three equal-tempered tones to a half step) as a kind of hyper-chromaticism: more tones "in the cracks" between the "regular" notes means more opportunity for harmonic and melodic expressivity and variety. This can be most easily heard in the slow middle movement: zoomed in, focused within a small intervallic space, microscopic chord changes become greatly magnified...<br/> The first movement is a high-wire balancing act between precise accented rhythms and hectic aleatory. The final movement's angular material, divided into in clear A and B sections, unfolds -and unravels- with great energy.</p>
+</li>
+
+<li>
+<h5>JOEL RUST: "hex", for cor anglais, bassoon, horn, trumpet, viola and cello</h5>
+<iframe height="240" width="320"class="videoplayer" src="https://www.youtube.com/embed/IvD465hkLZU" frameborder="0" allowfullscreen></iframe>
+<p>hex begins as hex in the sense of six - a relatively conventional sextet piece, exploring different combinations of its instruments and developing its material - but gradually becomes hex in the sense of a curse - with mysterious power, and an unhappy ending.
+</p>
+</li>
+
+<li>
+<h5>BERNARDO BARROS: "catastrophe"</h5>
+<iframe src="https://player.vimeo.com/video/128082599" height="240" width="320"class="videoplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>The philosopher Gilles Deleuze was fascinated by Turner's "explosive lines without contour", for him Turner's paintings aren't "about catastrophes" but instead become catastrophes in themselves and for those who view them. For the mathematician Ren&eacute; Thom catastrophes are bifurcations between different equilibria. The catastrophe is permanent: the edge of a table, where the wood becomes air, is a surface of separation, is a place of catastrophe. Every folding and unfolding is a catastrophe. What would one say about the birth and destruction of musical forms? What is the physical catastrophe that underlines figuration? Or even... "catastrophe... in the old sense... to be buried alive in lava and not turn a hair, it is then a man shows what stuff he is made of" (Malone Dies, Beckett).</p>
+</li>
+
+<li>
+<h5>FEDE CAMARA HALAC: "Flesh / Carne", for bass clarinet, cello, doublebass, percussion and piano</h5>
+<iframe src="https://player.vimeo.com/video/128082938" height="240" width="320"class="videoplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>"Flesh" is the third and last part of the "Songs for the Dead" cycle. Time and activity within this cycle come from different expressions of randomness applied to different sets of sounds, resulting in similar stationary states. The nervous iridiscence of the gestures contraposed to extremely slow processes result in a kind of formal stasis, a motion leading nowhere and anywhere at the same time, moving inwardly and outwardly but remaining in the same place.</p>
+</li>
+
+<li>
+<h5>FRIEDRICH KERN: "Winterreisen"</h5>
+<iframe height="240" width="320"class="videoplayer" src="https://www.youtube.com/embed/lXaq_ZfCI_w?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<p>Winterreisen encapsulates journeys- moments of ecstasy, of despair, and paths of transitions in between. Beyond a simple descriptive musical illustration of thoughts and emotions, I found that these images demanded for a new extended palette of colors and sounds. This sonic expansion of musical parameters is reflected in my work- after developing a roadmap for the electronic part, I followed by composing ideas for acoustic instruments. I had a clear concept in the beginning, delineating form and musical shape. Shortly after, I was able to move away from the initial plan and compose freely- a moment of intense artistic freedom. Patience for the change of seasons from a hostile environment to a fruitful period is akin to the self-restraint of an artistically productive time: I cocooned myself in the cloisters of my musical realm. Ultimately, this composition reflects moments of genesis; in this piece, I celebrate the rejuvenation of thoughts and the discovery of spring, elements of freedom shared with an audience, through music.</p>
+</li>
+</ul>
+
+<h6><a href="http://www.csvcenter.org" target="_blank">Clemente Soto Velez Cultural Center</a></h6>
+
+<?php include("tailproperties.php"); ?>

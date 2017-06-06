@@ -1,0 +1,13 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>George Lewis</h3>
+<h4>March 22nd - 25th, 2016</h4>
+<img src="http://music.columbia.edu/sites/default/files/styles/full/public/headshots/georgelewis6b-emilyperagine-web_0.jpg?itok=x4Fa9lqS" height="300"/>
+<h5>Lecture | Masterclass</h5>
+<p>George E. Lewis is the Edwin H. Case Professor of American Music at Columbia University. A 2015 Fellow of the American Academy of Arts and Sciences, Lewis has received a MacArthur Fellowship (2002), a Guggenheim Fellowship (2015), a United States Artists Walker Fellowship (2011), an Alpert Award in the Arts (1999), and fellowships from the National Endowment for the Arts.  In 2015, Lewis received the degree of Doctor of Music (DMus, honoris causa) from the University of Edinburgh.</p>
+<p>A member of the Association for the Advancement of Creative Musicians (AACM) since 1971, Lewis's work in electronic and computer music, computer-based multimedia installations, and notated and improvisative forms is documented on more than 140 recordings. His work has been presented by the BBC Scottish Symphony Orchestra, London Philharmonia Orchestra, Radio-Sinfonieorchester Stuttgart, Boston Modern Orchestra Project, Talea Ensemble, Dinosaur Annex, Ensemble Pamplemousse, Wet Ink, Ensemble Erik Satie, Eco Ensemble, and others, with commissions from American Composers Orchestra, International Contemporary Ensemble, Harvestworks, Ensemble Either/Or, Orkestra Futura, Turning Point Ensemble, San Francisco Contemporary Music Players, 2010 Vancouver Cultural Olympiad, IRCAM, Glasgow Improvisers Orchestra, and others. Lewis has served as Ernest Bloch Visiting Professor of Music, University of California, Berkeley; Paul Fromm Composer in Residence, American Academy in Rome; Resident Scholar, Center for Disciplinary Innovation, University of Chicago; and CAC Fitt Artist In Residence, Brown University. More info: <a href="http://music.columbia.edu/bios/george-e-lewis" target="_blank">http://music.columbia.edu/bios/george-e-lewis</a></p>
+
+<h6>NYU GSAS Music 220 | 356</h6>
+
+<?php include("tailproperties.php"); ?>

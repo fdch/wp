@@ -1,0 +1,23 @@
+
+<?php include("headproperties.php"); ?>
+	
+<h3>Dal Niente</h3>
+<h4>January 26th, 2017</h4>
+<a href="images/2016-2017/dalniente.jpg"><img src="images/2016-2017/dalniente-thumb.jpg" title="Photo: Karjaka Studios"/></a>
+<h5>Emma Hospelhorn, flute</h5>
+<h5>Andrew Nogal, oboe </h5>
+<h5>Katie Schoepflin, clarinet</h5>
+<h5 class="concert-program">Program:</h5>
+<ul class="concert-program">
+<li>Carola Bauckholt: Zopf (1992/94)</li>
+<li>Augusta Read Thomas: Capricci, "Hummingbird Romance" (2011)</li>
+<li>Takuma Tanikawa: uzu 2 (2008)</li>
+<li>Joël-François Durand: In the Mirror Land (2003) </li>
+<li>Alex Temple: Thick Line (2012) </li>
+<li>Alican Çamci: karalama (2012)</li>
+<li>Franco Donatoni: Triplum (1995)</li>
+</ul>
+
+<h6>NYU GSAS Music 220</h6>
+
+<?php include("tailproperties.php"); ?>

@@ -1,0 +1,12 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Chaya Czernowin</h3>
+<h4>May 9th, 2016</h4>
+<img src="http://nyu-waverlylabs.org/wp-content/uploads/2016/05/chaya1-300x200.jpg" height="300"/>
+<h5>Lecture | Masterclass</h5>
+<p>Chaya Czernowin was born and brought up in Israel. After her studies in Israel, at the age of 25, she continued studying in Germany (DAAD grant), the US, and then was invited to live in Japan (Asahi Shimbun Fellowship and American NEA grant) Tokyo, in Germany (at the Akademie Schloss Solitude) and in Vienna. Her music has been performed throughout the world, by some of the best performers of new music, and she has held a professorship at UCSD, and was the first woman to be appointed as a composition professor at the University of Music and Performing Arts in Vienna, Austria (2006–2009), and at Harvard University in (2009 and on) where she has been the Walter Bigelow Rosen Professor of Music. Together with Jean- Baptiste Jolly, the director of Akademie Schloss Solitude near Stuttgart and with composer Steven Kazuo Takasugi, she has founded the summer Academy at Schloss Solitude, a biannual course for composers. Takasugi and Czernowin also teach at Tzlil Meudcan, an International course based in Israel founded by Yaron Deutsch of Ensemble Nikel. <a href="http://chayaczernowin.com/biography/" target="_blank">Read More...</a></p>
+
+<h6>NYU GSAS Music 220 | 365</h6>
+
+<?php include("tailproperties.php"); ?>

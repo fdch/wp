@@ -1,0 +1,16 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Vasiliki Krimitza</h3>
+<div class="imagetop">
+<a href="images/vasiliki.jpg"><img src="images/vasiliki-thumb.jpg" alt="Vasiliki Krimitza"/></a>
+</div>
+<p>Vasiliki Krimitza was born in 1989 in Athens. As a child she had a tight relationship with music (piano, flute, voice and tambouras).
+</p>
+<p>In 2008 she entered the University Mozarteum Salzburg, where she studied composition with Adriana Hölszky and graduated the bachelor with honors in 2011. Since 2012 she has been studying master of composition with Tristan Murail at Mozarteum. In 2012-13, she studied with an Erasmus scholarship with Wolfgang Rihm in Karlsruhe. In 2014 she completed the master studies with Tristan Murail, receiving the highest grades by all jury members for her graduation concert. In 2016-2021 she will be pursuing a PhD in composition at the New York University, GSAS.
+</p>
+<p>Her works have been performed in concerts in Austria, Germany, France, Italy, Greece, Albania, by Ensemble OENM, Ensemble Phorminx, Eduard Brunner, Cecilio Perera, members of the Bavarian Opera Orchestra and others. Her works have been broadcasted by BR Klassik. In Februar 2012 she was invited to the symposium „Meetingpoint Music Messiaen; Contemporary Composers + Composing on the continent“  in Görlitz. Her work for Flute, ‘‘Solfeggio (to his brain)”, was chosen to be published by the Musikakademie Rheinsberg in 2012. In 2014 she won the third prize in the composition competition “Dimitris Dragatakis”. In the same year she was nominated as the youngest finalist among 6 international composers for the Franz Liszt Scholarship 2014 and was chosen to participate in the “Franz Liszt Scholarship 2014 – composition master classes” in Weimar. In 2015 she was awarded with the “Musikstipendium” prize of the city of Munich and got a commission for a new work. In addition, she got commissions for new works among others from the Salzburg Museum (2014), FSMA Strasbourg (2015), Hofhaymer Gesellschaft Salzburg (2015), Aspekte Festival Salzburg (2016), Dialoge Festival Salzburg (2016), Impuls Festival Sachsen Anhalt (2016).
+</p>
+<p>She participated in several master courses and composition seminars with B. Ferneyhough, G. F. Haas, H. Thomalla, I. Mundry, M. Spahlinger, St. Reich, B. Furrer, Kl. Huber, P. Ablinger, Cl. Gadenstätter, A. Schlünz, F. Nieder and others. She also participated in the Donaueschinger Musiktagen ‚‚Next Generation‘‘ program 2011, in the ‚‚Next Generation‘‘ concerts in ZKM Karlsruhe and in the Darmstädter Ferienkurse für Neue Musik 2012.
+</p>
+<?php include("tailproperties.php"); ?>

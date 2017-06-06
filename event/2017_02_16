@@ -1,0 +1,18 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Ine Vanoeveren</h3>
+<h4>February 16th, 2017</h4>
+<a href="images/2016-2017/ine.jpg"><img src="images/2016-2017/ine-thumb.jpg"/></a>
+<h5>Ine Vanoeveren, flute</h5>
+<h5 class="concert-program">Program:</h5>
+<ul class="concert-program">
+<li>Robert Dick: "OR" for flute solo (1981)</li>
+<li>Cesare Saldicco: "Spire V" (1999)</li>
+<li>Brian Ferneyhough: "Unity Capsule" (1975)</li>
+<li>James Bean: "ligament at distance" (2015)</li>
+<li>Fernanda Navarro: "Through" (2015)</li>
+<li>Bernardo Barros: new work (2017) * world premiere</li>
+</ul>
+
+<?php include("tailproperties.php"); ?>

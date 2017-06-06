@@ -1,0 +1,26 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Timucin Sahin</h3>
+<h4>March 29th, 2016</h4>
+<a href="images/2015-2016/timucin-concert.jpg"><img src="images/2015-2016/timucin-concert-thumb.jpg" /></a>
+<h5>Program:</h5>
+
+<h5>Timucin Sahin 4:</h5>
+<ul>
+<li>Timucin Sahin: 7 string fretless & 6 string fretted guitars & compositions</li>
+<li>Mark Ferber: Drums</li>
+<li>Matt Pavolka: Bass</li>
+<li>Ilker Isikyakar: Live electronics</li>
+</ul>
+
+<p><i>"very impressive, visceral yet also cerebral and feisty...".</i><br/>
+<b>Downbeat</b>  </p>
+<p><i>“There is a lot going on in Sahin's ample assortment of tones and experimentation and his approach to composition and performance necessitates active involvement. But to apply a one-time film student's simile, it is like delving into a David Lynch or Atom Egoyan movie: on subsequent tries understanding and insight start to occur.“</i><br/>
+<b>Audiophile audition</b></p> 
+<p><i>"Coming to New York by way of Holland from Turkey, Sahin is right in the free jazz thick of things as he might be an ax man but he composes for an Ornette Coleman comeback, and we don’t mean smooth jazz style. Polyrhymic with a rocker’s core, this is certainly for the left leaning, sitting down jazz fan that appreciates a good amphetamine rush along the way."</i><br/>
+<b>Chris Spector Midwest Record</b></p>
+
+<h6>NYU GSAS Music 356</h6>
+
+<?php include("tailproperties.php"); ?>

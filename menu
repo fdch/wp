@@ -1,0 +1,45 @@
+<nav id=menu-list>
+<!---------------------------------------------------------------------------->
+<span id=bio class=menulink onClick="fdLoad(this, id)">bi[o</span> 
+<!---------------------------------------------------------------------------->
+<span id=work class=menulink  onClick="fdLoadID(this)"><span class=eng>[work</span><span class=spa >[ob]ra</span></span> 
+<!---------------------------------------------------------------------------->
+<span id=video class=menulink onClick="fdLoadID(this)">>vi[deo</span>
+<!---------------------------------------------------------------------------->
+<span id=social class=menulink onClick="fdLoadID(this)">s[ocia]l</span> 
+<!---------------------------------------------------------------------------->
+con[t<span id=contact onClick="fdLoadID(this)">act</span> ]o 
+<!---------------------------------------------------------------------------->
+<span id=games class=menulink onClick="fdLoadID(this)"><span class=eng>g[ames</span><span class=spa >jue[go]s</span></span> 
+<!---------------------------------------------------------------------------->
+<a href="https://github.com/fdch"><span id=code class=menulink><span class=eng>cod[e</span><span class=spa >c[ó]dig]o</span></span></a> 
+<!---------------------------------------------------------------------------->
+<a href="https://fedecamarahalac.tumblr.com"><span class="menulink blog">blo[g</span></a> 
+</nav><!--[menu list end]-->
+
+<div id="menu">
+	<header>
+		<a href="/"><img src="waverly-logo.jpg" width="160"/></a>
+		<h1><span class="title0">[waverly project~] </span></h1>
+		<span class="title0">| | | | |</span>
+		<span class="subtitle0" style="text-align:center">new music force<br><span class=small>by<br>nyu gsas composers</span></span>
+	</header>
+	<ul id="menulist" style="list-style-type:none">
+		<a href="about.php"><li class="mainmenu">about</li></a>
+		<a href="people.php"><li class="mainmenu">people</li></a>
+		<a href="events.php"><li class="mainmenu">events</li></a>
+		<!--<a href="media.php"><li class="mainmenu">media</li></a>-->
+		<a href="links.php"><li class="mainmenu">links</li></a>
+		<a href="mailto:waverlyproject1@gmail.com"><li class="mainmenu">kontakte</li></a>
+	</ul>
+</div>
+<div id="socialmedia">
+	<div id="menu-toggle">
+	<span>menu</span>
+	</div>
+	<div id="hyperlinks">
+		<a href="http://twitter.com/waverly_project" target="_blank"><img src="img/tw.png" alt="Twitter" height="20" class=hyperimage /></a>
+		<a href="http://facebook.com/waverlyproject" target="_blank"><img src="img/fb.png" alt="Facebook" height="20"class=hyperimage /></a>
+		<!--<a href="http://www.youtube.com/channel/UCL0YEAGTeRLH1rkgPBTy44g" target="_blank">Youtube</a>-->
+	</div>
+</div>

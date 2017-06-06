@@ -1,0 +1,14 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Timucin Sahin</h3>
+<div class=imagetop>
+<a href="images/timucin_sahin.jpg"><img src="images/timucin_sahin-thumb.jpg" alt="Timucin Sahin"/></a>
+</div>
+<h4><a href="http://www.timucinsahin.net/" target="_blank">www.timucinsahin.net</a></h4>
+<p>Timucin Sahin has been recognized as one of today’s truly unique voices of contemporary jazz music by publications such as San Francisco Bay Guardian, AllaboutJazz, Jazzwise, Downbeat and Jazz-Times as well as by many others.</p>
+<p>His unique sound on fretless electric guitar and his emotional content in his composing made him non-comparable and his music almost impossible to categorize.</p>
+<p>Both his compositions and his playing on his double-neck guitar – his trademark – radiate an incomparable individualism.</p>
+<p>His music is drawn from a wide body of knowledge and experience, often developed from his considerable skills as a guitarist. He employs improvisation but in ways hard to separate from the sound of his notated music.  His music is characterized by a delicacy of instrumental imagination and rhythmic structures, which have much flexibility though clearly pulse derived.</p>
+
+<?php include("tailproperties.php"); ?>

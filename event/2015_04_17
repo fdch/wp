@@ -1,0 +1,28 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Iktus Percussion</h3>
+<h4>April 17th, 2015</h4>
+<a href="images/2014-2015/iktus.jpg"><img src="images/2014-2015/iktus-thumb.jpg"/></a>
+<h5>Program:</h5>
+<ul>
+<li>
+<h5>JOEL RUST: "Infernal Jukebox", for four glockenspiels</h5>
+<iframe height="240" width="320"class="videoplayer" src="https://www.youtube.com/embed/x_gxvkZgr3c" frameborder="0" allowfullscreen></iframe>
+<p>Before its more prosaic reality came along, futurologists talked about the 'celestial jukebox' - a device that would be able to instantly play any song, anywhere in the world. I imagine that its counterpart, the infernal jukebox, would play chromatic scales and clusters on four glockenspiels; this is what this piece does.</p>
+</li>
+
+<li>
+<h5>FEDE CAMARA HALAC: "Huesos / Bones", for four percussionists</h5>
+<iframe src="https://player.vimeo.com/video/135750747"  height="240" width="320"class="videoplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>"Bones" is the first part of the "Songs for the Dead" cycle. Time and activity within this cycle come from different expressions of randomness applied to different sets of sounds, resulting in similar stationary states. Within this percussion piece, the players engage with sound mostly through the bones of their hands and arms, exploring the notion of space between surface and body, both of the player who is in contact with the sound source and of the listener who experiences sound through the air in the room.</p>
+</li>
+
+<li>
+<h5>MOON YOUNG HA: "slow music i", for amplified percussion quartet with electronics</h5>
+</li>
+</ul>
+
+<h6><a href="http://www.csvcenter.org" target="_blank">Clemente Soto Velez Cultural Center</a></h6>
+
+<?php include("tailproperties.php"); ?>

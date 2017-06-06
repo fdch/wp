@@ -1,0 +1,19 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Dafna Naphtali + Hans Tammen</h3>
+<h4>May 9th, 2015</h4>
+<a href="images/2014-2015/dafna.jpg"><img src="images/2014-2015/dafna-thumb.jpg"/></a>
+<a href="images/2014-2015/tammen.jpg"><img src="images/2014-2015/tammen-thumb.jpg"/></a>
+<h5>Dafna Naphtali - live sound processing & voice</h5>
+<h5>Hans Tammen - endangered guitar</h5>
+
+<p>Mechanique(s) duo is composed and improvised music by Dafna Naphtali and Hans Tammen -- live computer-based electronics and audio processing, “endangered” guitar and voice. In their active collaboration since 1998, the duo probes and playfully under- mines the overlap of various elements of their technical and aesthetic practices, in compositions and improvisations for Naphtali's interactive processed sound/noise system and 4-octave vocal range, and Tammen's mechanical and energetic laptop manipulations of modified guitars.</p>
+<p>During their performances, Naphtali uses her custom Max/MSP programs (that she has been writing and adjusting since 1993) to filter/sample and otherwise mutate her voice as well Tammens’ sounds (and that of all the other musicians with whom they perform). She then plays those sounds as a new instrument of her own invention, at times as a curious accompaniment to her voice. They have focused on the relationship of these prepared sounds to her electronic sounds, and at times they generate strikingly similar timbres with completely divergent means. Tammen mechanically and Naphtali by the physical constructs of her electronic processes.</p>
+<p>Hans Tammen uses a wide array of mechanical preparations for guitar(including brushes, small stones, a small electric fan, a cigarette lighters, an Ebow and chopsticks) that are processed in completely other and more personal ways with his own custom Max/MSP programs and with his unusual take on guitar-based control -- and then heightened by his unique sensibility as an improviser -- often setting the duo on a crazed collision course of the acoustic and the electronic – all along the route paying homage (in a twirl of the radio dial) to music concrete, free jazz and European improvised music, as well as the contemporary classical and all manner of non-Western musics.</p>
+<p>The audio processing algorithms they each use are as varied as the possible musical gestures, registers, and density of musical sounds they make. In each section a different kind of audio processing transformation is employed, and so always an element of surprise is in it for each of them, as they listen and adjust our phrases, timing and sound and as the audio processing transforms our individual sounds.</p>
+<p><a href="http://dafna.info" target="_blank">http://dafna.info</a>; <a href="http://tammen.org/biocv" target="_blank">http://tammen.org/biocv</a></p>
+
+<h6>NYU GSAS Music 220</h6>
+
+<?php include("tailproperties.php"); ?>

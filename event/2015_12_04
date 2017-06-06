@@ -1,0 +1,12 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Mei Ann Teo</h3>
+<h4>December 4th, 2015</h4>
+<img src="http://meiannteo.com/wp-content/uploads/2013/06/sideBW_lores-200x300.jpg"/>
+<h5>Lecture</h5>
+<p>Mei Ann Teo is a Singaporean theatre/film maker currently based in New York. Her professional work has toured the U.S. and international festivals including Belgium’s Festival de Liege (Lyrics From Lockdown, “Truly polished, meaningful and entertaining” – New York Times), M1 Singapore Fringe Festival, Edinburgh International Fringe (MiddleFlight, “Stunning” – Scotsman), INFANT Experimental Theatre Festival in Novi Sad, Serbia, Edmonton Fringe Festival, and the Montreal World Film Festival (Not Here). She is the artistic director of The Wandering Fools, whose inaugural production, Caucasian Chalk Circle, is an official selection at the Shanghai International Experimental Theatre Festival (Oct 2013). She has worked with The Public Theater, Berkeley Rep, Theatre of Yugen, Crowded Fire, Cutting Ball, and the Bay Area Playwrights Festival. More info: <a href="http://meiannteo.com/" target="_blank">http://meiannteo.com/</a></p>
+
+<h6>NYU GSAS Music 220</h6>
+
+<?php include("tailproperties.php"); ?>

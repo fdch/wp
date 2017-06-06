@@ -1,0 +1,16 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Arthur Kampela</h3>
+<h4>October 16th, 2015</h4>
+<img src="http://www.kampela.com/images/arthur%2002.jpg" height="300"/>
+<h5>Lecture/Masterclass</h5>
+<h5>Timbre, Ergonomics and Micro-metric Modulations: A compositional Assesment</h5>
+<h5>Extended-Techniques, Ergonomics, Micro-metric Modulation, Risk/Subversion/Imagination/Insight</h5>
+<p>A Brazilian composer with a Ph.D. in composition from Columbia University. Arthur has been playing in New York for quite a while, receiving enthusiastic reviews from The NY TIMES as well as from European newspapers. Internationally recognized as one of the most representative voices of his generation. <a href="arthur_kampela.php">Read more...</a></p>
+
+<h6>NYU GSAS Music 220</h6>
+
+<?php include("slideshow-kampela.html"); ?>
+
+<?php include("tailproperties.php"); ?>

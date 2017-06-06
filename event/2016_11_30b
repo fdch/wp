@@ -1,0 +1,29 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Timucin Sahin's "Flow State"</h3>
+<h4>November 30th, 2016</h4>
+<a href="images/timucin_sahin.jpg"><img src="images/timucin_sahin-thumb.jpg"/></a>
+<h5>Cory Smythe, piano</h5>
+<h5>Christopher Tordini, bass</h5>
+<h5>Timucin Sahin, 7 String fretless & 6 string fretted guitars, live electronics, compositions</h5>
+<h5 class="concert-program">Program:</h5>
+<p>Timucin Sahin will join forces with two unique musicians; Cory Smythe on piano and Christopher Tordini on bass to perform his latest musical works.</p>
+<p>Sahin has been recognized as one of today’s truly unique voices of  contemporary jazz music by publications such as San Francisco Bay Guardian, AllaboutJazz, Jazzwise, Downbeat and Jazz-Times as well as by many others. His unique sound on fretless electric guitar and his emotional content in his composing made him non-comparable and his music almost impossible to categorize.</p>
+<p>His music is drawn from a wide body of knowledge and experience, often developed from his considerable skills as a guitarist. He employs improvisation but in ways hard to separate from the sound of his notated music.  His music is characterized by a delicacy of instrumental imagination and rhythmic structures, which have much flexibility though clearly pulse derived.
+</p>
+<p>Free admission</p>
+<h6>8pm NYU Waverly Building room 220</h6>
+
+<?php include("tailproperties.php"); ?>
+
+
+
+
+
+
+
+
+
+
+

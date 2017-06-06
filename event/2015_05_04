@@ -1,0 +1,18 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Marcella Lucatelli</h3>
+<h4>May 4th, 2015</h4>
+<a href="images/2014-2015/lucatelli.jpg"><img src="images/2014-2015/lucatelli-thumb.jpg"/></a>
+<h5>Program: Download the print version <a href="graphics/program-lucatelli.pdf" target="_blank">here</a></h5>
+
+<h5>*Gestus Kanto-GlyTkH* : THE UNAWAITED</h5>
+<p>The gesture and what remains. The Noh-question. An image now dismantled by the voice. Inhabited deserts, deserted cities. Life more than a body. Blade color. A palo seco. Black sun of sound. Gravitational fall fades. The sound? When this was singing…</p>
+<p>The Brazilian composer, cantoklast and performance artist based in Denmark Marcela Lucatelli has invited composers from both countries to create de-k(r)ompositional devices for her to perform the voice of the composer through. A voice without possession becoming the disjunction of the tessitura before what is called Kantar.</p>
+<p>Premieres of works by Bernardo Barros, Jeppe Ernst, Martin Herraiz, Mathias Monrad Møller, Pedro Paulo Rocha and Rodolfo Valente.</p>
+
+<h6>NYU GSAS Music 220</h6>
+
+
+
+<?php include("tailproperties.php"); ?>

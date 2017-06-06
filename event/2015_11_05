@@ -1,0 +1,14 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Takao Hyakutome and Joan Bagés i Rubí</h3>
+<h4>November 5th, 2015</h4>
+<a href="images/2015-2016/takao.png"><img src="images/2015-2016/takao-thumb.jpg" /></a>
+<a href="images/2015-2016/bages.jpg"><img src="images/2015-2016/bages-thumb.jpg" /></a>
+<h5>Lecture</h5>
+<p>Takao Hyakutome is a Japanese violinist from Sapporo. Having won several prizes in international competitions during his study in Holland and Belgium, currently Takao regularly premiers works for both violin solo and ensemble. He also does research on extended violin techniques and 5 string violin, besides being artist in residence of the Antwerp based experimental contemporary music ensemble, <i>Champ d'Action</i> and many other chamber music groups. More info: <a href="http://takao.co.nr/" target="_blank">www.takao.co.nr</a></p>
+<p>Joan Bagés i Rubi is a sound artist/composer from Flix (Catalonia). His sound work contemplates instrumental, electro-acoustic, acousmatic music and sound installations. Studied composition in Barcelona, Paris and Berlin, co-director of SIRGA festival and artistic director of Morphosis Ensemble and No Input Ensemble. More info: <a href="http://www.joanbages.com/" target="_blank">www.joanbages.com</a></p>
+
+<h6>NYU GSAS Music 220</h6>
+
+<?php include("tailproperties.php"); ?>

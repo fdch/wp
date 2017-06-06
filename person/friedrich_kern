@@ -1,0 +1,11 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>Friedrich Kern</h3>
+<div class="imagetop">
+<a href="images/fhkern.jpg"><img src="images/fhkern-thumb.jpg" class="centerimage vertical" alt="Friedrich Kern"/></a>
+</div>
+<h4><a href="https://soundcloud.com/fhkern" target="_blank">www.soundcloud.com/fhkern</a></h4>
+<p>Friedrich Heinrich Kern a New York City-based composer and pianist who has studied in Germany, Korea, Israel, and the United States. Much of his work draws from literary and visual stimuli and is inspired by close artistic collaborations with people and/or machines. He has worked with ensembles including: Philharmonic Orchestra Baden-Baden, Filarmonica Arturo Toscanini, Theater Heidelberg, International Contemporary Ensemble, Talea Ensemble, Ensemble Argento, JACK Quartet, Mivos Quartet, Ensemble Purimo and Ensemble TIMF Korea.</p>
+
+<?php include("tailproperties.php"); ?>

@@ -1,0 +1,34 @@
+
+<?php include("headproperties.php"); ?>
+
+<h3>T.J. Borden, James Bean & Paul Hembree</h3>
+<h4>March 31st, 2017</h4>
+<a href="images/2016-2017/tj-concert.jpg"><img src="images/2016-2017/tj-concert.jpg"/></a>
+<h5>T.J. Borden, cello; James Bean and Paul Hembree, electronics</h4>
+<h5 class="concert-program">Program:</h5>
+<ul>
+	<li>Brian Ferneyhough: Time and Motion Study II, for vocalizing cellist and electronics</li>
+	<li>Paul Hembree: Cerebral Hyphomycosis, for cello, electronics, and video</li>   
+	<li>James Bean: takenName, for cello and electronics by </li>
+	<li>Elise Roy: new work, for cello and electronics </li>
+	<li>Jenna Lyle: new work, for cello and electronics </li>
+</ul>
+<p>
+A dedicated purveyor of modern music, Tyler J. Borden has performed with contemporary luminaries such as the JACK Quartet, Tony Conrad, Steve McCaffery, and Ensemble Offspring (Australia). He has performed at Alvin Lucier’s 85th Birthday Festival (Switzerland), Musikprotokall (Austria), June in Buffalo, Darmstadt Ferienkurse für Neue Musik, VIPA Festival (Valencia, Spain), Queens New Music Festival (NYC), and the MATA Inteval Series (NYC).  Tyler has worked with established composers like Brian Ferneyhough, La Monte Young, and Alvin Lucier, but he is particularly interested in the music of his generation has worked extensively with young composers such as Jason Thorpe Buchanan, Paul Hembree, Ben Isaacs, Hunjoo Jung, Catherine Lamb, and Rob Phillips.  Currently, he is core member of [Switch~ Ensemble], which focuses on the performance of electroacoustic works and has worked closely with many composers, including Philippe Leroux, James Bean, and Timothy McCormack.  As a creative force, Tyler regularly collaborates in various capacities, most of which are heavily improvisational.  He has performed in that capacity throughout North America and Europe and his improvisations were included  in Guggenheim Fellow Kasumi’s film Shockwaves.  Tyler J. Borden grew up in Rochester, NY and studied at Ithaca College and SUNY Buffalo, where his primary cello teachers were Elizabeth Simkin and Jonathan Golove, respectively.  He is currently pursuing his DMA at UC San Diego with Charles Curtis.
+</p>
+<p>
+James Bean currently studies composition with Chaya Czernowin and Hans Tutschku at Harvard University. In the past, he's had the privilege to study with Rand Steiger at UC San Diego, and Robert Kyr at the University of Oregon. Bean is momentarily devoted to authoring an automated music notation software called d-nm (dynamic notation for music) for iPads, which allows performers to interact dynamically with musical scores throughout their learning and performance processes. 
+</p>
+<p>
+Paul Hembree is active as a composer, creative music technologist, and educator. His recent music includes Cerebral Hyphomycosis (2016), a duo for real and virtual cellists, premiered by T.J. Borden, and Ikarus-Azur (2013), a La Jolla Symphony and Chorus commission. His audiovisual improvisation environment, Apocryphal Chrysopoeia (2016), was featured at National Sawdust on the 2016 New York City Electroacoustic Music Festival, as part of the New York Philharmonic's biennial celebrations.
+</p>
+<p>
+As a computer musician, he has collaborated with many prominent performers of new music, including the JACK Quartet, the International Contemporary Ensemble, the Arditti String Quartet, Ensemble Signal, and the Callithumpian Consort, on compositions by Pauline Oliveros, Brian Ferneyhough, Kaija Saariaho, and Roger Reynolds, among others.
+</p>
+<p>
+In 2015 he received his PhD in music, specializing in composition and computer music, from the University of California, San Diego, where he also taught music theory, history, composition, and game audio courses.
+</p>
+<p>Free admission</p>
+<h6>8pm NYU Silver Building room 220</h6>
+
+<?php include("tailproperties.php"); ?>
