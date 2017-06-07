@@ -10,7 +10,7 @@ function layoutSetup() {
 }
 //loads the id of the element passed on the content div 
 function wpLoadEvent(x) {
-	$("#event-load").load(x);
+	$("#event-load").load("event/" + x);
 }
 function wpLoadId(x) {
 	myID = x.id;
