@@ -1,1 +1,10 @@
-git add . && git commit && git push && open http://fdch.github.io/wp
+git add .
+if [ $1 ] 
+then
+git commit -m "$1"
+else
+git commit -m "updates"
+fi
+git push && open http://fdch.github.io/wp
+
+
