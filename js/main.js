@@ -1,5 +1,5 @@
 ////////////
-//// From now on, please be extra careful when you edit
+//// Please be extra careful when you edit this file
 ////////////
 var w, h; //window width height
 var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><nav id=menu></nav><div id=content></div>";
@@ -12,6 +12,9 @@ function wpLoad(x) {t.load(x)}
 ////////////
 //// Menu functions
 ////////////
+function getMenu(m) {
+  if(m.lenth > 0) for (i = 0, j = menu.lenght; i < j; i++) m.append("<span class=menulink onClick=\"get" + menu[i] + "()\">" + menu[i] + "</span>");
+}
 function getEvents() {
   var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>"
   t.append(events);
@@ -54,7 +57,7 @@ function getAbout() {
   }
   $("#karly").append("<img src='img/karly' onClick='wpLoad(Events)' height=99/>");
 }
-function wpEventForm() {
+function getSubmit() {
   var thePrompt = window.open("", "", "width=450,height=300,location=0,toolbar=0, resizable=0,scrollbars=0");
   var theHTML = "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><form><h2>Waverly Project Event Form</h2><h3>Enter password:</h3><input type=password id=karlheinz size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></body>"
   thePrompt.document.documentElement.innerHTML = theHTML;
@@ -73,14 +76,15 @@ function wpEventForm() {
 ////////////
 //// Begin js load
 ////////////
-$(document).ready(function() {
+$(document).ready(function(loadMenu) {
   w = function(){ var w = $(window).width(); if (w >= 600) w = w*0.5;}
   h = function(){$(window).height();}
-  var m = $("#menu");
   var t = $("#content");
   var te = $("#event-load");
   $("head").append(meta);
-  $("body")
-  .append([titleData,analytics]);
-  for (i = 0, j = menu.lenght; i < j; i++) { m.append("<span class=menulink onClick=\"get"+menu[i]+"()\">"+menu[i]+"</span>");}
-});//document.ready
+  $("body").append([titleData,analytics]);
+  getMenu($("#menu"));
+});
+////////////
+//// End js load
+////////////
