@@ -19,10 +19,10 @@ function getContent() {
       $.each(column, function(n, c) {
       if(c.match(/\((.*)\)/) {
         link = c.replace(/[{}]/g, ''); 
-        $("#link-list").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >");
+        $("#link-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >");
       } else
         name = c.replace(/[[]]/g, ''); 
-        $("#link-list").append(name + "</a></h5>");
+        $("#link-text").append(name + "</a></h5>");
     });
   });
 }
