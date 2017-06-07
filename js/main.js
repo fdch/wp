@@ -36,8 +36,8 @@ var m = $("#menu");
 var t = $("#content");
 var te = $("#event-load");
 function wpLoadEvent(x) {te.load("event/" + x);}
-function wpLoadId(x) {t.load((x.id);}
-function wpLoad(x) {t.load(x}
+function wpLoadId(x) {t.load(x.id);}
+function wpLoad(x) {t.load(x)}
 for (i = 0; i < menu.lenght; i++) {
   m.append("<span class=menulink onClick=\"get"+menu[i]+"()\">"+menu[i]+"</span>
 }
