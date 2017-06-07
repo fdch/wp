@@ -83,7 +83,7 @@ $(document).ready(function(loadMenu) {
   var te = $("#event-load");
   $("head").append(meta);
   $("body").append([titleData,analytics]);
-  alert(w + " is window width");
+  alert(menu.join);
   getMenu();
 });
 ////////////
