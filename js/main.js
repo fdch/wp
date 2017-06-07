@@ -94,7 +94,7 @@ $(document).ready(function(x) {
   $("head").append(meta);
   $("body").append([x.titleData,analytics]);
   var len = x.mitem.length;
-  makeMenu(x, $("#menu"), len);
+  makeMenu(x.mitem, $("#menu"), len);
   //Shortcuts
   x.t = $("#content");
   x.te = $("#event-load");
