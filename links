@@ -22,9 +22,10 @@ function getContent() {
           var name  = c.replace(/\[|\]/g,""); 
         }
         if(c.startsWith("{")) {
-          //var link = c.match(/\{(.*)\}/);
           var link = c.replace(/\{|\}/g,""); 
         }
+        if(c === "{links}")
+            continue;
         $("#links-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >" + name + "</a></h5>");
       });
     });
