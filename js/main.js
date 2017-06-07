@@ -2,7 +2,7 @@
 //// Please be extra careful when you edit this file
 ////////////
 var x = {
-  w, h, t, te,
+  w: 0, h: 0, t: undefined, te: undefined,
   mitem: ["About", "People", "Events", "Links", "Submit"],
   quotes: ["\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"", "\"I no longer limit myself.\""],
   promptHTML: "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><h2>Waverly Project Event Form</h2><div><form><h3>Enter password:</h3><input type=password id=krl size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></div></body>",
