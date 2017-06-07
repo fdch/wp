@@ -4,6 +4,7 @@
 2.CHANGE CLASSES "linkit" to "linkold"
 
 -->
+<article>
 
 <div class="titles2 linkit" onclick="wpLoadEvent('2017_02_10')">
 <h3>February 10th, 2017</h3>
@@ -141,3 +142,4 @@
 <h4>fd~ lucatelli </h4>
 <h5>An afternoon of incidental noise. Performance / Installation / Conceptual // This event is cancelled until further notice</h5>
 </div>
+</article>
