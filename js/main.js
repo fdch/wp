@@ -15,8 +15,8 @@ function wpLoad(x) {t.load(x)}
 function makeMenu(m) {
   var i,j;
   m.append("<nav>");
-  for (i = 0, j = menu.lenght; i < j; i++) {
-    m.append("<span class=menulink onClick=\"get" + menu[i] + "()\">" + menu[i] + "</span>");
+  for (i = 0, j = menuitems.lenght; i < j; i++) {
+    m.append("<span class=menuitem onClick=\"get" + menuitems[i] + "()\">" + menuitems[i] + "</span>");
   }
   m.append("</nav>");
   alert(j);

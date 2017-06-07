@@ -7,7 +7,7 @@ var facebookUrl = "https://www.facebook.com/waverlyproject/";
 var title = "Waverly Project";
 var subtitle = "New Music Force by NYU Composers";
 var logoimage = ["img/logo", 200, 200];
-var menu = ["About", "People", "Events", "Links", "Submit"];
+var menuitems = ["About", "People", "Events", "Links", "Submit"];
 var eventsText = "Below are listed all events (past, present and future) hosted by Waverly Project. We invite you to this menu to navigate through all our seasons, and to click on any event to get more information.";
 var aboutOutro = "Please contact us at <a href='mailto:"+email+"'>"+email+"</a> or via our <a href='"+facebookUrl+"' target=_blank>Facebook Page </a>";
 var keywords = "waverly, project, music, festival, organization, nyu, nyc, new york university, proyecto, nueva musica, neue musik, contemporary, art, multimedia, ensemble, lectures, masterclasses, concerts, performers, performances, the soon another, talea, iktus percussion, mise-en, angelakis, camara, halac, oliver la rosa";
