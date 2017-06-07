@@ -26,11 +26,11 @@ function makeMenu(m, len) {
   m.append("</nav>");
 }
 function getEvents(x) {
-  t.load(x);
-  te.load("event/menu");
+  $("#content").load(x);
+  $("#event-load").load("event/menu");
 }
 function getPeople(x) {
-  t.load(x);
+  $("#content").load(x);
   jQuery.get('updates/people-list', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
@@ -40,7 +40,7 @@ function getPeople(x) {
   });
 }
 function getLinks(x) {
-  t.load(x);
+  $("#content").load(x);
   jQuery.get('updates/links.md', function(data){
     line = data.split("\n");
     $.each(line, function(n, r) {
@@ -51,7 +51,7 @@ function getLinks(x) {
   });
 }
 function getAbout(x) {
-  t.load(x);
+  $("#content").load(x);
   jQuery.get('updates/about.txt', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
@@ -92,9 +92,6 @@ $(document).ready(function(x) {
   $("head").append(meta);
   $("body").append([titleData,analytics]);
   makeMenu($("#menu"), mitem.length);
-  //Shortcuts
-  t = $("#content");
-  te = $("#event-load");
 });
 ////////////
 //// End js load
