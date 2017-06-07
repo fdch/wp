@@ -17,12 +17,14 @@ function getContent() {
     $.each(row, function(n, r) {
       column = r.split("\t");
       $.each(column, function(n, c) {
-      if(c.match(/\((.*)\)/) {
-        var link = c.replace(/[{}]/g, ''); 
-        $("#link-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >");
+      if(var alink = c.match(/\((.*?)\)/gi) {
+        var link = alink.replace(/\(|\)/g,""); 
+        $("#links-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >");
+      } else if (var aname = c.match(/\[(.*?)])/gi) {
+        var name = aname..replace(/\[|\]/g,""); 
+        $("#links-text").append(name + "</a></h5>");
       } else
-        var name = c.replace(/[[]]/g, ''); 
-        $("#link-text").append(name + "</a></h5>");
+        $("#links-text").append("<p>Something went wrong here...</p>");
     });
   });
 }
