@@ -19,11 +19,11 @@ function getContent() {
       $.each(column, function(n, c) {
         if(c.startsWith("{")) {
           //var link = c.match(/\{(.*)\}/);
-          var link = link.replace(/\{|\}/g,""); 
+          var link = c.replace(/\{|\}/g,""); 
           $("#links-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >");
         } else if(c.startsWith("[")) {
           //var name = c.match(/\[(.*)\]/);
-          var name  = name.replace(/\[|\]/g,""); 
+          var name  = c.replace(/\[|\]/g,""); 
           $("#links-text").append(name + "</a></h5>");
         } else {
           $("#links-text").append("<p>Something went wrong here...</p>");
