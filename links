@@ -21,12 +21,11 @@ function getContent() {
           //var link = c.match(/\{(.*)\}/);
           var link = c.replace(/\{|\}/g,""); 
           $("#links-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >");
-        } else if(c.startsWith("[")) {
+        }
+        if(c.startsWith("[")) {
           //var name = c.match(/\[(.*)\]/);
           var name  = c.replace(/\[|\]/g,""); 
           $("#links-text").append(name + "</a></h5>");
-        } else {
-          $("#links-text").append("<p>Something went wrong here...</p>");
         }
       });
     });
