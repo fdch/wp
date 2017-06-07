@@ -1,7 +1,7 @@
 ////////////
 //// Please be extra careful when you edit this file
 ////////////
-var w, h; //window width height
+var w, h, t, te; //width height content-target event-target
 var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><nav id=menu></nav><div id=content></div>";
 ////////////
 //// Loading glue
@@ -12,9 +12,6 @@ function wpLoad(x) {t.load(x)}
 ////////////
 //// Menu functions
 ////////////
-function getMenu() {
-  for (i = 0, j = menu.lenght; i < j; i++) $("#menu").append("<span class=menulink onClick=\"get" + menu[i] + "()\">" + menu[i] + "</span>");
-}
 function getEvents() {
   var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>"
   t.append(events);
@@ -76,15 +73,18 @@ function getSubmit() {
 ////////////
 //// Begin js load
 ////////////
-$(document).ready(function(loadMenu) {
-  function(){ var w = $(window).width(); if (w >= 600) w = w*0.5;}
-  function(){ var h = $(window).height();}
-  var t = $("#content");
-  var te = $("#event-load");
+$(document).ready(function() {
+  if ((w = $(window).width()) >= 600) w = w*0.5;}
+  h = $(window).height();
+  //Place elements
   $("head").append(meta);
   $("body").append([titleData,analytics]);
-  alert(menu.join);
-  getMenu();
+  for (i = 0, j = menu.lenght; i < j; i++) {
+  $("#menu").append("<span class=menulink onClick=\"get" + menu[i] + "()\">" + menu[i] + "</span>");
+  }
+  //Shortcuts
+  t = $("#content");
+  te = $("#event-load");
 });
 ////////////
 //// End js load
