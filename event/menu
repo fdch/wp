@@ -1,5 +1,5 @@
 <nav>
-<button onClick="wpLoadEvent(2016-2017);">[Season 2016-17]</button>
-<button onClick="wpLoadEvent(2015-2016);">[Season 2015-16]</button>
-<button onClick="wpLoadEvent(2014-2015);">[Season 2014-15]</button>
+<button onClick="wpLoadEvent('2016-2017')">[Season 2016-17]</button>
+<button onClick="wpLoadEvent('2015-2016')">[Season 2015-16]</button>
+<button onClick="wpLoadEvent('2014-2015')">[Season 2014-15]</button>
 </nav>

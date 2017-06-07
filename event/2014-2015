@@ -1,59 +1,59 @@
 <article>
-<div class="titles2 linkold" onclick="wpLoadEvent(2015_02_08)">
+<div class="titles2 linkold" onclick="wpLoadEvent('2015_02_08')">
 <h3>February 8th, 2015</h3>
 <h4>Iktus Percussion</h4>
 <h5>Workshop</h5>
 <h6>NYU Steinhardt Education Building</h6>
 </div>
-<div class="titles2 linkold" onclick="wpLoadEvent(2015_03_10)">
+<div class="titles2 linkold" onclick="wpLoadEvent('2015_03_10')">
 <h3>March 10th, 2015</h3>
 <h4>Steve Takasugi</h4>
 <h5>Lecture | Masterclass</h5>
 <h6>NYU GSAS Music 220</h6>
 </div>
-<div class="titles2 linkold" onclick="wpLoadEvent(2015_04_07)">
+<div class="titles2 linkold" onclick="wpLoadEvent('2015_04_07')">
 <h3>April 7th, 2015</h3>
 <h4> Pierluigi Billone</h4>
 <h5>Lecture | Masterclass</h5>
 <h6>NYU GSAS Music 220</h6>
 </div>
-<div class="titles2 linkold" onclick="wpLoadEvent(2015_04_16)">
+<div class="titles2 linkold" onclick="wpLoadEvent('2015_04_16')">
 <h3>April 16th, 2015</h3>
 <h4>Talea Ensemble</h4>
 <h5>Ioannis Angelakis; Joel Rust; Bernardo Barros; Wang Jie; Timucin Sahinl; Jue Wang</h5>
 <h6>Clemente Soto Velez Cultural Center</h6>
 </div>
-<div class="titles2 linkold" onclick="wpLoadEvent(2015_04_17-b)">
+<div class="titles2 linkold" onclick="wpLoadEvent('2015_04_17-b')">
 <h3>April 17th, 2015</h3>
 <h4>The Soon Another</h4>
 <h5>ColorWHEEL</h5>
 <h6>Clemente Soto Velez Cultural Center</h6>
 </div>
-<div class="titles2 linkold" onclick="wpLoadEvent(2015_04_17)">
+<div class="titles2 linkold" onclick="wpLoadEvent('2015_04_17')">
 <h3>April 17th, 2015</h3>
 <h4>Iktus Percussion</h4>
 <h5>Ioannis Angelakis; Joel Rust; Moon Young Ha; Fede Camara Halac</h5>
 <h6>Clemente Soto Velez Cultural Center</h6>
 </div>
-<div class="titles2 linkold" onclick="wpLoadEvent(2015_04_18)">
+<div class="titles2 linkold" onclick="wpLoadEvent('2015_04_18')">
 <h3>April 18th, 2015</h3>
 <h4>ensemble mise-en</h4>
 <h5>Bernardo Barros; Gordon Beeferman; Friedrich Kern; Moon Young Ha;  Fede Camara Halac</h5>
 <h6>Clemente Soto Velez Cultural Center</h6>
 </div>
-<div class="titles2 linkold" onclick="wpLoadEvent(2015_05_04)">
+<div class="titles2 linkold" onclick="wpLoadEvent('2015_05_04')">
 <h3>May 4th, 2015</h3>
 <h4>Marcella Lucatelli</h4>
 <h5>Composer and vocalist Marcella Lucatelli will be performing a one-hour concert of voice and electronics</h5>
 <h6>NYU GSAS Music 220</h6>
 </div>
-<div class="titles2 linkold" onclick="wpLoadEvent(2015_05_05)">
+<div class="titles2 linkold" onclick="wpLoadEvent('2015_05_05')">
 <h3>May 5th, 2015</h3>
 <h4>Mirjam Frank</h4>
 <h4>Claudio Monteverdi; John Cage; Cathy Berberian</h5>
 <h6>NYU GSAS Music 220</h6>
 </div>
-<div class="titles2 linkold" onclick="wpLoadEvent(2015_05_09)">
+<div class="titles2 linkold" onclick="wpLoadEvent('2015_05_09')">
 <h3>May 9th, 2015</h3>
 <h4>Dafna Naphtali + Hans Tammen</h4>
 <h4>live sound processing & voice + endangered guitar</h5>
