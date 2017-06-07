@@ -1,6 +1,7 @@
 ////////////
 //// Please be extra careful when you edit this file
 ////////////
+var mitem = ["About", "People", "Events", "Links", "Submit"];
 var w, h, t, te; //width height content-target event-target
 var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><div id=menu></div><div id=content></div>";
 ////////////
@@ -15,11 +16,11 @@ function wpLoad(x) {t.load(x)}
 function makeMenu(m) {
   var i,j;
   m.append("<nav>");
-  for (i = 0;i < window.menuitems.lenght; i++) {
-    m.append("<span class=menuitem onClick=\"get" + window.menuitems[i] + "()\">" + window.menuitems[i] + "</span>");
+  for (i = 0;i < mitem.lenght; i++) {
+    m.append("<span class=menuitem onClick=\"get" + mitem[i] + "()\">" + mitem[i] + "</span>");
   }
   m.append("</nav>");
-  alert(window.menuitems.lenght);
+  alert(mitem.lenght);
 }
 function getEvents() {
   var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>"
