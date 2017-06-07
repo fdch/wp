@@ -10,7 +10,7 @@ var about = "<article><h3>About</h3><img src='img/about' height=180 /><div id=ab
 var people = "<article><h3>People</h3><div id=people-list></div></article>";
 var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>";
 var links = "<article><h3>Links</h3><div id=links-text></div></article>";
-var submit = ["\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"", "\"I no longer limit myself.\"", "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><h2>Waverly Project Event Form</h2><div id=maindiv><form><h3>Enter password:</h3><input type=password id=krl size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></div></body>","<div style='padding:10%'><iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=500 height=600 frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe></div>", "stockhausen", "width=450, height=300, location=0, toolbar=0, resizable=0, scrollbars=0"];
+var submit = ["\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"", "\"I no longer limit myself.\"", "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><h2>Waverly Project Event Form</h2><div id=maindiv><form><h3>Enter password:</h3><input type=password id=krl size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></div></body>","https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=false", "stockhausen", "width=450, height=300, location=0, toolbar=0, resizable=0, scrollbars=0"];
 var eventMenu = ["Season_2016_2017", "Season_2015_16", "Season_2014_15"];
 ////////////
 function wpLoadEvent(x, y) {te.load("event/" + x);}
@@ -77,9 +77,9 @@ function getSubmit(x) {
       alert("\n"+x[0]+"\n\n Try again.");
     } else {
       alert("\nSucess!\n\n"+x[1]+"\n\n K. S.");
-      thePrompt.document.getElementById("maindiv").innerHTML = x[3];
-      thePrompt.resizeTo(w*0.7, h*0.8);
-      thePrompt.moveBy(w*0.2, h*0.2);
+      thePrompt.open(x[3]);
+      thePrompt.resizeTo(w*0.9, h*0.9);
+      thePrompt.moveBy(w*0.3, h*0.2);
     }
   }
 }
