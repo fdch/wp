@@ -82,7 +82,5 @@ $(document).ready(function() {
   $("head").append(meta);
   $("body")
   .append([titleData,analytics]);
-  for (i = 0, j = menu.lenght; i < j; i++) {
-  m.append("<span class=menulink onClick=\"get"+menu[i]+"()\">"+menu[i]+"</span>
-  }
+  for (i = 0, j = menu.lenght; i < j; i++) { m.append("<span class=menulink onClick=\"get"+menu[i]+"()\">"+menu[i]+"</span>");}
 });//document.ready
