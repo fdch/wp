@@ -3,7 +3,7 @@
 This script looks for the file "about.txt", which contains one or more pararaphs describing waverly project
 */
 function getContent() {
-  jQuery.get('/updates/about.txt', function(data){
+  jQuery.get('updates/about.txt', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
       $("#about-text")
