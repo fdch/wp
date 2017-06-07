@@ -26,6 +26,10 @@ function makeMenu(m, len, mitem, type) {
   }
   m.append("</nav>");
 }
+function getseason_2014_2015();
+function getseason_2016_2016();
+function getseason_2017_2017();
+
 function getEvents(x) {
   replaceContent(x,'content');
   makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
@@ -66,7 +70,7 @@ function getAbout(x) {
     }
     $("#karly").append("</p>");
   }
-  $("#karly").append("<img src='img/karly' onClick='wpLoad(Events)' height=99/>");
+  $("#karly").append("<img src='img/karly' onClick='getEvents(events)' height=99/>");
 }
 function getSubmit(x) {
   var thePrompt = window.open("", "WPEventForm", x[5]);
@@ -77,8 +81,8 @@ function getSubmit(x) {
       alert("\n"+x[0]+"\n\n Try again.");
     } else {
       alert("\nSucess!\n\n"+x[1]+"\n\n K. S.");
-      thePrompt.resizeTo(w*0.9, h*0.9);
-      thePrompt.moveBy(w*0.3, h*0.2);
+      thePrompt.resizeTo(w, h);
+      thePrompt.moveBy(w*0.5, h*0.1);
       open(x[3], "WPEventForm");
     }
   }
