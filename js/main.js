@@ -77,9 +77,9 @@ function getSubmit(x) {
       alert("\n"+x[0]+"\n\n Try again.");
     } else {
       alert("\nSucess!\n\n"+x[1]+"\n\n K. S.");
-      thePrompt.open(x[3]);
       thePrompt.resizeTo(w*0.9, h*0.9);
       thePrompt.moveBy(w*0.3, h*0.2);
+      open(x[3], "thePrompt");
     }
   }
 }
