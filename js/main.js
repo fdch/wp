@@ -77,8 +77,8 @@ function getSubmit() {
 //// Begin js load
 ////////////
 $(document).ready(function(loadMenu) {
-  w = function(){ var w = $(window).width(); if (w >= 600) w = w*0.5;}
-  h = function(){$(window).height();}
+  function(){ var w = $(window).width(); if (w >= 600) w = w*0.5;}
+  function(){ var h = $(window).height();}
   var t = $("#content");
   var te = $("#event-load");
   $("head").append(meta);
