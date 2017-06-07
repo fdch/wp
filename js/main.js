@@ -28,7 +28,7 @@ function makeMenu(m, len, mitem, type) {
 }
 function getEvents(x) {
   replaceContent(x,'content');
-  makeMenu($("#event-menu"), eventMenu.length, eventMenu, button);
+  makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
 }
 function getPeople(x) {
   replaceContent(x, 'content');
@@ -92,7 +92,7 @@ $(document).ready(function(x) {
   //Place elements
   $("head").append(meta);
   $("body").append([titleData,analytics]);
-  makeMenu($("#menu"), mitem.length, mitem, span);
+  makeMenu($("#menu"), mitem.length, mitem, "span");
 });
 ////////////
 //// End js load
