@@ -3,6 +3,8 @@
 ////////////
 var mitem = ["About", "People", "Events", "Links", "Submit"];
 var w, h, t, te; //width height content-target event-target
+var quotes = ["\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"", "\"I no longer limit myself.\""];
+var promptHTML = "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><h2>Waverly Project Event Form</h2><div id=maindiv><form><h3>Enter password:</h3><input type=password id=krl size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></div></body>";
 var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><div id=menu></div><div id=content></div>";
 ////////////
 //// Loading glue
@@ -17,7 +19,7 @@ function makeMenu(m, len) {
   var i,j;
   m.append("<nav>");
   for (i = 0;i < len; i++) {
-    m.append("<span class=menuitem onClick=\"get" + mitem[i] + "()\">" + mitem[i] + "</span>");
+    m.append("<span class=menuitem onClick=\"get" + mitem[i] + "()\">  " + mitem[i] + "  </span>");
   }
   m.append("</nav>");
   alert(len);
@@ -66,17 +68,16 @@ function getAbout() {
 }
 function getSubmit() {
   var thePrompt = window.open("", "", "width=450,height=300,location=0,toolbar=0, resizable=0,scrollbars=0");
-  var theHTML = "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><form><h2>Waverly Project Event Form</h2><h3>Enter password:</h3><input type=password id=karlheinz size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></body>"
-  thePrompt.document.documentElement.innerHTML = theHTML;
+  thePrompt.document.documentElement.innerHTML = promptHTML;
   thePrompt.document.getElementById("authOK").onclick = function () {
-    if ( thePrompt.document.getElementById("karlheinz").value != "stockhausen" )
+    if ( thePrompt.document.getElementById("krl").value != "stockhausen" )
     {
-      alert(location + "\n\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\" Try again.");
+      alert("\n"+quotes[0]+"\n\n Try again.");
     } else {
-      alert(location + "\nSucess!\n\n\"I no longer limit myself.\"\n\n Karlheinz Stockhausen");
+      alert("\nSucess!\n\n"+quotes[1]+"\n\n K. S.");
+      thePrompt.document.getElementById("maindiv").load("<div style='padding:10%'><iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w*0.7 + " height=" + h*0.8 + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe></div>");
       thePrompt.resizeTo(w*0.7, h*0.8);
       thePrompt.moveBy(w*0.2, h*0.2);
-      thePrompt.document.body.innerHTML("<div style='padding:10%'><iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w*0.7 + " height=" + h*0.8 + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe></div>");
     }
   }
 }
