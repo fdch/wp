@@ -6,12 +6,17 @@ var w, h, t, te; //width height content-target event-target
 var quotes = ["\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"", "\"I no longer limit myself.\""];
 var promptHTML = "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><h2>Waverly Project Event Form</h2><div id=maindiv><form><h3>Enter password:</h3><input type=password id=krl size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></div></body>";
 var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><div id=menu></div><div id=content></div>";
+
+
+var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>"
+var about = "<article><h3>About</h3><img src='img/about' height=180 /><div id=about-text></div><p>"+ aboutOutro +"</p><div id=karly></div></article>";
+var people = "<article><h3>People</h3><div id=people-list></div></article>";
+var links = "<article><h3>Links</h3><div id=links-text></div></article>";
 ////////////
 //// Loading glue
 ////////////
 function wpLoadEvent(x) {te.load("event/" + x);}
 function wpLoadId(x) {t.load(x.id);}
-function wpLoad(x) {t.load(x)}
 ////////////
 //// Menu functions
 ////////////
@@ -22,15 +27,13 @@ function makeMenu(m, len) {
     m.append("<span class=menuitem onClick=\"get" + mitem[i] + "()\">  " + mitem[i] + "  </span>");
   }
   m.append("</nav>");
-  alert(len);
 }
 function getEvents() {
-  var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>"
-  t.append(events);
+  t.load(events);
   te.load("event/menu");
 }
 function getPeople() {
-  t.append("<article><h3>People</h3><div id=people-list></div></article>");
+  t.load(people);
   jQuery.get('updates/people-list', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
@@ -40,7 +43,7 @@ function getPeople() {
   });
 }
 function getLinks() {
-  t.append("<article><h3>Links</h3><div id=links-text></div></article>");
+  t.load(links);
   jQuery.get('updates/links.md', function(data){
     line = data.split("\n");
     $.each(line, function(n, r) {
@@ -51,8 +54,7 @@ function getLinks() {
   });
 }
 function getAbout() {
-  var about = "<article><h3>About</h3><img src='img/about' height=180 /><div id=about-text></div><p>"+ aboutOutro +"</p><div id=karly></div></article>";
-  t.append(about);
+  t.load(about);
   jQuery.get('updates/about.txt', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
@@ -60,9 +62,11 @@ function getAbout() {
     });
   });
   for (i=0;i<13;i++) {
+    $("#karly").append("<p>");
     for (j=0;j<21;j++) {
-      if (k=j%i) $("#karly").append(k);
+      if (k=j%i) $("#karly").append(k+" ");
     }
+    $("#karly").append("</p>");
   }
   $("#karly").append("<img src='img/karly' onClick='wpLoad(Events)' height=99/>");
 }
