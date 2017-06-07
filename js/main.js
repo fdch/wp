@@ -13,14 +13,14 @@ function wpLoad(x) {t.load(x)}
 ////////////
 //// Menu functions
 ////////////
-function makeMenu(m) {
+function makeMenu(m, len) {
   var i,j;
   m.append("<nav>");
-  for (i = 0;i < mitem.lenght; i++) {
+  for (i = 0;i < len; i++) {
     m.append("<span class=menuitem onClick=\"get" + mitem[i] + "()\">" + mitem[i] + "</span>");
   }
   m.append("</nav>");
-  alert(mitem.lenght);
+  alert(len);
 }
 function getEvents() {
   var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>"
@@ -89,7 +89,7 @@ $(document).ready(function() {
   //Place elements
   $("head").append(meta);
   $("body").append([titleData,analytics]);
-  makeMenu($("#menu"));
+  makeMenu($("#menu"), mitem.length);
   //Shortcuts
   t = $("#content");
   te = $("#event-load");
