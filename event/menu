@@ -1,0 +1,5 @@
+<nav>
+<span id=2016-2017 onClick="wpLoadEvent(this);">[Season 2016-17]</span>
+<span id=2015-2016 onClick="wpLoadEvent(this);">[Season 2015-16]</span>
+<span id=2014-2015 onClick="wpLoadEvent(this);">[Season 2014-15]</span>
+</nav>

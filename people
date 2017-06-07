@@ -12,7 +12,7 @@ These names should match the names on the .jpg files in img/people/ like this:
 
 */
 function getContent() {
-  jQuery.get('people-list', function(data){
+  jQuery.get('/updates/people-list', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
       $("#people-list")

@@ -1,7 +1,7 @@
 $(function(){
   var w = $(window).width();
   var h = $(window).height();
-  var thePrompt = window.open("", "", "width=300,height=200,location=0,toolbar=0, resizable=0,scrollbars=0");
+  var thePrompt = window.open("", "", "width=450,height=300,location=0,toolbar=0, resizable=0,scrollbars=0");
   var theHTML = "<head><link rel=stylesheet href='css/style.css'></style><link rel='shortcut icon' href='img/favicon'></link><title>Waverly Project Event Form</title></head><body><form><h2>Waverly Project Event Form</h2><h3>Enter password:</h3><input type=password id=karlheinz size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></body>"
   thePrompt.document.documentElement.innerHTML = theHTML;
   thePrompt.document.getElementById("authOK").onclick = function () {

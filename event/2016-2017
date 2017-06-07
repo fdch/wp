@@ -5,58 +5,58 @@
 
 -->
 
-<div class="titles2 linkit" onclick="javascript:location.href='2017_02_10.php'">
+<div class="titles2 linkit" onclick="wpLoadEvent('2017_02_10')">
 <h3>February 10th, 2017</h3>
 <h4>Judy Klein</h4>
 <h5>Judy Klein will present some of her electroacoustic music pieces and talk about her approach to composing and the issues which are central to her work.</h5>
 <h6> 3pm, Room 220, NYU Music Department</h6>
 </div>
-<div class="titles2 linkit" onclick="javascript:location.href='2017_02_09.php'">
+<div class="titles2 linkit" onclick="wpLoadEvent('2017_02_09')">
 <h3>February 14th, 2017</h3>
 <h4>TUBA THURSDAY: Jack Adler-McKean</h4>
 <h5>Works by Daverson, Kourliandski, Howard, Johnson, Aperghis</h5>
 </div>
-<div class="titles2 linkit" onclick="javascript:location.href='2017_02_16.php'">
+<div class="titles2 linkit" onclick="wpLoadEvent('2017_02_16')">
 <h3>February 16th, 2017</h3>
 <h4>Ine Vanoeveren</h4>
 <h5>Works by Brian Ferneyhough, Cesare Saldicco, James Bean, Fernanda Navarro, Bernardo Barros</h5>
 </div>
-<div class="titles2 linkit" onclick="javascript:location.href='2017_03_04.php'">
+<div class="titles2 linkit" onclick="wpLoadEvent('2017_03_04')">
 <h3>February 28th, 2017</h3>
 <h4>Almost Credible Music</h4>
 <h5>Works by Vitalija Glovackyte, Joe Snape</h5>
 <h6>8pm NYU GSAS Music 220</h6>
 </div>
-<div class="titles2 linkit" onclick="javascript:location.href='2017_03_28.php'">
+<div class="titles2 linkit" onclick="wpLoadEvent('2017_03_28')">
 <h3>March 28th, 2017</h3>
 <h4>Thomas Rosenkranz</h4>
 <h5>Works by J.S. Bach, Gyorgy Ligeti, Peter Ablinger, Anton Webern, Stefan Prins, Michael Rose</h5>
 </div>
-<div class="titles2 linkit" onclick="javascript:location.href='2017_03_29.php'">
+<div class="titles2 linkit" onclick="wpLoadEvent('2017_03_29')">
 <h3>March 29th, 2017</h3>
 <h4>Momenta Quartet with Nefeli Mousoura (piano)</h4>
 <h5>Works by Angelakis, Mozart</h5>
 <h6>8pm Dimenna Center for Classical Music - Cary Hall</h6>
 </div>
-<div class="titles2 linkit" onclick="javascript:location.href='2017_03_31.php'">
+<div class="titles2 linkit" onclick="wpLoadEvent('2017_03_31')">
 <h3>March 31st, 2017</h3>
 <h4>T.J. Borden, cello; James Bean and Paul Hembree, electronics</h4>
 <h5>Works by Ferneyhough, Hembree, Bean, Roy, Lyle</h5>
 <h6>8pm NYU Silver Building r.220</h6>
 </div>
-<div class="titles2 linkit" onclick="javascript:location.href='2017_04_06.php'">
+<div class="titles2 linkit" onclick="wpLoadEvent('2017_04_06')">
 <h3>April 6th, 2017</h3>
 <h4>JACK Quartet</h4>
 <h5>Works by Jue Wang, Michael Rose, Viola Yip, Bernardo Barros</h5>
 <h6>8pm Cary Hall, The DiMenna Center for Classical Music</h6>
 </div>
-<div class="titles2 linkit" onclick="javascript:location.href='2017_04_07.php'">
+<div class="titles2 linkit" onclick="wpLoadEvent('2017_04_07')">
 <h3>April 7th, 2017</h3>
 <h4>Talea Ensemble</h4>
 <h5>new works by Joel Rust, Vasiliki Krimitza, Ioannis Angelakis, Fede Cámara Halac</h5>
 <h6>8pm Cary Hall, The DiMenna Center for Classical Music</h6>
 </div>
-<div class="titles2 linkit" onclick="javascript:location.href='2017_05_02.php'">
+<div class="titles2 linkit" onclick="wpLoadEvent('2017_05_02')">
 <h3>April 24th, 2017</h3>
 <h4>Marco Fusi</h4>
 <h5>Works by Pierluigi Billone, Viola Yip, Joel Rust</h5>
@@ -69,74 +69,74 @@
 
 -->
 
-<div class="titles2 linkold" onclick="javascript:location.href='2016_09_29.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2016_09_29')">
 <h3>September 29th, 2016</h3>
 <h4>Tak</h4>
 <h5>Works by Ioannis Angelakis, Fede Camara Halac, Michael Rose, Joel Rust and Viola Yip</h5>
 <h6>8pm NYU Waverly Building r.220</h6>
 </div>
-<div class="titles2 linkold" onclick="javascript:location.href='2016_10_12b.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2016_10_12b')">
 <h3>October 12th, 2016</h3>
 <h4>Georgina Born</h4>
 <h5>Presentation: “Beyond the Sound Object: on nonhuman sound”</h5>
 <h6>10:00 - 12:00 am NYU Silver Building r.365</h6>
 </div>
-<div class="titles2 linkold" onclick="javascript:location.href='2016_10_12.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2016_10_12')">
 <h3>October 12th, 2016</h3>
 <h4>Timucin Sahin's "Flow State"</h4>
 <h5>With Cory Smythe (Piano) and Christopher Tordini (Bass)</h5>
 <h6>8 pm NYU Waverly Building r.220</h6>
 </div>
 
-<div class="titles2 linkold" onclick="javascript:location.href='2016_10_17.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2016_10_17')">
 <h3>October 17th, 2016</h3>
 <h4>Timucin Sahin Trio</h4>
 <h5>With Mark Ferber (Drums) and Matt Pavolka (Bass)</h5>
 <h6>8:30 pm NYU Silver Building r.365</h6>
 </div>
 
-<div class="titles2 linkold" onclick="javascript:location.href='2016_10_25.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2016_10_25')">
 <h3>October 25th, 2016</h3>
 <h4>scapegoat</h4>
 <h5>Works by Santiago Díez Fischer, Mauricio Pauly, Fede Camara Halac</h5>
 </div>
-<div class="titles2 linkold" onclick="javascript:location.href='2016_11_17.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2016_11_17')">
 <h3>November 17, 2016</h3>
 <h4>Rage Thormbones</h4>
 <h5>Weston Olencki and Matt Barber will give the NY premiere of Fede Camara Halac's <i>Ciudad Invertida / Inverted City</i></h5>
 <h6>8pm ShapeShifter Lab - PdCon16~</h6>
 </div>
-<div class="titles2 linkold" onclick="javascript:location.href='2016_11_30.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2016_11_30')">
 <h3>November 30, 2016 (5pm)</h3>
 <h4>Nils Vigeland</h4>
 <h5>Presentation on his works</h5>
 <h6>5 pm NYU Waverly Building r.220</h6>
 </div>
 
-<div class="titles2 linkold" onclick="javascript:location.href='2016_12_02.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2016_12_02')">
 <h3>December 2, 2016</h3>
 <h4>"They Shoot Lasers, Don't They? Electronic Music with Instruments of Interferometry"</h4>
 <h5>Duo Creosota: Joe Mariglio and Adam Tinkle</h5>
 </div>
-<div class="titles2 linkold" onclick="javascript:location.href='2016_12_06.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2016_12_06')">
 <h3>December 6th, 2016</h3>
 <h4>Timucin Sahin Trio</h4>
 <h5>With Mark Ferber (Drums) and Matt Pavolka (Bass)</h5>
 <h6>8 pm NYU Silver Building r.365</h6>
 </div>
-<div class="titles2 linkold" onclick="javascript:location.href='2016_12_13.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2016_12_13')">
 <h3>December 13th, 2017</h3>
 <h4>DCNSTRCTD</h4>
 <h5>Works by Stockhausen, Ulus, Kagel, Sciarrino, McCormack, Maierhof</h5>
 <h5>Carlos Cordeiro, clarinets</h5>
 </div>
 	
-<div class="titles2 linkold" onclick="javascript:location.href='2017_01_26.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2017_01_26')">
 <h3>January 26, 2017</h3>
 <h4>Dal Niente</h4>
 <h5>Works by Carola Bauckholt, Augusta Read Thomas, Takuma Tanikawa, Joël-François Durand, Alex Temple, Alican Çamci, Franco Donatoni</h5>
 </div>
-<div class="titles2 linkold" onclick="javascript:location.href='2017_01_28.php'">
+<div class="titles2 linkold" onclick="wpLoadEvent('2017_01_28')">
 <h3>January 28, 2017</h3>
 <h4>fd~ lucatelli </h4>
 <h5>An afternoon of incidental noise. Performance / Installation / Conceptual // This event is cancelled until further notice</h5>

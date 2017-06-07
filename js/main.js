@@ -9,7 +9,9 @@ function layoutSetup() {
 	//languagesMenu();
 }
 //loads the id of the element passed on the content div 
-
+function wpLoadEvent(x) {
+	$("#event-load").load(x);
+}
 function wpLoadId(x) {
 	myID = x.id;
 	$("#content").load(myID,layoutSetup());
