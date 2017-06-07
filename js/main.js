@@ -15,11 +15,11 @@ function wpLoad(x) {t.load(x)}
 function makeMenu(m) {
   var i,j;
   m.append("<nav>");
-  for (i = 0, j = menuitems.lenght; i < j; i++) {
-    m.append("<span class=menuitem onClick=\"get" + menuitems[i] + "()\">" + menuitems[i] + "</span>");
+  for (i = 0;i < window.menuitems.lenght; i++) {
+    m.append("<span class=menuitem onClick=\"get" + window.menuitems[i] + "()\">" + window.menuitems[i] + "</span>");
   }
   m.append("</nav>");
-  alert(j);
+  alert(window.menuitems.lenght);
 }
 function getEvents() {
   var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>"
