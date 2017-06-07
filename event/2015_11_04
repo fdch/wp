@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Takao Hyakutome</h3>
 <h4>November 4th, 2015</h4>
-<a href="images/2015-2016/takao.png"><img src="images/2015-2016/takao-thumb.jpg" /></a>
+<a href="../img/2015-2016/takao.png"><img src="../img/2015-2016/takao-thumb.jpg" /></a>
 <h5>Takao Hyakutome, violin</h5>
 <h5>Program:</h5>
 <ul>
@@ -13,4 +12,4 @@
 				
 <h6><a href="https://www.google.com/maps/place/MISE-EN_PLACE" target="_blank">Mise-En Place</a></h6>	
 
-<?php include("tailproperties.php"); ?>
+</article>

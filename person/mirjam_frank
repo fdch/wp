@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Mirjam Frank</h3>
 <div class="imagetop">
-<a href="images/2014-2015/mirjamfrank.jpg"><img src="images/2014-2015/mirjamfrank-thumb.jpg" title="Mirjam Frank"/></a>
+<a href="../img/2014-2015/mirjamfrank.jpg"><img src="../img/2014-2015/mirjamfrank-thumb.jpg" title="Mirjam Frank"/></a>
 </div>
 <h4><a href="http://www.mirjam-frank.com" target="_blank">www.mirjam-frank.com</a></h4>
 <p>Mezzo-Soprano Mirjam Frank currently lives in New York City where she is a PhD candidate in Musicology at NYU and recipient of the MacCracken fellowship.</p><p>
@@ -12,4 +11,4 @@ Mirjam holds a MSt in Music (Performance) from the University of Oxford (2012), 
 Mirjam has participated in coachings and master classes with prolific musicians like Malcolm Martineau, Ann Murray, Robin Bowman, Kurt Widmer and Roger Vignoles.</p><p>
 Mirjam grew up in Augsburg/Germany where she gained her first and formative performance experiences at the Theater Augsburg (2003-2007), which mainly included repertoire for Brechtian theatre and Cabaret. Roles performed as actress include Andromache in Troades (Euripides), a fairy in Shakespeare's A Midsummer Night's Dream and Agave in The Bacchae (Euripides). Mirjam currently studies with soprano Judith Natalucci.</p>
 				
-<?php include("tailproperties.php"); ?>
+</article>

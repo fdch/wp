@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Timucin Sahin</h3>
 <h4>March 29th, 2016</h4>
-<a href="images/2015-2016/timucin-concert.jpg"><img src="images/2015-2016/timucin-concert-thumb.jpg" /></a>
+<a href="../img/2015-2016/timucin-concert.jpg"><img src="../img/2015-2016/timucin-concert-thumb.jpg" /></a>
 <h5>Program:</h5>
 
 <h5>Timucin Sahin 4:</h5>
@@ -23,4 +22,4 @@
 
 <h6>NYU GSAS Music 356</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

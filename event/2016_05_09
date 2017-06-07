@@ -1,6 +1,5 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Chaya Czernowin</h3>
 <h4>May 9th, 2016</h4>
 <img src="http://nyu-waverlylabs.org/wp-content/uploads/2016/05/chaya1-300x200.jpg" height="300"/>
@@ -9,4 +8,4 @@
 
 <h6>NYU GSAS Music 220 | 365</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

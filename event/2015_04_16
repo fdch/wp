@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Talea Ensemble</h3>
 <h4>April 16th, 2015</h4>
-<a href="images/2014-2015/talea1.jpg"><img src="images/2014-2015/talea1-thumb.jpg"/></a>
+<a href="../img/2014-2015/talea1.jpg"><img src="../img/2014-2015/talea1-thumb.jpg"/></a>
 <h5>Program:</h5>
 <ul>
 <li>
@@ -43,4 +42,4 @@
 
 <h6><a href="http://www.csvcenter.org" target="_blank">Clemente Soto Velez Cultural Center</a></h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

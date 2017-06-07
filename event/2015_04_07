@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Pierluigi Billone</h3>
 <h4>April 7th, 2015</h4>
-<a href="images/2014-2015/pierluigi_billone.jpg"><img src="images/2014-2015/pierluigi_billone-thumb.jpg" alt="Pierluigi Billone" title="Photo: Benjamin Chelly"/></a>
+<a href="../img/2014-2015/pierluigi_billone.jpg"><img src="../img/2014-2015/pierluigi_billone-thumb.jpg" alt="Pierluigi Billone" title="Photo: Benjamin Chelly"/></a>
 <h5>Lecture | Masterclass</h5>
 <p>Born in 1960 in Italy, Pierluigi Billone lives in Vienna. He studied composition with Salvatore Sciarrino and Helmut Lachenmann. Billone's music has been performed by ensembles such as Klangforum Wien, Ensemble Intercontemporain, Ensemble Modern, Ensemble Recherche, Instant Donn&eacute;, Ensemble Contrechamps and others in festivals such as Donaueschinger Musiktage, Wien Modern, Wittener Tage fur neue Kammermusik, Ars Musica Bruxelles, Festival d'Automne &agrave; Paris. His music is regularly broadcasted from the most important radios in and beyond Europe. <a href="pierluigi_billone.php">Read more...</a></p>
 
@@ -11,4 +10,4 @@
 
 <?php include("slideshow-billone.html"); ?>
 
-<?php include("tailproperties.php"); ?>
+</article>

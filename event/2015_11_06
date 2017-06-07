@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Violin + electronics + improvisation</h3>
 <h4>November 6th, 2015</h4>
-<a href="images/2015-2016/free-improv.jpg"><img src="images/2015-2016/free-improv-thumb.jpg"/></a>
+<a href="../img/2015-2016/free-improv.jpg"><img src="../img/2015-2016/free-improv-thumb.jpg"/></a>
 <h5>Takao Hyakutome, violin</h5>
 <h5>Bernardo Barros, electronics</h5>
 <h5>Jaime Oliver La Rosa, electronics</h5>
@@ -13,4 +12,4 @@
 
 <h6>NYU GSAS Music 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

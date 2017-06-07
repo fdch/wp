@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>DCNSTRCTD</h3>
 <h4>December 13th, 2016</h4>
-<a href="images/2016-2017/cordeiro.jpg"><img src="images/2016-2017/cordeiro.jpg"/></a>
+<a href="../img/2016-2017/cordeiro.jpg"><img src="../img/2016-2017/cordeiro.jpg"/></a>
 <h5>Carlos Cordeiro, clarinets</h5>
 <h5 class="concert-program">Program:</h5>
 <ul>
@@ -18,4 +17,4 @@
 <p>Free admission</p>
 <h6>8pm NYU Silver Building room 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

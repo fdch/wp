@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Ine Vanoeveren</h3>
 <h4>February 16th, 2017</h4>
-<a href="images/2016-2017/ine.jpg"><img src="images/2016-2017/ine-thumb.jpg"/></a>
+<a href="../img/2016-2017/ine.jpg"><img src="../img/2016-2017/ine-thumb.jpg"/></a>
 <h5>Ine Vanoeveren, flute</h5>
 <h5 class="concert-program">Program:</h5>
 <ul class="concert-program">
@@ -15,4 +14,4 @@
 <li>Bernardo Barros: new work (2017) * world premiere</li>
 </ul>
 
-<?php include("tailproperties.php"); ?>
+</article>

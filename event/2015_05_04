@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Marcella Lucatelli</h3>
 <h4>May 4th, 2015</h4>
-<a href="images/2014-2015/lucatelli.jpg"><img src="images/2014-2015/lucatelli-thumb.jpg"/></a>
+<a href="../img/2014-2015/lucatelli.jpg"><img src="../img/2014-2015/lucatelli-thumb.jpg"/></a>
 <h5>Program: Download the print version <a href="graphics/program-lucatelli.pdf" target="_blank">here</a></h5>
 
 <h5>*Gestus Kanto-GlyTkH* : THE UNAWAITED</h5>
@@ -13,6 +12,4 @@
 
 <h6>NYU GSAS Music 220</h6>
 
-
-
-<?php include("tailproperties.php"); ?>
+</article>

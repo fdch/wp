@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>T.J. Borden, James Bean & Paul Hembree</h3>
 <h4>March 31st, 2017</h4>
-<a href="images/2016-2017/tj-concert.jpg"><img src="images/2016-2017/tj-concert.jpg"/></a>
+<a href="../img/2016-2017/tj-concert.jpg"><img src="../img/2016-2017/tj-concert.jpg"/></a>
 <h5>T.J. Borden, cello; James Bean and Paul Hembree, electronics</h4>
 <h5 class="concert-program">Program:</h5>
 <ul>
@@ -31,4 +30,4 @@ In 2015 he received his PhD in music, specializing in composition and computer m
 <p>Free admission</p>
 <h6>8pm NYU Silver Building room 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

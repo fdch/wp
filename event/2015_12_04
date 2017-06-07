@@ -1,6 +1,5 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Mei Ann Teo</h3>
 <h4>December 4th, 2015</h4>
 <img src="http://meiannteo.com/wp-content/uploads/2013/06/sideBW_lores-200x300.jpg"/>
@@ -9,4 +8,4 @@
 
 <h6>NYU GSAS Music 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

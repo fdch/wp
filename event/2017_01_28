@@ -1,26 +1,25 @@
 
-<?php include("headproperties.php"); ?>
-	
+<article>	
 <h3>An Afternoon of Incidental Noise</h3>
 <h4>January 28th, 2017</h4>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
-<a href="images/2016-2017/incidental.jpg"><img src="images/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
+<a href="../img/2016-2017/incidental.jpg"><img src="../img/2016-2017/incidental-thumb.jpg"/></a>
 <h5>Marcela Lucatelli</h5>
 <h5>Fede Camara Halac</h5>
 <h5>Adele Fournet</h5>
@@ -37,4 +36,4 @@ LIGHTS: there are 2 projectors covering as much of the room as possible. There w
 <a href="http://www.fedecamarahalac.com/" target="_blank">fedecamarahalac.com</a>
 <h6>NYU GSAS Music 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Steven Takasugi</h3>
 <h4>March 10th, 2015</h4>
-<a href="images/2014-2015/takasugi.jpg"><img src="images/2014-2015/takasugi-thumb.jpg"/></a>
+<a href="../img/2014-2015/takasugi.jpg"><img src="../img/2014-2015/takasugi-thumb.jpg"/></a>
 <h5>Lecture | Masterclass</h5>
 <p>Steven Takasugi will be giving a lecture on his music and a composition masterclass in which the works of three composers will be discussed in public. <a href="steven_takasugi.php">Read more...</a></p>
 
@@ -11,4 +10,4 @@
 
 <?php include("slideshow-takasugi.html"); ?>
 
-<?php include("tailproperties.php"); ?>
+</article>

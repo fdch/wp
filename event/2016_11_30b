@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Timucin Sahin's "Flow State"</h3>
 <h4>November 30th, 2016</h4>
-<a href="images/timucin_sahin.jpg"><img src="images/timucin_sahin-thumb.jpg"/></a>
+<a href="../img/timucin_sahin.jpg"><img src="../img/timucin_sahin-thumb.jpg"/></a>
 <h5>Cory Smythe, piano</h5>
 <h5>Christopher Tordini, bass</h5>
 <h5>Timucin Sahin, 7 String fretless & 6 string fretted guitars, live electronics, compositions</h5>
@@ -15,7 +14,7 @@
 <p>Free admission</p>
 <h6>8pm NYU Waverly Building room 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>
 
 
 

@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Scapegoat</h3>
 <h4>October 25th, 2016</h4>
-<a href="images/2016-2017/scapegoat.jpg"><img src="images/2016-2017/scapegoat-thumb.jpg"/></a>
+<a href="../img/2016-2017/scapegoat.jpg"><img src="../img/2016-2017/scapegoat-thumb.jpg"/></a>
 <h5>Noam Bierstone, percussion</h5>
 <h5>Joshua Hyde, saxophone</h5>
 <h5 class="concert-program">Program:</h5>
@@ -15,4 +14,4 @@
 
 <h6>NYU GSAS Music 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

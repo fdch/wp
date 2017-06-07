@@ -1,11 +1,10 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Gordon Beeferman</h3>
 <div class="imagetop">
-<a href="images/beeferman.jpg"><img src="images/beeferman-thumb.jpg" alt="Gordon Beeferman" title="Photo: Sebastian Collett"/></a>
+<a href="../img/beeferman.jpg"><img src="../img/beeferman-thumb.jpg" alt="Gordon Beeferman" title="Photo: Sebastian Collett"/></a>
 </div>
 <h4> <a href="http://www.gordonbeeferman.com" target="_blank">www.gordonbeeferman.com</a></h4>
 <p>Composer/pianist GORDON BEEFERMAN's work spans opera, orchestral and chamber music, improvisation, and collaborations with dance and other arts. Beeferman leads two groups which perform his compositions: Other Life Forms, a quartet, and Music for an Imaginary Band, a septet, a "commanding avant-jazz ensemble "(Time Out New York). His chamber opera The Rat Land, written with librettist Charlotte Jackson, was praised as “complex and daringly modern” by The New York Times. He and Jackson are currently completing their second collaboration, The Enchanted Organ: A Porn Opera, scenes of which have been performed to sold-out theater and nightclub audiences in downtown Manhattan. Beeferman's music has been commissioned and/or performed by the New York City Opera orchestra, Momenta Quartet, American Brass Quintet, Minnesota Orchestra, Albany Symphony, California EAR Unit, and others. He has received commissions from the Fromm Foundation, the BMI Foundation, and Concert Artists Guild, three BMI Student Composer Awards, a Tanglewood fellowship, and residencies at the MacDowell Colony, Yaddo the Copland House, and (in 2015) at Ucross. As a pianist he has performed at Roulette, MATA, the Vision Festival, and on tour with the Philip Glass Ensemble in "Einstein on the Beach", as well as in recent AIDS Quilt Songbook concerts that he has co-curated in NYC and Philadelphia. Beeferman's newest recording, Four Parts Five", an intense half-hour quintet composition that straddles minimalist, modernist, and avant-jazz aesthetics, will be released this spring on the Infrequent Seams label.</p>
 
-<?php include("tailproperties.php"); ?>
+</article>

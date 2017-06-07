@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Jue Wang</h3>
 <div class="imagetop">
-<a href="images/juewang.jpg"><img src="images/juewang-thumb.jpg" class="centerimage vertical"/></a>
+<a href="../img/juewang.jpg"><img src="../img/juewang-thumb.jpg" class="centerimage vertical"/></a>
 </div>
 <h4><a href="http://www.juewang.org" target="_blank">www.juewang.org</a></h4>
 <p>Jue Wang is a composer based in New York City. Her recent compositions have focused on expanding the theatrical dimension of musical performance. She also explores other dramatic forms of performance including magic shows, puppetry and 3D projection. In 2014 she composed a work of immersive musical theater titled It’s a Secret Performance as a collaboration with composer Adam Mirza and other musicians. </p>
@@ -12,4 +11,4 @@
 <p>Ms. Wang has been honored with performances of her music throughout China, United States and Europe by ensembles including Jack Quartet, Momenta Quartet, Loadbang, Orchestra of the League of Composers, Krulik Quartet and the vocalist Thomas Buckner.  A review by Cleveland Classical in 2012 has described her as “having a sensitive ear and original voice ... is surely someone we will be hearing much about in the future”.  In the same year, her chamber opera, Scholar, Monk, Snake, was selected by the Center for Contemporary Opera to be performed in NYC. </p>
 <p>Jue received her B.M. degree at Oberlin Conservatory, studied composition with Professor Lewis Nielson and piano with Lydia Frumkin. Currently, she is studying at New York University in the composition doctoral program with Professor Louis Karchin, Jamie Oliver and Elizabeth Hoffman.  </p>
 
-<?php include("tailproperties.php"); ?>
+</article>

@@ -1,12 +1,11 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Efrain Rozas</h3>
 <div class="imagetop">
-<a href="images/efrain.jpg"><img src="images/efrain-thumb.jpg" alt="Efrain Rozas"/></a>
+<a href="../img/efrain.jpg"><img src="../img/efrain-thumb.jpg" alt="Efrain Rozas"/></a>
 </div>
 <h4><a href="http://www.efrainrozas.com"target="_blank">www.efrainrozas.com</a></h4>
 <p>Efraín Rozas is an award winning Peruvian musician/researcher, specialized in the combination of new technologies and Latin American genres. He is a PhD candidate in composition and ethnomusicology at New York University, funded by the McCracken fellowship. He has published the book/video documentary “Fusión: a soundtrack for Peru”, and has released several records internationally via Names You can Trust, the Ethnomusicology Institute of Peru and the Embassy of Spain. He has performed at the Brooklyn Museum, Queens Museum, and played with his band “La Mecánica Popular” at Central Park Summerstage Fania Records 50th anniversary in New York, and the Levitation Festival.  He has worked as a teacher in different institutions including the New York University, and was a consultant for the National Institute of Culture of Peru and has hosted/produced radio for 10 years, with his show “La Vuelta al día en 80 mundos”. His work has been featured at CNN, BBC, Washington post, Daily News and NPR Soundcheck.  As a DJ he has performed in some of the most interesting venues in NYC including the Lincoln Center. Read more at: www.efrainrozas.com
 </p>
 
-<?php include("tailproperties.php"); ?>
+</article>

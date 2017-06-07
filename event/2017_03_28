@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Thomas Rosenkranz</h3>
 <h4>March 28th, 2017</h4>
-<a href="images/2016-2017/rosenkranz.jpg"><img src="images/2016-2017/rosenkranz-thumb.jpg"/></a>
+<a href="../img/2016-2017/rosenkranz.jpg"><img src="../img/2016-2017/rosenkranz-thumb.jpg"/></a>
 <h5>Thomas Rosenkranz, piano</h5>
 <h5 class="concert-program">Program:</h5>
 
@@ -18,4 +17,4 @@
 
 <h6>NYU GSAS Music 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

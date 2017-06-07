@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Rage Thormbones present Ciudad Invertida</h3>
 <h4>November 17th, 2016</h4>
-<a href="images/2016-2017/ciudad_invertida.jpg"><img src="images/2016-2017/ciudad_invertida.jpg"/></a>
+<a href="../img/2016-2017/ciudad_invertida.jpg"><img src="../img/2016-2017/ciudad_invertida.jpg"/></a>
 <h5 class="concert-program"><a href="http://www.ragethormbones.rocks/" target="_blank">Rage Thormbones</a></h5>
 <p>RAGE THORMBONES IS A COLLABORATION BETWEEN TROMBONISTS MATT BARBIER AND WESTON OLENCKI. IT IS A BLOG RESOURCE, A COMMISSIONING RESOURCE, AN ANNOYING RESOURCE, AND A RESOURCE THAT CONSISTENTLY PUSHES THE EXTREMES OF BRASS TECHNIQUES. RAGE HAS RECORDED FOR HATHUT RECORDS AND WILL BE IN RESIDENCE AT BOTH HARVARD AND STANFORD UNIVERSITIES IN 2017.
 </p>
@@ -17,4 +16,4 @@ Premiered by Rocio Elizalde and Manuel Pastrana, on 08/20/2015 at B3CIM, CePIA, 
 <p>Free admission</p>
 <h6>8pm ShapeShifter Lab - <a href="http://www.nyu-waverlylabs.org/pdcon16" target="_blank">PdCon16~</a></h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Arthur Kampela</h3>
 <h4>October 16th, 2015</h4>
-<img src="http://www.kampela.com/images/arthur%2002.jpg" height="300"/>
+<img src="http://www.kampela.com/../img/arthur%2002.jpg" height="300"/>
 <h5>Lecture/Masterclass</h5>
 <h5>Timbre, Ergonomics and Micro-metric Modulations: A compositional Assesment</h5>
 <h5>Extended-Techniques, Ergonomics, Micro-metric Modulation, Risk/Subversion/Imagination/Insight</h5>
@@ -13,4 +12,4 @@
 
 <?php include("slideshow-kampela.html"); ?>
 
-<?php include("tailproperties.php"); ?>
+</article>

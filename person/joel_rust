@@ -1,12 +1,11 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Joel Rust</h3>
 <div class="imagetop">
-<a href="images/joelphoto.jpg"><img src="images/joelphoto-thumb.jpg" class="centerimage" alt="Joel Rust" /></a>
+<a href="../img/joelphoto.jpg"><img src="../img/joelphoto-thumb.jpg" class="centerimage" alt="Joel Rust" /></a>
 </div>
 <h4><a href="http://www.joelrust.com" target="_blank">www.joelrust.com</a></h4>
 <p>Joel Rust's music is interested in slow transformations and sudden juxtapositions, the relationships between sounds, texts and images, and creating textures that exist on the boundaries between melody and harmony. He has received commissions from the Melos Sinfonia, the Choir of Gonville & Caius College, Cambridge, Filthy Lucre, Discantus, and Mr McFall’s Chamber. His music has been performed throughout the UK, in France, Holland, Germany, Israel, and the USA, and has been broadcast on BBC Radio 3, Radio France Musique, and Radio 4 (Netherlands). In March 2014, Discantus released his work for six female voices, sunt etenim pennae volucres mihi, on their CD 'Music for a King'.</p>
 <p>Joel is currently studying for a Doctorate at New York University. In 2013 he gained a Master's with Distinction at the Guildhall School of Music and Drama, where he studied with Julian Anderson, supported by the RVW Trust and the Leverhulme Trust. He graduated from the Emmanuel College, Cambridge, where he studied composition with Robin Holloway, in 2011, with a double-starred First, before spending a year at Harvard on a Herchel Smith Scholarship.</p>
 
-<?php include("tailproperties.php"); ?>
+</article>

@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Vasiliki Krimitza</h3>
 <div class="imagetop">
-<a href="images/vasiliki.jpg"><img src="images/vasiliki-thumb.jpg" alt="Vasiliki Krimitza"/></a>
+<a href="../img/vasiliki.jpg"><img src="../img/vasiliki-thumb.jpg" alt="Vasiliki Krimitza"/></a>
 </div>
 <p>Vasiliki Krimitza was born in 1989 in Athens. As a child she had a tight relationship with music (piano, flute, voice and tambouras).
 </p>
@@ -13,4 +12,4 @@
 </p>
 <p>She participated in several master courses and composition seminars with B. Ferneyhough, G. F. Haas, H. Thomalla, I. Mundry, M. Spahlinger, St. Reich, B. Furrer, Kl. Huber, P. Ablinger, Cl. Gadenstätter, A. Schlünz, F. Nieder and others. She also participated in the Donaueschinger Musiktagen ‚‚Next Generation‘‘ program 2011, in the ‚‚Next Generation‘‘ concerts in ZKM Karlsruhe and in the Darmstädter Ferienkurse für Neue Musik 2012.
 </p>
-<?php include("tailproperties.php"); ?>
+</article>

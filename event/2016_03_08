@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>UMS n' JIP</h3>
 <h4>March 8th, 2016</h4>
-<img src="images/2015-2016/jip-thumb.jpg"/>
+<img src="../img/2015-2016/jip-thumb.jpg"/>
 <h5>Lecture | Recital</h5>
 <p>UMS 'n JIP, voice-recorder duo from Switzerland, is giving a lecture recital with works by Luis Cofera, Panayiotis Kokoras, George Aperghis, Adam Roberts, Du Yun and Javier Hagen. With their unique instrumentation, they are also going to talk about their ongoing research project and discuss anything that you are curious about them! </p>
 <p>UMS 'n JIP ['umsnjip]. Founded by Ulrike Mayer-Spohn [UMS] and Javier Hagen [JIP/Javier-Ignacio Palau-Ribes], UMS 'n JIP is one of the most active and experienced contemporary music ensembles worldwide involved in >100 international events annually, including mobile chamber operas & multimedia performances. They can look back on more than 700 concerts and 150 commissioned works since 2007.</p>
@@ -13,4 +12,4 @@
 
 <h6>NYU GSAS Music 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

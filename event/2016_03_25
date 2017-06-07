@@ -1,6 +1,5 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>George Lewis</h3>
 <h4>March 22nd - 25th, 2016</h4>
 <img src="http://music.columbia.edu/sites/default/files/styles/full/public/headshots/georgelewis6b-emilyperagine-web_0.jpg?itok=x4Fa9lqS" height="300"/>
@@ -10,4 +9,4 @@
 
 <h6>NYU GSAS Music 220 | 356</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Marco Fusi</h3>
 <h4>April 24th 2017</h4>
-<a href="images/2016-2017/marco.jpg"><img src="images/2016-2017/marco-thumb.jpg" title="Photo: @marcosartirana"/></a>
+<a href="../img/2016-2017/marco.jpg"><img src="../img/2016-2017/marco-thumb.jpg" title="Photo: @marcosartirana"/></a>
 <h5>Marco Fusi, violin and viola d'amore</h5>
 <h5 class="concert-program">Program:</h5>
 
@@ -15,4 +14,4 @@
 
 <h6>Casa Italiana Zerilli / Marimò</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

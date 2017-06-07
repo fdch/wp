@@ -1,5 +1,4 @@
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Fede Camara Halac</h3>
 <div class="imagetop">
 <a href="http://www.fedecamarahalac.com/bio-pic.jpg"><img src="http://www.fedecamarahalac.com/bio-pic-thumb.jpg"   alt="Fede Camara Halac" title="Photo: Aye Savid"/></a>
@@ -10,4 +9,4 @@
 </p>
 
 
-<?php include("tailproperties.php"); ?>
+</article>

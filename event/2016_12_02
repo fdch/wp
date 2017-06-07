@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>"They Shoot Lasers, Don't They? Electronic Music with Instruments of Interferometry"</h3>
 <h4>December 2nd, 2016</h4>
-<a href="images/2016-2017/cresota.jpg"><img src="images/2016-2017/cresota.jpg"/></a>
+<a href="../img/2016-2017/cresota.jpg"><img src="../img/2016-2017/cresota.jpg"/></a>
 <h5>Duo Creosota: Joe Mariglio and Adam Tinkle</h5>
 <h5 class="concert-program">Program:</h5>
 <p>They Shoot Lasers, Don't They?: Electronic Music with Instruments of Interferometry employs a sculptural assemblage of balloons, transducers, vibrated water, and an overhead projector to create a visceral audio-visual experience evocative of 60s liquid visuals and Kubrickian space travel. Developed out of Joe Mariglio's doctoral research and inveterate penchant for instrument invention, the piece explores the musical applications of laser microphones--little used in the arts and most famous as Cold War-era spy tools-- to probe and activate a multisensory continuum of vibration, invoking cymatics and inducing feedback that freely crosses back and forth between forms of energy--light, water waves, sparkling rhythms, blistering tones, and the tactile heave of the lower frequencies.
@@ -22,7 +21,7 @@ As the duo Creosota, Joe and Adam's collaboration began at Wesleyan University, 
 <p>Free admission</p>
 <h6>8pm NYU Silver Building Room 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>
 
 
 

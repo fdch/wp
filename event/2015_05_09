@@ -1,10 +1,9 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Dafna Naphtali + Hans Tammen</h3>
 <h4>May 9th, 2015</h4>
-<a href="images/2014-2015/dafna.jpg"><img src="images/2014-2015/dafna-thumb.jpg"/></a>
-<a href="images/2014-2015/tammen.jpg"><img src="images/2014-2015/tammen-thumb.jpg"/></a>
+<a href="../img/2014-2015/dafna.jpg"><img src="../img/2014-2015/dafna-thumb.jpg"/></a>
+<a href="../img/2014-2015/tammen.jpg"><img src="../img/2014-2015/tammen-thumb.jpg"/></a>
 <h5>Dafna Naphtali - live sound processing & voice</h5>
 <h5>Hans Tammen - endangered guitar</h5>
 
@@ -16,4 +15,4 @@
 
 <h6>NYU GSAS Music 220</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>

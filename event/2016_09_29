@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Tak</h3>
 <h4>September 29th, 2016</h4>
-<a href="images/2015-2016/tak.jpg"><img src="images/2015-2016/tak-thumb.jpg"/></a>
+<a href="../img/2015-2016/tak.jpg"><img src="../img/2015-2016/tak-thumb.jpg"/></a>
 <h5>Laura Cocks, flutes</h5>
 <h5>Ellery Trafford, percussion</h5>
 <h5>Charlotte Mundy, soprano</h5>
@@ -22,4 +21,4 @@
 <h6>NYU GSAS Music 220</h6>
 
 
-<?php include("tailproperties.php"); ?>
+</article>

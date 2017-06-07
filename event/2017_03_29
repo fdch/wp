@@ -1,10 +1,9 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>MOZART | DECONSTRUCTION</h3>
 <h4>March 29th, 2017</h4>
-<a href="images/2016-2017/mousoura.jpg"><img src="images/2016-2017/mousoura-thumb.jpg"/></a>
-<a href="images/2016-2017/momenta.jpg"><img src="images/2016-2017/momenta-thumb.jpg"/></a>
+<a href="../img/2016-2017/mousoura.jpg"><img src="../img/2016-2017/mousoura-thumb.jpg"/></a>
+<a href="../img/2016-2017/momenta.jpg"><img src="../img/2016-2017/momenta-thumb.jpg"/></a>
 <h5>Nefeli Mousoura, piano; Momenta Quartet</h5>
 <h5 class="concert-program">Program:</h5>
 <ul>
@@ -17,5 +16,5 @@
 <p> Se event information <a href="https://dimennacenter.org/event/waverly-project-and-ioannis-angelakis-present-mozart-deconstruction/" target="_blank">here</a></p>
 <h6>8pm Dimenna Center For Classical Music - Cary Hall</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>
 

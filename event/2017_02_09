@@ -1,6 +1,5 @@
 
-<?php include("headproperties.php"); ?>
-<div style="font-family:Times New Roman">
+<article><div style="font-family:Times New Roman">
 <h3>TUBA THURSDAY: Jack Adler-McKean</h3>
 <h4>February 14th, 2017</h4>
 <a href="https://www.facebook.com/events/1264922603594661"><img style="width:50%" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/15965246_2044517265775148_4940489520821107125_n.jpg?oh=ddb1d38b3042dde391a9597cc8d4cf24&oe=594483FE" title="Navarro, Kashtin and Djenoun."/></a>
@@ -31,6 +30,6 @@ Following studies in Manchester (UK) and Hannover (DE), Jack Adler-McKean devote
 <h6>8pm  - Room 220, Silver Building, 32 Waverly Place, New York, NY 10003</h6>
 
 
-<?php include("tailproperties.php"); ?>
+</article>
 
 

@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Pierluigi Billone</h3>
 <div class="imagetop">
-<a href="images/2014-2015/pierluigi_billone.jpg"><img src="images/2014-2015/pierluigi_billone-thumb.jpg" alt="Pierluigi Billone" class="centerimage"title="Photo: Benjamin Chelly"/></a>
+<a href="../img/2014-2015/pierluigi_billone.jpg"><img src="../img/2014-2015/pierluigi_billone-thumb.jpg" alt="Pierluigi Billone" class="centerimage"title="Photo: Benjamin Chelly"/></a>
 </div>
 <h4><a href="http://www.pierluigibillone.com" target="_blank">www.pierluigibillone.com</a></h4>
 <p>Born in 1960 in Italy, Pierluigi Billone lives in Vienna. He studied composition with Salvatore Sciarrino and Helmut Lachenmann. Billone's music has been performed by ensembles such as Klangforum Wien, Ensemble Intercontemporain, Ensemble Modern, Ensemble Recherche, Instant Donn&eacute;, Ensemble Contrechamps and others in festivals such as Donaueschinger Musiktage, Wien Modern, Wittener Tage fur neue Kammermusik, Ars Musica Bruxelles, Festival d'Automne &agrave; Paris. His music is regularly broadcasted from the most important radios in and beyond Europe.</p>
@@ -11,4 +10,4 @@
 <p>His works received international awards such as the Kompositionspreis der Stadt Stuttgart (Stuttgart 1993), the Busoni-Kompositionspreis (Academy of Arts Berlin 1996) the Wiener Internationaler Kompositionspreis (Vienna 2004), the Ernst-Krenek-Preis (Vienna 2006), and the Kompositionspreis der Ernst-von-Siemens-Musikstiftung (Munich 2010). From 2006 to 2008 Pierluigi Billone has been guest professor for composition at the Music University Graz, in 2009 at the Music University of Frankfurt, and from 2010 till 2012 at the Music University Graz.</p>
 <p>He is regularly invited as lecturer holding composition seminars at the Summer courses Darmstadt 2010, Impulse Academy Graz 2011, Tzlil Meducan Israel 2011, MCME International Academy Russia 2011, Summer courses Darmstadt 2012, PAS-E Venezia 2012, Impulse Academy Graz 2013, Tzlil Meducan Israel 2014, MCIC Madrid 2014, Summer courses Darmstadt 2014, IEMA-Ensemble Modern Academy, Conservatoire Paris, Conservatorium Amsterdam, University of Arts Wien, Harvard University Boston and the Columbia University NY.</p>
 	
-<?php include("tailproperties.php"); ?>
+</article>

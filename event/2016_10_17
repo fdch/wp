@@ -1,9 +1,8 @@
 
-<?php include("headproperties.php"); ?>
-
+<article>
 <h3>Timucin Sahin Trio</h3>
 <h4>October 17th, 2016</h4>
-<a href="images/timucin_sahin.jpg"><img src="images/timucin_sahin-thumb.jpg"/></a>
+<a href="../img/timucin_sahin.jpg"><img src="../img/timucin_sahin-thumb.jpg"/></a>
 <h5>Timucin Sahin: 7 string fretless & 6 String fretted guitars & live electronics & compositions</h5>
 <h5>Mark Ferber: Drums</h5>
 <h5>Matt Pavolka : Bass</h5>
@@ -15,4 +14,4 @@
 <p>Free admission</p>
 <h6>8:30pm NYU Waverly Building room 365</h6>
 
-<?php include("tailproperties.php"); ?>
+</article>
