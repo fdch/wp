@@ -11,7 +11,7 @@ var x = {
   about: "<article><h3>About</h3><img src='img/about' height=180 /><div id=about-text></div><p>"+ aboutOutro +"</p><div id=karly></div></article>",
   people: "<article><h3>People</h3><div id=people-list></div></article>",
   links: "<article><h3>Links</h3><div id=links-text></div></article>",
-  gform: "<div style='padding:10%'><iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + w*0.7 + " height=" + h*0.8 + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe></div>",
+  gform: "<div style='padding:10%'><iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=true' width=" + x.w*0.7 + " height=" + x.h*0.8 + " frameborder=0 marginheight=0 marginwidth=0>Loading...</iframe></div>",
   options: "width=450,height=300,location=0,toolbar=0, resizable=0,scrollbars=0"
 };
 ////////////
