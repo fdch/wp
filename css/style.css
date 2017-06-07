@@ -4,7 +4,6 @@
 /* * * * * * * * RESETS * * * * * * * */
 @font-face{
 	font-family:BebasNeue;
-	src:url('css/BebasNeue Book.otf') 
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family:"BebasNeue";
@@ -244,7 +243,7 @@ body{
 	position:absolute;
 	top:0;
 	right:0;
-	background: url("css/socialmediabkg.png") no-repeat top;
+	background: url("img/socialmediabkg.png") no-repeat top;
 	padding:0;
 	margin:0;
 	z-index:10;
@@ -361,7 +360,7 @@ body{
 		-webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-	background:url('css/loading.gif') center no-repeat;
+	background:url('img/loading.gif') center no-repeat;
 }
 .small {
 	font-size:0.8em;
