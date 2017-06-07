@@ -74,7 +74,7 @@ function getSubmit() {
 //// Begin js load
 ////////////
 $(document).ready(function() {
-  if ((w = $(window).width()) >= 600) w = w*0.5;}
+  if ((w = $(window).width()) >= 600) w = w*0.5;
   h = $(window).height();
   //Place elements
   $("head").append(meta);
