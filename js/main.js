@@ -69,7 +69,7 @@ function getAbout(x) {
   $("#karly").append("<img src='img/karly' onClick='wpLoad(Events)' height=99/>");
 }
 function getSubmit(x) {
-  var thePrompt = window.open("", "", x[5]);
+  var thePrompt = window.open("", "WPEventForm", x[5]);
   thePrompt.document.documentElement.innerHTML = x[2];
   thePrompt.document.getElementById("authOK").onclick = function () {
     if ( thePrompt.document.getElementById("krl").value != x[4] )
@@ -79,7 +79,7 @@ function getSubmit(x) {
       alert("\nSucess!\n\n"+x[1]+"\n\n K. S.");
       thePrompt.resizeTo(w*0.9, h*0.9);
       thePrompt.moveBy(w*0.3, h*0.2);
-      open(x[3], "thePrompt");
+      open(x[3], "WPEventForm");
     }
   }
 }
