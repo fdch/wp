@@ -44,7 +44,7 @@ function getLinks(x) {
   replaceContent(x,'content');
   jQuery.get('updates/links.md', function(data){
     line = data.split("\n");
-    $.each(line, function(n, r) {
+    $.each(line, function(n, c) {
       if(c.startsWith("{")) var link = c.replace(/\{|\}/g,""); 
       if(c.startsWith("[")) var name  = c.replace(/\[|\]/g,""); 
       $("#links-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >" + name + "</a></h5>");
@@ -74,9 +74,9 @@ function getSubmit(x) {
   thePrompt.document.getElementById("authOK").onclick = function () {
     if ( thePrompt.document.getElementById("krl").value != x[4] )
     {
-      alert("\n"+quotes[0]+"\n\n Try again.");
+      alert("\n"+x[0]+"\n\n Try again.");
     } else {
-      alert("\nSucess!\n\n"+quotes[1]+"\n\n K. S.");
+      alert("\nSucess!\n\n"+x[1]+"\n\n K. S.");
       thePrompt.document.getElementByTag("div").load(x[3]);
       thePrompt.resizeTo(w*0.7, h*0.8);
       thePrompt.moveBy(w*0.2, h*0.2);
