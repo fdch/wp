@@ -2,7 +2,7 @@
 //// Please be extra careful when you edit this file
 ////////////
 var w, h, t, te; //width height content-target event-target
-var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><nav id=menu></nav><div id=content></div>";
+var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><div id=menu></div><div id=content></div>";
 ////////////
 //// Loading glue
 ////////////
@@ -12,6 +12,15 @@ function wpLoad(x) {t.load(x)}
 ////////////
 //// Menu functions
 ////////////
+function makeMenu(m) {
+  var i,j;
+  m.append("<nav>");
+  for (i = 0, j = menu.lenght; i < j; i++) {
+    m.append("<span class=menulink onClick=\"get" + menu[i] + "()\">" + menu[i] + "</span>");
+  }
+  m.append("</nav>");
+  alert(j);
+}
 function getEvents() {
   var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>"
   t.append(events);
@@ -79,8 +88,7 @@ $(document).ready(function() {
   //Place elements
   $("head").append(meta);
   $("body").append([titleData,analytics]);
-  for (i = 0, j = menu.lenght; i < j; i++) {
-  $("#menu").append("<span class=menulink onClick=\"get" + menu[i] + "()\">" + menu[i] + "</span>");
+  makeMenu($("#menu"));
   }
   //Shortcuts
   t = $("#content");
