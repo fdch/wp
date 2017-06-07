@@ -24,8 +24,7 @@ function getContent() {
         if(c.startsWith("{")) {
           var link = c.replace(/\{|\}/g,""); 
         }
-        if(c === "{links}")
-            continue;
+        if(c !== "{links}")
         $("#links-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >" + name + "</a></h5>");
       });
     });
