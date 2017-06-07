@@ -12,8 +12,8 @@ function wpLoad(x) {t.load(x)}
 ////////////
 //// Menu functions
 ////////////
-function getMenu(m) {
-  if(m.lenth > 0) for (i = 0, j = menu.lenght; i < j; i++) m.append("<span class=menulink onClick=\"get" + menu[i] + "()\">" + menu[i] + "</span>");
+function getMenu() {
+  for (i = 0, j = menu.lenght; i < j; i++) $("#menu").append("<span class=menulink onClick=\"get" + menu[i] + "()\">" + menu[i] + "</span>");
 }
 function getEvents() {
   var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>"
@@ -83,7 +83,7 @@ $(document).ready(function(loadMenu) {
   var te = $("#event-load");
   $("head").append(meta);
   $("body").append([titleData,analytics]);
-  getMenu($("#menu"));
+  getMenu();
 });
 ////////////
 //// End js load
