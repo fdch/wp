@@ -89,7 +89,6 @@ $(document).ready(function() {
   $("head").append(meta);
   $("body").append([titleData,analytics]);
   makeMenu($("#menu"));
-  }
   //Shortcuts
   t = $("#content");
   te = $("#event-load");
