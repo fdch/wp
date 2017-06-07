@@ -14,6 +14,7 @@ var submit = ["\"No, what is important is neither linearity or non-linearity, bu
 
 ////////////
 function wpLoadEvent(x, y) {te.load("event/" + x);}
+function replaceContent(x,y) {document.getElementById(y).innerHTML = x;}
 ////////////
 //// Menu functions
 ////////////
@@ -26,11 +27,11 @@ function makeMenu(m, len) {
   m.append("</nav>");
 }
 function getEvents(x) {
-  $("#content").load(x);
-  $("#event-load").load("event/menu");
+  replaceContent(x,'content');
+  replaceContent('event/menu','content');
 }
 function getPeople(x) {
-  $("#content").load(x);
+  replaceContent(x, 'content');
   jQuery.get('updates/people-list', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
@@ -40,7 +41,7 @@ function getPeople(x) {
   });
 }
 function getLinks(x) {
-  $("#content").load(x);
+  replaceContent(x,'content');
   jQuery.get('updates/links.md', function(data){
     line = data.split("\n");
     $.each(line, function(n, r) {
@@ -51,7 +52,7 @@ function getLinks(x) {
   });
 }
 function getAbout(x) {
-  $("#content").load(x);
+  replaceContent(x,'content');
   jQuery.get('updates/about.txt', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
