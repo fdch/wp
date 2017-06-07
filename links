@@ -18,10 +18,10 @@ function getContent() {
       column = r.split("\t");
       $.each(column, function(n, c) {
       if(c.match(/\((.*)\)/) {
-        link = c.replace(/[{}]/g, ''); 
+        var link = c.replace(/[{}]/g, ''); 
         $("#link-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >");
       } else
-        name = c.replace(/[[]]/g, ''); 
+        var name = c.replace(/[[]]/g, ''); 
         $("#link-text").append(name + "</a></h5>");
     });
   });
