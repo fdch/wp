@@ -17,16 +17,15 @@ function getContent() {
     $.each(row, function(n, r) {
       column = r.split("\t");
       $.each(column, function(n, c) {
-        if(c.startsWith("{")) {
-          //var link = c.match(/\{(.*)\}/);
-          var link = c.replace(/\{|\}/g,""); 
-          $("#links-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >");
-        }
         if(c.startsWith("[")) {
           //var name = c.match(/\[(.*)\]/);
           var name  = c.replace(/\[|\]/g,""); 
-          $("#links-text").append(name + "</a></h5>");
         }
+        if(c.startsWith("{")) {
+          //var link = c.match(/\{(.*)\}/);
+          var link = c.replace(/\{|\}/g,""); 
+        }
+        $("#links-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >" + name + "</a></h5>");
       });
     });
   });
