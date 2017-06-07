@@ -26,9 +26,9 @@ function makeMenu(m, len, mitem, type) {
   }
   m.append("</nav>");
 }
-function getseason_2014_2015();
-function getseason_2016_2016();
-function getseason_2017_2017();
+function getseason_2014_2015(){};
+function getseason_2016_2016(){};
+function getseason_2017_2017(){};
 
 function getEvents(x) {
   replaceContent(x,'content');
