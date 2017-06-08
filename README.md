@@ -55,5 +55,5 @@ Run this from root directory [wp]:
 
 Add a two lines respecting the format in [updates/links](updates/links):
 
-	`{url}
-	`[your name]
+	{url}
+	[your name]
