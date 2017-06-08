@@ -44,20 +44,20 @@ function getEvents(x) {
   $.getJSON(eFormDataURL, function(data) {
     var entry = data.feed.entry;
     $(entry).each(function() {
-      var that = this;
-      var etime = that.gsx$timestamp.$t;
-      var edate = that.gsx$date.$t;
-      var etitl = that.gsx$title.$t;
-      var eauth = that.gsx$author.$t;
-      var edesc = that.gsx$description.$t;
-      var eloca = that.gsx$location.$t;
-      var erefl = that.gsx$referencelink.$t;
+      //var that = this;
+      var etime = this.gsx$timestamp.$t;
+      var edate = this.gsx$date.$t;
+      var etitl = this.gsx$title.$t;
+      var eauth = this.gsx$author.$t;
+      var edesc = this.gsx$description.$t;
+      var eloca = this.gsx$location.$t;
+      var erefl = this.gsx$referencelink.$t;
       var nevent = "<post><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></post>";
       earr.push(nevent);
     }); //end entry loop
   });//end getJSON
   
-  $("#event-load").append(["<article>",earr, "</article>"]);
+  $("#event-load").append(["<article>",earr.reverse(), "</article>"]);
 
 }
 function getPeople(x) {
