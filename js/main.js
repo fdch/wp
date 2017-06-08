@@ -34,7 +34,13 @@ function getEvents(x) {
 $.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json", function(data) {
   var entry = data.feed.entry;
   $(entry).each(function(){
-$('.results').append('<p>'+this.gsx$timestamp.$t+'</p><p>'+this.gsx$date.$t+'</p><p>'+this.gsx$title.$t+'</p><p>'+this.gsx$author.$t+'</p><p>'+this.gsx$description.$t+'</p><p>'+this.gsx$time.$t+'</p><p>'+this.gsx$location.$t+'</p><p>'+this.gsx$referencelink.$t+'</p>');
+  $.ajax({
+  url: 'https://api.github.com/repos/fdch/wp/contents/event',
+  type: PUT,
+  data: {
+   "message" : "event commited",
+   "content" : [btoa(this.gsx$timestamp.$t), btoa(this.gsx$date.$t), btoa(this.gsx$title.$t),btoa(this.gsx$author.$t),btoa(this.gsx$description.$t),btoa(this.gsx$time.$t),btoa(this.gsx$location.$t),btoa(this.gsx$referencelink.$t)]
+   }
   });
  });
 }
