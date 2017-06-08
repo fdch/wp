@@ -8,6 +8,7 @@ var w, h;
 var mitem = ["About", "People", "Events", "Links", "Submit"];
 var about = "<article><h3>About</h3><img src='img/about' height=180 /><div id=about-text></div><p>"+ aboutOutro +"</p><div id=karly></div></article>";
 var people = "<article><h3>People</h3><div id=people-list></div></article>";
+var plinks = "<article><h3>Links</h3><div id=links-list></div></article>";
 var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>";
 var submit = ["\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"", "\"I no longer limit myself.\"", "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><h2>Waverly Project Event Form</h2><div id=maindiv><form><h3>Enter password:</h3><input type=password id=krl size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></div></body>","https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=false", "stockhausen", "width=450, height=300, location=0, toolbar=0, resizable=0, scrollbars=0"];
 var eventMenu = ["Season_2016_2017", "Season_2015_2016", "Season_2014_2015"];
@@ -72,13 +73,13 @@ function getPeople(x) {
   });
 }
 function getLinks(x) {
-  document.getElementById('content').innerHTML = x;
+  document.getElementById('content').innerHTML = "p"+x;
   $.get('updates/links', function(data){
     line = data.split("\n");
     $.each(line, function(n, c) {
       if(c.startsWith("{")) var link = c.replace(/\{|\}/g,""); 
       if(c.startsWith("[")) var name  = c.replace(/\[|\]/g,""); 
-      if (link && name) $("#links-text").append("<h5><a href=\"" + link + "\" target=_blank title=\"" + name + "\">" + name + "</a></h5>");
+      if (link && name) $("#links-list").append("<h5><a href=\"" + link + "\" target=_blank title=\"" + name + "\">" + name + "</a></h5>");
     });
   });
 }
