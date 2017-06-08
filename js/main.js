@@ -47,9 +47,9 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9H
   var eloca = that.gsx$location.$t;
   var erefl = that.gsx$referencelink.$t;
   var nevent = "<article><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></article>";
-  var mmm = window.open("","");
-  mmm.document.documentElement.innerHTML = nevent;
-  /*
+  //var mmm = window.open("","");
+  //mmm.document.documentElement.innerHTML = nevent;
+  
   var encodedEvent = btoa(nevent);
   $.ajax({
   url: 'https://api.github.com/repos/fdch/wp/contents/event',
@@ -59,7 +59,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9H
    "content" : encodedEvent
    }
   });
-  */
+  
  });
 })
 }
