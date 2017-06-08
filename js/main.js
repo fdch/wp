@@ -79,7 +79,7 @@ function getLinks(x) {
     $.each(line, function(n, c) {
       if(c.startsWith("{")) var link = c.replace(/\{|\}/g,""); 
       if(c.startsWith("[")) var name  = c.replace(/\[|\]/g,""); 
-      $("#links-text").append("<h5><a href='" + link + "' target=_blank title='" + link + "' >" + name + "</a></h5>");
+      if (link && name) $("#links-text").append("<h5><a href=\"" + link + "\" target=_blank title=\"" + name + "\">" + name + "</a></h5>");
     });
   });
 }

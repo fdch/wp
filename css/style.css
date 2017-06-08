@@ -43,11 +43,6 @@ body{
 	-ms-text-size-adjust:none;
 	-moz-text-size-adjust:none;
 	text-size-adjust:none;
-	overflow-x:hidden;
-	overflow-y:scroll;
-}
-
-#mainbody{
 	position:absolute;
 	top:65px;
 	right:0;
@@ -57,7 +52,6 @@ body{
 	-webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-	overflow:hidden;
 }
 
 .imagetop{
@@ -193,22 +187,6 @@ body{
 	padding:0;
 	margin:0;
 	z-index:10;
-}
-#hyperlinks{
-	font-family:"BebasNeue";
-	position:absolute;
-	right:20px;
-	padding:1%;
-}
-#hyperlinks img{
-	margin-left:20px;
-}
-
-
-/* * * * * * * * CONTENT * * * * * * * */
-
-.clear{
-	clear:both;
 }
 
 .titles{
