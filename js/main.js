@@ -16,6 +16,7 @@ var season20162017 = "event/"+eventMenu[0];
 var season20152016 = "event/"+eventMenu[1];
 var season20142015 = "event/"+eventMenu[2];
 
+
 function makeMenu(m, len, mitem, type) {
   var i,j;
   m.append("<nav>");
@@ -28,37 +29,37 @@ function makeMenu(m, len, mitem, type) {
 //// Loaders
 ////////////
 function replaceContent(x,y) {document.getElementById(y).innerHTML = x;}
-
+function getEventDataForm () {
+  var earr = new Array();
+  var eFormDataURL = "https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json";
+  $.getJSON(eFormDataURL, function(data) {
+    var entry = data.feed.entry;
+    $(entry).each(function() {
+      var that = this;
+      var etime = that.gsx$timestamp.$t;
+      var edate = that.gsx$date.$t;
+      var etitl = that.gsx$title.$t;
+      var eauth = that.gsx$author.$t;
+      var edesc = that.gsx$description.$t;
+      var eloca = that.gsx$location.$t;
+      var erefl = that.gsx$referencelink.$t;
+      var nevent = "<article><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></article>";
+      earr.push(nevent);
+    }); //end entry loop
+  });//end getJSON
+  return earr;
+}
 function getSeason(x){
   $("#event-load").load(x);
 };
 function getEvents(x) {
   replaceContent(x,'content');
   makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
-$.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json", function(data) {
-  var entry = data.feed.entry;
-  $(entry).each(function(){
-  var that = this;
-  var etime = that.gsx$timestamp.$t;
-  var edate = that.gsx$date.$t;
-  var etitl = that.gsx$title.$t;
-  var eauth = that.gsx$author.$t;
-  var edesc = that.gsx$description.$t;
-  var eloca = that.gsx$location.$t;
-  var erefl = that.gsx$referencelink.$t;
-  var nevent = "<article><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></article>";
-  var encodedEvent = btoa(nevent);
-  $.post("https://api.github.com/repos/fdch/wp",
-  {
-   "path" : 'updates/events',
-   "message" : "Event:"+ etitl +", commited.",
-   "content" : encodedEvent,
-   "sha" : "b665f21966688df2f78c94d218ea3f0b77cdb847"
-   }
-  );
-  
- });
-})
+  var earr = getEventDataForm();
+  var i;
+  for (i = 0; i < earr.length; i++) {
+    $("#event-load").append(earr[i]);
+  }
 }
 function getPeople(x) {
   replaceContent(x, 'content');
