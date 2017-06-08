@@ -5,12 +5,15 @@ var w, h;
 ////////////
 //// The menu
 ////////////
-var mitem = ["About", "People", "Events", "Links", "Submit"];
-var about = "<article><h3>About</h3><img src='img/about' height=180 /><div id=about-text></div><p>"+ aboutOutro +"</p><div id=karly></div></article>";
-var people = "<article><h3>People</h3><div id=people-list></div></article>";
-var plinks = "<article><h3>Links</h3><div id=links-list></div></article>";
-var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>";
+var mitem = ["About", "People", "Events", "Friends", "Submit"];
+////
+var about = "<article><h3>"+mitem[0]+"</h3><img class=imageTop src=\"img/"+mitem[0].toLowerCase()+"\" height=180 /><div id=load"+mitem[0]+"></div><p>"+ aboutOutro +"</p><div id=karly></div></article>";
+var people = "<article><h3>"+mitem[1]+"</h3><img class=imageTop src=\"img/"+mitem[1].toLowerCase()+"\" height=180 /><div id=load"+mitem[1]+"></div></article>";
+var events = "<article><h3>"+mitem[2]+"</h3><img class=imageTop src=\"img/"+mitem[2].toLowerCase()+"\" height=180 /><p>"+ eventsText + "</p><div id=menu"+mitem[2]+"></div><div id=load"+mitem[2]+"></div></article>";
+var friends = "<article><h3>"+mitem[3]+"</h3><img class=imageTop src=\"img/"+mitem[3].toLowerCase()+"\" height=180 /><div id=load"+mitem[3]+"></div></article>";
+////
 var submit = ["\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"", "\"I no longer limit myself.\"", "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><h2>Waverly Project Event Form</h2><div id=maindiv><form><h3>Enter password:</h3><input type=password id=krl size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></div></body>","https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=false", "stockhausen", "width=450, height=300, location=0, toolbar=0, resizable=0, scrollbars=0"];
+////
 var eventMenu = ["Season_2016_2017", "Season_2015_2016", "Season_2014_2015"];
 var season20162017 = "event/"+eventMenu[0];
 var season20152016 = "event/"+eventMenu[1];
@@ -28,18 +31,16 @@ function makeMenu(m, len, mitem, type) {
 ////////////
 //// Loaders
 ////////////
-function replaceContent(x,y) {
-  document.getElementById(y).innerHTML = x;
+function replaceContent(x) {
+  document.getElementById('content').innerHTML = x;
 }
 function getSeason(x){
-  $("#event-load").load(x);
+  $("#loadEvents").load(x);
 };
 function getEvents(x) {
-  replaceContent(x,'content');
-  makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
-  var eFormDataURL = "https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json";
-
-  $.getJSON(eFormDataURL, function(data) {
+  replaceContent(x);
+  makeMenu($("#menuEvents"), eventMenu.length, eventMenu, "button");
+$.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json", function(data) {
     var earr = new Array();
     var entry = data.feed.entry;
     $(entry).each(function() {
@@ -57,38 +58,38 @@ function getEvents(x) {
     earr.push("<article>");
     earr.reverse();
     earr.push("</article>");
-    $("#event-load").innerHTML = earr.join("<br/>");
+    $("#loadEvents").innerHTML = earr.join("<br/>");
   });//end getJSON
 }
 function getPeople(x) {
-  replaceContent(x, 'content');
+  replaceContent(x);
   $.get('updates/people-list', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
       var name = elem.replace(/"_"/g," ");
-      $("#people-list")
+      $("#loadPeople")
       .append("<div id=\"member_" + elem + "\"><h4>" + name + "</h4><img src='img/people/" + elem + "'.jpg height=180 width=180 /><div id=\"bio_"+elem+"\"></div></div>");
       $("#bio_"+elem+"").load("bio/"+elem+".txt");
     });
   });
 }
-function getLinks(x) {
-  document.getElementById('content').innerHTML = "p"+x;
-  $.get('updates/links', function(data){
+function getFriends(x) {
+  replaceContent(x);
+  $.get('updates/friends', function(data){
     line = data.split("\n");
     $.each(line, function(n, c) {
-      if(c.startsWith("{")) var link = c.replace(/\{|\}/g,""); 
+      if(c.startsWith("{")) var url = c.replace(/\{|\}/g,""); 
       if(c.startsWith("[")) var name  = c.replace(/\[|\]/g,""); 
-      if (link && name) $("#links-list").append("<h5><a href=\"" + link + "\" target=_blank title=\"" + name + "\">" + name + "</a></h5>");
+      if (url && name) $("#loadFriends").append("<h5><a href=\"" + url + "\" target=_blank title=\"" + name + "\">" + name + "</a></h5>");
     });
   });
 }
 function getAbout(x) {
-  replaceContent(x,'content');
+  replaceContent(x);
   $.get('updates/about.txt', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
-      $("#about-text").append("<p>" + elem + "</p>")
+      $("#loadAbout").append("<p>" + elem + "</p>")
     });
   });
   for (i=0;i<13;i++) {
