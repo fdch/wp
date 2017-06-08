@@ -55,5 +55,5 @@ Run this from root directory [wp]:
 
 Add a new link respecting this format in [updates/links](updates/links):
 
-{http://yoursite.com}
+{url}
 [your name]
