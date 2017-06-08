@@ -25,11 +25,13 @@ Rename the picture with the name of the new member, like this:
 
 	*NOTE: no .jpg extension*
 
-3. Run this from root directory (wp):
+### Update [updates/people-list]{updates/people-list}
+
+Run this from root directory (wp):
 
 	$ ls img/people > updates/people-list
 
-	*Alternatively: add a new line to [updates/people-list]{updates/people-list}*
+	*Alternatively: edit the file directly on github*
 
 ## To add a new link in the links section:
 
