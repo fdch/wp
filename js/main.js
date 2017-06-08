@@ -37,29 +37,28 @@ function getSeason(x){
 function getEvents(x) {
   replaceContent(x,'content');
   makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
-  var earr = new Array();
-  var i;
   var eFormDataURL = "https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json";
 
   $.getJSON(eFormDataURL, function(data) {
+    var earr = new Array();
     var entry = data.feed.entry;
     $(entry).each(function() {
-      //var that = this;
-      var etime = this.gsx$timestamp.$t;
-      var edate = this.gsx$date.$t;
-      var etitl = this.gsx$title.$t;
-      var eauth = this.gsx$author.$t;
-      var edesc = this.gsx$description.$t;
-      var eloca = this.gsx$location.$t;
-      var erefl = this.gsx$referencelink.$t;
+      var that = this;
+      var etime = that.gsx$timestamp.$t;
+      var edate = that.gsx$date.$t;
+      var etitl = that.gsx$title.$t;
+      var eauth = that.gsx$author.$t;
+      var edesc = that.gsx$description.$t;
+      var eloca = that.gsx$location.$t;
+      var erefl = that.gsx$referencelink.$t;
       var nevent = "<post><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></post>";
       earr.push(nevent);
     }); //end entry loop
+    earr.push("<article>");
+    earr.reverse();
+    earr.push("</article>");
+    $("#event-load").innerHTML = earr.join("<br/>");
   });//end getJSON
-  earr.push("<article>");
-  earr.reverse();
-  earr.push("</article>");
-  $("#event-load").innerHTML = earr.join("<br/>");
 }
 function getPeople(x) {
   replaceContent(x, 'content');
