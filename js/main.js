@@ -68,7 +68,7 @@ function getPeople(x) {
       var name = elem.replace(/"_"/g," ");
       $("#people-list")
       .append("<div id=\"member_" + elem + "\"><h4>" + name + "</h4><img src='img/people/" + elem + "'.jpg height=180 width=180 /><div id=\"bio_"+elem+"\"></div></div>");
-      replaceContent("bio/"+elem+".txt", "#bio_"+elem+"");
+      replaceContent("bio/"+elem+".txt", "bio_"+elem+"");
     });
   });
 }
