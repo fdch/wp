@@ -39,10 +39,10 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9H
   type: PUT,
   data: {
    "message" : "event commited",
-   "content" : [btoa(this.gsx$timestamp.$t), btoa(this.gsx$date.$t), btoa(this.gsx$title.$t),btoa(this.gsx$author.$t),btoa(this.gsx$description.$t),btoa(this.gsx$time.$t),btoa(this.gsx$location.$t),btoa(this.gsx$referencelink.$t)]
-   }
+   "content" : [btoa(this.gsx$timestamp.$t), btoa(this.gsx$date.$t), btoa(this.gsx$title.$t),btoa(this.gsx$author.$t),btoa(this.gsx$description.$t),btoa(this.gsx$time.$t),btoa(this.gsx$location.$t),btoa(this.gsx$referencelink.$t)]}
   });
  });
+})
 }
 function getSeason(x){
   $("#event-load").load(x);
