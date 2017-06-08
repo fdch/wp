@@ -28,10 +28,19 @@ function makeMenu(m, len, mitem, type) {
 ////////////
 //// Loaders
 ////////////
-function replaceContent(x,y) {document.getElementById(y).innerHTML = x;}
-function getEventDataForm () {
+function replaceContent(x,y) {
+  document.getElementById(y).innerHTML = x;
+}
+function getSeason(x){
+  $("#event-load").load(x);
+};
+function getEvents(x) {
+  replaceContent(x,'content');
+  makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
   var earr = new Array();
+  var i;
   var eFormDataURL = "https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json";
+
   $.getJSON(eFormDataURL, function(data) {
     var entry = data.feed.entry;
     $(entry).each(function() {
@@ -47,16 +56,6 @@ function getEventDataForm () {
       earr.push(nevent);
     }); //end entry loop
   });//end getJSON
-  return earr;
-}
-function getSeason(x){
-  $("#event-load").load(x);
-};
-function getEvents(x) {
-  replaceContent(x,'content');
-  makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
-  var earr = getEventDataForm();
-  var i;
   for (i = 0; i < earr.length; i++) {
     $("#event-load").append(earr[i]);
   }
