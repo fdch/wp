@@ -43,7 +43,7 @@ function getEventDataForm () {
       var edesc = that.gsx$description.$t;
       var eloca = that.gsx$location.$t;
       var erefl = that.gsx$referencelink.$t;
-      var nevent = "<article><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></article>";
+      var nevent = "<h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6>";
       earr.push(nevent);
     }); //end entry loop
   });//end getJSON

@@ -6,7 +6,13 @@ else
 git commit -m "updates"
 fi
 git push
-i=80
+i=0
+while [ $i -lt 80 ]
+do
+echo -ne "."
+i=$[$i+1]
+done
+date +"%T %D"
 while [ $i -gt 0 ]
 do
 sleep 0.1
