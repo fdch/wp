@@ -31,7 +31,7 @@ function makeMenu(m, len, mitem, type) {
 function getEvents(x) {
   replaceContent(x,'content');
   makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
-  
+  $("#content").append("<div class=results></div>");
   // ID of the Google Spreadsheet
   var spreadsheetID = "1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM";
 
