@@ -141,15 +141,7 @@ body{
 	margin:0;
 	z-index:10;
 }
-#hyperlinks{
-	font-family:"BebasNeue";
-	position:absolute;
-	right:20px;
-	padding:1%;
-}
-#hyperlinks img{
-	margin-left:20px;
-}
+
 
 
 /* * * * * * * * CONTENT * * * * * * * */
