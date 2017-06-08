@@ -48,7 +48,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9H
   var erefl = that.gsx$referencelink.$t;
   var nevent = "<article><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></article>";
   var encodedEvent = btoa(nevent);
-  $.post("https://api.github.com/repos/fdch/wp/git/blobs/b665f21966688df2f78c94d218ea3f0b77cdb847",
+  $.post("/wp/updates/events",
   {
    //"path" : 'https://api.github.com/repos/fdch/wp/contents/updates/events',
    "message" : "Event:"+ etitl +", commited.",
