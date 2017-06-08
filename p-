@@ -6,8 +6,10 @@ else
 git commit -m "updates"
 fi
 git push
-echo "Waiting 20 seconds before opening browser"
-wait 10
+echo "
+Waiting 20 seconds before opening browser
+"
+sleep 10
 echo "Still 10 more seconds to go"
 sleep 7
 echo "3"
