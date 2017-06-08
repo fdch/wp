@@ -21,7 +21,7 @@ function makeMenu(m, len, mitem, type) {
   var i,j;
   m.append("<nav>");
   for (i = 0;i < len; i++) {
-    m.append("<"+type+" class=menuitem onClick=\"get" + mitem[i].substring(0,6) + "(" + mitem[i].toLowerCase() + ")\">  " + mitem[i].replace(/_/g," ") + "  </"+type+">");
+    m.append("<"+type+" class=menuitem onClick=\"get" + mitem[i].substring(0,6) + "(" + mitem[i].toLowerCase().replace(/_/g,"") + ")\">  " + mitem[i].replace(/_/g," ") + "  </"+type+">");
   }
   m.append("</nav>");
 }
@@ -29,8 +29,8 @@ function getEvents(x) {
   replaceContent(x,'content');
   makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
 }
-function getSeason(x){//season_2015_2016
-$("#event-load").load("event/" + x);
+function getSeason(x){//season20152016
+  $("#event-load").load("event/" + x.valueOf());
 };
 function getPeople(x) {
   replaceContent(x, 'content');
