@@ -5,6 +5,17 @@ git commit -m "$1"
 else
 git commit -m "updates"
 fi
-git push && open http://fdch.github.io/wp
-
+git push
+echo "Waiting 20 seconds before opening browser"
+wait 10
+echo "Still 10 more seconds to go""
+wait 7
+echo "3"
+wait 1
+echo "2"
+wait 1
+echo "1"
+wait 1
+open http://fdch.github.io/wp
+exit
 
