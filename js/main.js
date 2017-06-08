@@ -52,13 +52,13 @@ function getEvents(x) {
       var edesc = that.gsx$description.$t;
       var eloca = that.gsx$location.$t;
       var erefl = that.gsx$referencelink.$t;
-      var nevent = "<h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6>";
+      var nevent = "<post><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></post>";
       earr.push(nevent);
     }); //end entry loop
   });//end getJSON
-  for (i = 0; i < earr.length; i++) {
-    $("#event-load").append(earr[i]);
-  }
+  
+  $("#event-load").append(["<article>",earr, "</article>"]);
+
 }
 function getPeople(x) {
   replaceContent(x, 'content');
