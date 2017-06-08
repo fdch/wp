@@ -3,7 +3,7 @@
 ////////////
 var w, h, t, te;
 
-var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><div id=menu></div><div id=content></div>";
+var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><div id=menu></div><div class=result></div><div id=content></div>";
 
 var mitem = ["About", "People", "Events", "Links", "Submit"];
 var about = "<article><h3>About</h3><img src='img/about' height=180 /><div id=about-text></div><p>"+ aboutOutro +"</p><div id=karly></div></article>";
@@ -31,7 +31,6 @@ function makeMenu(m, len, mitem, type) {
 function getEvents(x) {
   replaceContent(x,'content');
   makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
-  $("#content").append("<div class=results></div>");
   // ID of the Google Spreadsheet
   var spreadsheetID = "1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM";
 
