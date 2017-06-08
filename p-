@@ -1,4 +1,10 @@
 #!/bin/bash
+i=0
+while [ $i -lt 80 ]
+do
+echo -ne "$(tput setaf 2)="
+i=$[$i+1]
+done
 git add .
 if [[ $1 ]] 
 then
@@ -7,14 +13,11 @@ else
 git commit -m "updates"
 fi
 git push
-i=0
-while [ $i -lt 80 ]
-do
-echo -ne "$(tput setaf 2)="
-i=$[$i+1]
-done
+
 DATE=$(date +"%D %T")
-echo "Committed to Waverly Project on $DATE"
+echo "
+Committed to Waverly Project on $DATE
+"
 while [ $i -gt 0 ]
 do
 sleep 0.1
