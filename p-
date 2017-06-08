@@ -18,8 +18,9 @@ echo "Committed to Waverly Project on $DATE"
 while [ $i -gt 0 ]
 do
 sleep 0.1
-echo -ne "=$(tput sgr 0)"
+echo -ne "="
 i=$[$i-1]
 done
 open http://fdch.github.io/wp
+echo "$(tput sgr 0)"
 exit
