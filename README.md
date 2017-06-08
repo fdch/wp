@@ -53,7 +53,7 @@ Run this from root directory [wp]:
 
 ## Links
 
-Add a new link respecting this format in [updates/links](updates/links):
+Add a two lines respecting the format in [updates/links](updates/links):
 
-{url}
-[your name]
+	`{url}
+	`[your name]
