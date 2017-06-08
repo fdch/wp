@@ -4,6 +4,10 @@ Erratum: I tried to keep the code as readable as possible in [js](js) If you'd l
 
 	$ git clone https://github.com/fdch/wp
 
+You can use [p-](p-) to make your pushes after you edit
+
+	$ ./p- "useful description regarding your commit"
+
 # How to update the website
 
 Mostly everything updatable is on [updates](updates). There are also some other [smaller] updatable things in [js/config.js](js/config.js). Please read these instructions:
@@ -26,11 +30,11 @@ Edit the text in [updates/about.txt](updates/about.txt)
 
 To add a new WP member:
 
-### Picture
+### Take a picture
 
 Add a small jpg picture of the member in [img/people](img/people).
 
-### Rename Picture Filename
+### Rename that picture
 
 Rename the picture with the name of the new member, like this:
 
