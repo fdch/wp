@@ -66,7 +66,8 @@ function getPeople(x) {
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
       $("#people-list")
-      .append("<div id=" + elem + " onClick=alert(this)><h4>" + elem + "</h4><img src='img/people/" + elem + "'.jpg height=180 width=180 /></div>")
+      .append("<div id=" + elem + "><h4>" + elem + "</h4><img src='img/people/" + elem + "'.jpg height=180 width=180 /><div class=bio></div></div>");
+      $("#people-list .bio").load("bio/"+elem);
     });
   });
 }
