@@ -31,18 +31,10 @@ function makeMenu(m, len, mitem, type) {
 function getEvents(x) {
   replaceContent(x,'content');
   makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
-  // ID of the Google Spreadsheet
-  var spreadsheetID = "1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM";
-
-// Make sure it is public or set to Anyone with link can view 
-  var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
-
-  $.getJSON(url, function(data) {
-
-    var entry = data.feed.entry;
-
-    $(entry).each(function(){
-$('.results').prepend('<h2>'+this.gsx$timestamp.$t+'</h2><p>'+this.gsx$date.$t+'</p><p>'+this.gsx$title.$t+'</p><p>'+this.gsx$author.$t+'</p><p>'+this.gsx$description.$t+'</p><p>'+this.gsx$time.$t+'</p><p>'+this.gsx$location.$t+'</p><p>'+this.gsx$referencelink.$t+'</p>');
+$.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json", function(data) {
+  var entry = data.feed.entry;
+  $(entry).each(function(){
+$('.results').append('<p>'+this.gsx$timestamp.$t+'</p><p>'+this.gsx$date.$t+'</p><p>'+this.gsx$title.$t+'</p><p>'+this.gsx$author.$t+'</p><p>'+this.gsx$description.$t+'</p><p>'+this.gsx$time.$t+'</p><p>'+this.gsx$location.$t+'</p><p>'+this.gsx$referencelink.$t+'</p>');
   });
  });
 }
