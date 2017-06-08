@@ -21,7 +21,7 @@ function makeMenu(m, len, mitem, type) {
   var i,j;
   m.append("<nav>");
   for (i = 0;i < len; i++) {
-    m.append("<"+type+" class=menuitem onClick=\"get" + mitem[i].substring(0,6) + "(" + mitem[i].toLowerCase() + ")\">  " + mitem[i].replace(/_/g," "); + "  </"+type+">");
+    m.append("<"+type+" class=menuitem onClick=\"get" + mitem[i].substring(0,6) + "('" + mitem[i].toLowerCase() + "')\">  " + mitem[i].replace(/_/g," ") + "  </"+type+">");
   }
   m.append("</nav>");
 }
@@ -29,18 +29,7 @@ function getEvents(x) {
   replaceContent(x,'content');
   makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
 }
-////////////
-//// TODO: GENERATE THIS FUNCTIONS ON DEMAND (or get rid of them)
-function getSeason_2014_2015(x){
-  getSeason(x)
-};
-function getSeason_2015_2016(x){
-  getSeason(x)
-};
-function getSeason_2016_2017(x){
-  getSeason(x)
-};
-function getseason(x){//season_2015_2016
+function getSeason(x){//season_2015_2016
 $("#event-load").load("event/" + x);
 };
 function getPeople(x) {
