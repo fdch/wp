@@ -10,8 +10,7 @@
 
 ## To add a new WP member:
 1. Add a small jpg picture of the member in [img/people]{img/people}.
-2. Rename the picture with the name of the new member like this:
-
+2. Rename the picture with the name of the new member, like this:
 	$ cd wp/img/people
 	$ mv "Whatever-12345.JPG" "name_lastname"
 	*NOTE: no .jpg extension*

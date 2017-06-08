@@ -11,7 +11,7 @@ var people = "<article><h3>People</h3><div id=people-list></div></article>";
 var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu></div><div id=event-load></div></article>";
 var links = "<article><h3>Links</h3><div id=links-text></div></article>";
 var submit = ["\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"", "\"I no longer limit myself.\"", "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><h2>Waverly Project Event Form</h2><div id=maindiv><form><h3>Enter password:</h3><input type=password id=krl size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></div></body>","https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=false", "stockhausen", "width=450, height=300, location=0, toolbar=0, resizable=0, scrollbars=0"];
-var eventMenu = ["Season_2016_2017", "Season_2015_16", "Season_2014_15"];
+var eventMenu = ["Season_2016_2017", "Season_2015_2016", "Season_2014_2015"];
 ////////////
 function replaceContent(x,y) {document.getElementById(y).innerHTML = x;}
 ////////////
@@ -21,7 +21,7 @@ function makeMenu(m, len, mitem, type) {
   var i,j;
   m.append("<nav>");
   for (i = 0;i < len; i++) {
-    m.append("<"+type+" class=menuitem onClick=\"get" + mitem[i] + "(" + mitem[i].toLowerCase() + ")\">  " + mitem[i] + "  </"+type+">");
+    m.append("<"+type+" class=menuitem onClick=\"get" + mitem[i] + "(" + mitem[i].toLowerCase().substring(0,7) + ")\">  " + mitem[i] + "  </"+type+">");
   }
   m.append("</nav>");
 }
@@ -40,7 +40,7 @@ function getSeason_2015_2016(x){
 function getSeason_2016_2017(x){
   getSeason(x)
 };
-function getSeason(x){
+function getseason(x){//season_2015_2016
 $("#event-load").load("event/" + x);
 };
 function getPeople(x) {
