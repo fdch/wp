@@ -1,6 +1,8 @@
 # Website for the Waverly Project Organization
 
-Erratum: I tried to keep the code as readable as possible in [js/main.js](js/main.js) If you'd like to clone it and make your own pull/push, you are more than welcome!
+Erratum: I tried to keep the code as readable as possible in [js](js) If you'd like to clone it and make your own pull/push, you are more than welcome!
+
+	$ git clone https://github.com/fdch/wp
 
 # How to update the website
 
@@ -8,7 +10,13 @@ Mostly everything updatable is on [updates](updates). There are also some other 
 
 ## Event
 
-Click on **submit**, it will prompt for password and open an Event Form.
+To make a new event:
+
+1. Click on the **submit** menu. This menu item will prompt a new window. You might need to disable the Pop-Up Blocker for this.
+2. Input the correct password.
+3. Fill and submit the Google Form.
+4. Close the pop-up window.
+2. Click on the **events** menu and your event should now be added to the list.
 
 ## About
 
