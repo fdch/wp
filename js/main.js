@@ -21,7 +21,7 @@ function makeMenu(m, len, mitem, type) {
   var i,j;
   m.append("<nav>");
   for (i = 0;i < len; i++) {
-    m.append("<"+type+" class=menuitem onClick=\"get" + mitem[i].substring(0,6) + "('" + mitem[i].toLowerCase() + "')\">  " + mitem[i].replace(/_/g," ") + "  </"+type+">");
+    m.append("<"+type+" class=menuitem onClick=\"get" + mitem[i].substring(0,6) + "(" + mitem[i].toLowerCase() + ")\">  " + mitem[i].replace(/_/g," ") + "  </"+type+">");
   }
   m.append("</nav>");
 }
