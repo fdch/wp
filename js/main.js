@@ -52,6 +52,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9H
   url: 'https://api.github.com/repos/fdch/wp/contents/updates/events',
   type: 'PUT',
   data: {
+   "path" : 'updates/events',
    "message" : "Event:"+ etitl +", commited.",
    "content" : encodedEvent,
    "sha" : "b665f21966688df2f78c94d218ea3f0b77cdb847"
