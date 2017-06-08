@@ -1,7 +1,10 @@
-@charset "utf-8";/*CSS document*/@font-face {font-family:BebasNeue;}h1, h2, h3, h4, h5, h6 {font-family:BebasNeue}
+@charset "utf-8";
+@font-face {font-family:BebasNeue;src: url(BebasNeue.otf}
+h1, h2, h3, h4, h5, h6 {font-family:BebasNeue}
 img {border:none;padding:0;outline:none;margin:0;}
 a {color:#33CCFF;padding:0px;outline: 0;text-decoration:none;}
-a:hover, .menuitem a:hover {text-decoration:underline;color:#3399CC;cursor:pointer;}
-.menuitem a {color:black;}body{font-family:Palatino, Helvetica;font-size:1.1em;margin:0px;padding:0px;border:0px;width:100%;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;-moz-text-size-adjust:none;text-size-adjust:none;overflow-x:hidden;overflow-y:scroll;background: url("../img/banner") no-repeat top;}
+.menuitem {color:black;}
+a:hover, .menuitem:hover {text-decoration:underline;color:#3399CC;cursor:pointer;}
+body{font-family:Palatino;font-size:1.1em;margin:0px;padding:0px;border:0px;width:100%;background: url("../img/banner") no-repeat top;}
 .linkit, .linkold {cursor:pointer;}
 .linkit h3, .linkold h3 {color:#33CCFF;}.linkold:hover{background:#333;}
