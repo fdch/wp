@@ -56,9 +56,10 @@ function getEvents(x) {
       earr.push(nevent);
     }); //end entry loop
   });//end getJSON
-  
-  $("#event-load").append(["<article>",earr.reverse(), "</article>"]);
-
+  earr.push("<article>");
+  earr.reverse();
+  earr.push("</article>");
+  $("#event-load").innerHTML = earr.join("<br/>");
 }
 function getPeople(x) {
   replaceContent(x, 'content');
