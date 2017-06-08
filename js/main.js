@@ -39,7 +39,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9H
   var entry = data.feed.entry;
   $(entry).each(function(){
   var that = this;
-  var etime = that.gsx$timesamp.$t;
+  var etime = that.gsx$timestamp.$t;
   var edate = that.gsx$date.$t;
   var etitl = that.gsx$title.$t;
   var eauth = that.gsx$author.$t;
