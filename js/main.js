@@ -1,10 +1,10 @@
 ////////////
 //// Please be extra careful when you edit this file
 ////////////
-var w, h, t, te;
-
-var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><div id=menu></div><div class=result></div><div id=content></div>";
-
+var w, h;
+////////////
+//// The menu
+////////////
 var mitem = ["About", "People", "Events", "Links", "Submit"];
 var about = "<article><h3>About</h3><img src='img/about' height=180 /><div id=about-text></div><p>"+ aboutOutro +"</p><div id=karly></div></article>";
 var people = "<article><h3>People</h3><div id=people-list></div></article>";
@@ -15,11 +15,7 @@ var eventMenu = ["Season_2016_2017", "Season_2015_2016", "Season_2014_2015"];
 var season20162017 = "event/"+eventMenu[0];
 var season20152016 = "event/"+eventMenu[1];
 var season20142015 = "event/"+eventMenu[2];
-////////////
-function replaceContent(x,y) {document.getElementById(y).innerHTML = x;}
-////////////
-//// Menu functions
-////////////
+
 function makeMenu(m, len, mitem, type) {
   var i,j;
   m.append("<nav>");
@@ -28,25 +24,45 @@ function makeMenu(m, len, mitem, type) {
   }
   m.append("</nav>");
 }
+////////////
+//// Loaders
+////////////
+function replaceContent(x,y) {document.getElementById(y).innerHTML = x;}
+
+function getSeason(x){
+  $("#event-load").load(x);
+};
 function getEvents(x) {
   replaceContent(x,'content');
   makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
 $.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json", function(data) {
   var entry = data.feed.entry;
   $(entry).each(function(){
+  var that = this;
+  var etime = that.gsx$timesamp.$t;
+  var edate = that.gsx$date.$t;
+  var etitl = that.gsx$title.$t;
+  var eauth = that.gsx$author.$t;
+  var edesc = that.gsx$description.$t;
+  var eloca = that.gsx$location.$t;
+  var erefl = that.gsx$referencelink.$t;
+  var nevent = "<article><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></article>";
+  var mmm = window.open("","");
+  mmm.document.documentElement.innerHTML = nevent;
+  /*
+  var encodedEvent = btoa(nevent);
   $.ajax({
   url: 'https://api.github.com/repos/fdch/wp/contents/event',
   type: PUT,
   data: {
-   "message" : "event commited",
-   "content" : [btoa(this.gsx$timestamp.$t), btoa(this.gsx$date.$t), btoa(this.gsx$title.$t),btoa(this.gsx$author.$t),btoa(this.gsx$description.$t),btoa(this.gsx$time.$t),btoa(this.gsx$location.$t),btoa(this.gsx$referencelink.$t)]}
+   "message" : "Event:"+ etitl +", commited.",
+   "content" : encodedEvent
+   }
   });
+  */
  });
 })
 }
-function getSeason(x){
-  $("#event-load").load(x);
-};
 function getPeople(x) {
   replaceContent(x, 'content');
   jQuery.get('updates/people-list', function(data){

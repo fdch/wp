@@ -5,28 +5,6 @@
 @font-face{
 	font-family:BebasNeue;
 }
-h1, h2, h3, h4, h5, h6 {
-	font-family:"BebasNeue";
-	padding:0;
-	margin:4px 0px;;
-	border:0;
-}
-h1{
-	margin:1px 0px;
-	font-size:1em;
-}
-h3 {
-	font-size:2em;
-}
-h4 {
-	font-size:1.6em;
-}
-h5 {
-	font-size:1.1em;
-}
-h6 {
-	font-size:1.1em;
-}
 img{
 	border:none;
 	padding:0;
@@ -39,28 +17,15 @@ a {
 	outline: 0;
 	text-decoration:none;
 }
-a:hover, #menulist a:hover {
+a:hover, .menuitem a:hover {
 	text-decoration:underline;
 	color:#3399CC;
 	cursor:pointer;
 }
-#menulist a {
+.menuitem a {
 	color:black;
 }
-img:hover{
-	text-decoration:none;
-}
-ul{
-	list-style:none;
-	padding:0;
-	margin:0;
-}
-h5.concert-program {
-	margin-top:20px;
-}
-ul.concert-program {
-	margin:20px 0px 20px 20px;
-}
+
 /* * * * * * * *  START PAGE * * * * * * * */
  
 body{
@@ -214,28 +179,6 @@ body{
 	cursor:pointer;
 }
 
-
-/* * * * * * * * sub menues 
-
-.sublist{
-	list-style:none;
-	z-index:10;
-	text-align:center;
-	padding:0px;
-	font-size:0.7em;
-}
-.sublist li{
-	padding:1px;
-	margin:2px 0px;
-	width:inherit;
-	height:inherit;
-	border-radius:10px;
-}
-#footer{
-	padding:15px;
-	text-align:center;
-}
-* * * * * * * */
 /* * * * * * * * SOCIAL MEDIA * * * * * * * */
 #socialmedia{
 	width:100%;
