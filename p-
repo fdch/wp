@@ -8,14 +8,14 @@ fi
 git push
 echo "Waiting 20 seconds before opening browser"
 wait 10
-echo "Still 10 more seconds to go""
-wait 7
+echo "Still 10 more seconds to go"
+sleep 7
 echo "3"
-wait 1
+sleep 1
 echo "2"
-wait 1
+sleep 1
 echo "1"
-wait 1
+sleep 1
 open http://fdch.github.io/wp
 exit
 
