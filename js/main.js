@@ -12,6 +12,9 @@ var events = "<article><h3>Events</h3><p>"+ eventsText + "</p><div id=event-menu
 var links = "<article><h3>Links</h3><div id=links-text></div></article>";
 var submit = ["\"No, what is important is neither linearity or non-linearity, but the change, the degree of change from something that doesn't move to other events with different tempos in particular.\"", "\"I no longer limit myself.\"", "<head><link rel=stylesheet href='../css/style.css'></style><link rel='shortcut icon' href='../img/favicon'></link><title>Waverly Project Event Form</title></head><body><h2>Waverly Project Event Form</h2><div id=maindiv><form><h3>Enter password:</h3><input type=password id=krl size=12/><p>Click Submit when done</p><input type=button value=Submit id=authOK /></form></div></body>","https://docs.google.com/forms/d/e/1FAIpQLSdWV-2zEgbjF6WDroZrZx-bAqoXG8Tx3v_0XwA1dwhJIBafUA/viewform?embedded=false", "stockhausen", "width=450, height=300, location=0, toolbar=0, resizable=0, scrollbars=0"];
 var eventMenu = ["Season_2016_2017", "Season_2015_2016", "Season_2014_2015"];
+var season20162017 = "event/"+eventMenu[0].toLowerCase();
+var season20152016 = "event/"+eventMenu[1].toLowerCase();
+var season20142015 = "event/"+eventMenu[2].toLowerCase();
 ////////////
 function replaceContent(x,y) {document.getElementById(y).innerHTML = x;}
 ////////////
@@ -29,8 +32,8 @@ function getEvents(x) {
   replaceContent(x,'content');
   makeMenu($("#event-menu"), eventMenu.length, eventMenu, "button");
 }
-function getSeason(x){//season20152016
-  $("#event-load").load("event/" + x.valueOf());
+function getSeason(x){
+  $("#event-load").load(x);
 };
 function getPeople(x) {
   replaceContent(x, 'content');
