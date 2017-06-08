@@ -73,7 +73,7 @@ function getPeople(x) {
 }
 function getLinks(x) {
   replaceContent(x,'content');
-  jQuery.get('updates/links.md', function(data){
+  jQuery.get('updates/links', function(data){
     line = data.split("\n");
     $.each(line, function(n, c) {
       if(c.startsWith("{")) var link = c.replace(/\{|\}/g,""); 
