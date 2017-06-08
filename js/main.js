@@ -65,9 +65,10 @@ function getPeople(x) {
   jQuery.get('updates/people-list', function(data){
     lines = data.split("\n");
     $.each(lines, function(n, elem) {
+      var name = elem.replace(/"_"/g," ");
       $("#people-list")
-      .append("<div id=" + elem + "><h4>" + elem + "</h4><img src='img/people/" + elem + "'.jpg height=180 width=180 /><div class=bio></div></div>");
-      $("#people-list .bio").load("bio/"+elem);
+      .append("<div id=\"member_" + elem + "\"><h4>" + name + "</h4><img src='img/people/" + elem + "'.jpg height=180 width=180 /><div id=\"bio_"+elem+"\"></div></div>");
+      $("#bio"+elem+"").load("bio/"+elem);
     });
   });
 }
