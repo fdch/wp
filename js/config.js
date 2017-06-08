@@ -11,7 +11,7 @@ var logoimage = ["img/logo", 200, 200];
 ////Title
 ////////////
 var titleData = "<h1 onclick=\"location.href='"+ url + "'\">"+ title +"</h1><h2 onclick=\"location.href='" + url + "'\">" + subtitle + "</h2><div id=logo><img src='" + logoimage[0] + "' width="+ logoimage[1] +" height="+ logoimage[2] +"/></div><div id=menu></div><div class=result></div><div id=content></div>";
-var eventsText = "Below are listed all events (past, present and future) hosted by Waverly Project. We invite you to this menu to navigate through all our seasons, and to click on any event to get more information.";
+var eventsText = "Below are listed all events (past, present and future) hosted by Waverly Project. We invite you to use this menu to navigate through our seasons.";
 var aboutOutro = "Please contact us at <a href='mailto:"+email+"'>"+email+"</a> or via our <a href='"+facebookUrl+"' target=_blank>Facebook Page </a>";
 ////////////
 //// Meta properties
