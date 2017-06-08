@@ -3,7 +3,7 @@
 ////////////
 var w, h;
 ////////////
-//// The menu
+//// The menu (keep items <= 6 chars long)
 ////////////
 var mitem = ["About", "People", "Events", "Friends", "Submit"];
 ////
@@ -73,7 +73,7 @@ function getPeople(x) {
     });
   });
 }
-function getFriends(x) {
+function getFriend(x) {
   replaceContent(x);
   $.get('updates/friends', function(data){
     line = data.split("\n");
