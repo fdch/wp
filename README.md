@@ -51,6 +51,9 @@ Run this from root directory [wp]:
 
 *Alternatively: edit the file directly on github*
 
-## To add a new link in the links section:
+## Links
 
-Add a new link respecting format in [updates/links](updates/links)
+Add a new link respecting this format in [updates/links](updates/links):
+
+{http://yoursite.com}
+[your name]
