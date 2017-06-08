@@ -50,7 +50,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9H
   var encodedEvent = btoa(nevent);
   $.ajax({
   url: 'https://api.github.com/repos/fdch/wp/contents/event',
-  type: PUT,
+  type: 'PUT',
   data: {
    "message" : "Event:"+ etitl +", commited.",
    "content" : encodedEvent,
