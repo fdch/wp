@@ -14,7 +14,7 @@ Mostly everything updatable is on [updates](updates). There are also some other 
 
 ## Event
 
-To make a new event:
+To create  a new event:
 
 1. Click on the **submit** menu. This menu item will prompt a new window. You might need to disable the Pop-Up Blocker for this.
 2. Input the correct password.
@@ -34,6 +34,9 @@ To add a new WP member:
 
 Add a small jpg picture of the member in [img/people](img/people).
 
+*NOTE: you can change your profile picture by doing the same thing, just uploading it to the filename with your name*
+
+
 ### Rename that picture
 
 Rename the picture with the name of the new member, like this:
@@ -51,9 +54,9 @@ Run this from root directory [wp]:
 
 *Alternatively: edit the file directly on github*
 
-## Links
+## Friends
 
-Add a two lines respecting the format in [updates/links](updates/links):
+In here we put links to institutions, ensembles, people we want to share with our followers. Add a two lines respecting the format in [updates/links](updates/links):
 
 	{url}
 	[your name]
