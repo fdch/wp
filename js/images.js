@@ -26,8 +26,8 @@ $("img").hover(
     var h = images[i].height;
     var r = w/h;
     var title = images[i].title;
-    this.setAttribute('width',500);
-    this.setAttribute('height',1/(h*r));
+    this.setAttribute('width',200);
+    //this.setAttribute('height',w*r);
   }, function() {
     i++;
   });
