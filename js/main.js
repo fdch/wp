@@ -60,14 +60,14 @@ function getEvents(x) {
     var f = JSON.parse(response);
     var entry = f.feed.entry;
     for (var i in entry) {
-      var that = this;
-      var etime = that.gsx$timestamp.$t;
-      var edate = that.gsx$date.$t;
-      var etitl = that.gsx$title.$t;
-      var eauth = that.gsx$author.$t;
-      var edesc = that.gsx$description.$t;
-      var eloca = that.gsx$location.$t;
-      var erefl = that.gsx$referencelink.$t;
+      var e = entry[i];
+      var etime = e.gsx$timestamp.$t;
+      var edate = e.gsx$date.$t;
+      var etitl = e.gsx$title.$t;
+      var eauth = e.gsx$author.$t;
+      var edesc = e.gsx$description.$t;
+      var eloca = e.gsx$location.$t;
+      var erefl = e.gsx$referencelink.$t;
       var nevent = "<post><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></post>";
       earr.push(nevent);
     } //end entry loop
