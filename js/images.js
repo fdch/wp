@@ -18,7 +18,8 @@ $.get('../updates/people-list', function(data){
     images.push(createImage(imgpath+lines[i], lines[i]));
   }
 });
-console.log(images);
+
+
 });
 
 // output
