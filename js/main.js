@@ -56,7 +56,7 @@ function getEvents(x) {
   eFormUrl = "https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json";
   
   loadJSON(eFormUrl, function(response) {
-    var earr = [];
+    document.getElementById('loadEvents').createElement("article");
     var f = JSON.parse(response);
     var entry = f.feed.entry;
     for (var i in entry) {
@@ -69,12 +69,8 @@ function getEvents(x) {
       var eloca = e.gsx$location.$t;
       var erefl = e.gsx$referencelink.$t;
       var nevent = "<post><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></post>";
-      earr.push(nevent);
-    } //end entry loop
-    earr.push("<article>");
-    earr.reverse();
-    earr.push("</article>");
-    $("#loadEvents").innerHTML = earr.join("");
+      $("#loadEvents article").prepend(nevent);
+    }
   });
 }
 function getPeople(x) {
