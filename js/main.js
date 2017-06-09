@@ -102,16 +102,16 @@ function getAbout(x) {
   $("#karly").append("<img src='img/karly' onClick='getEvents(events)' height=99/>");
 }
 function getSubmit(x) {
-  var thePrompt = window.open("", "WPEventForm", x[5]);
-  thePrompt.document.documentElement.innerHTML = x[2];
-  thePrompt.document.getElementById("authOK").onclick = function () {
-    if ( thePrompt.document.getElementById("krl").value != x[4] )
+  var n = window.open("", "WPEventForm", x[5]);
+  n.document.documentElement.innerHTML = x[2];
+  n.document.getElementById("authOK").onclick = function () {
+    if ( n.document.getElementById("krl").value != x[4] )
     {
-      alert("\n"+x[0]+"\n\n Try again.");
+      n.alert("\n"+x[0]+"\n\n Try again.");
     } else {
-      alert("\nSucess!\n\n"+x[1]+"\n\n K. S.");
-      thePrompt.resizeTo(w, h);
-      thePrompt.moveBy(w*0.5, h*0.1);
+      n.alert("\nSucess!\n\n"+x[1]+"\n\n K. S.");
+      n.resizeTo(w, h);
+      n.moveBy(w*0.5, h*0.1);
       open(x[3], "WPEventForm");
     }
   }
