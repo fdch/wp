@@ -1,20 +1,24 @@
+var createImage = function(src, title) {
+  var img   = new Image();
+  img.src   = src;
+  img.alt   = title;
+  img.title = title;
+  return img; 
+};
+
+// array of images
+var images = [];
+
 $(function() {
-var myimages = [];
-var mysrc = [];
-var downloadingImages = [];
+
 $.get('../updates/people-list', function(data){
   lines = data.split("\n");
   var i;
   for (i = 0; i < lines.length; i++) {
-    myimages.push(lines[i]);
-    mysrc.push("../img/people/"+lines[i]+".jpg");
-    downloadingImages[i] = new Image();
+    images.push(createImage("../img/"+lines[i]+".jpg", lines[i]));
   }
 });
-downloadingImages[0].onload = function() {
-  myimages[0].src = mysrc[0].src;
-};
-
-
-
+console.log(images);
 });
+
+// output
