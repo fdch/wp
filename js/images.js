@@ -22,8 +22,8 @@ var i=0;
 $("img").hover(
   function() {
     this.setAttribute('src', images[i].src);
-    var w = this.width();
-    var h = this.height();
+    var w = this.getAttribute("NaturalWidth");
+    var h = this.getAttribute("NaturalHeight");
     var r = w/r;
     var title = this.getAttribute('title');
     alert(title + " is "+ w + "x"+h+" and has ratio:"+r);
