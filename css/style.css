@@ -1,10 +1,76 @@
 @charset "utf-8";
-@font-face {font-family:BebasNeue;src: url(BebasNeue.otf}
-h1, h2, h3, h4, h5, h6 {font-family:BebasNeue}
-img {border:none;padding:0;outline:none;margin:0;}
-a {color:#33CCFF;padding:0px;outline: 0;text-decoration:none;}
-.menuitem {color:black;}
-a:hover, .menuitem:hover {text-decoration:underline;color:#3399CC;cursor:pointer;}
-body{font-family:Palatino;font-size:1.1em;margin:0px;padding:0px;border:0px;width:100%;background: url("../img/banner") no-repeat top;}
-.linkit, .linkold {cursor:pointer;}
-.linkit h3, .linkold h3 {color:#33CCFF;}.linkold:hover{background:#333;}
+@font-face {
+    font-family: BebasNeue;
+    src: url(BebasNeue.otf);
+}
+
+h1, h2, h3, h4, h5, h6, .menuitem {
+    font-family: BebasNeue
+}
+h1 {font-size:3em}
+
+img {
+    border: none;
+    padding: 0;
+    outline: none;
+    margin: 0;
+}
+
+a {
+    color: #33CCFF;
+    padding: 0px;
+    outline: 0;
+    text-decoration: none;
+}
+
+#menu {
+    background: black;
+    padding: 1%;
+}
+
+.menuitem {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+}
+
+a:hover, .menuitem:hover {
+    text-decoration: underline;
+    color: #3399CC;
+    cursor: pointer;
+}
+
+body {
+    font-family: Palatino;
+    font-size: 1.1em;
+    margin: 0px;
+    padding: 5%;
+    border: 0px;
+    width: 100%;
+    background: url("../img/banner") no-repeat top;
+}
+
+article div {
+    padding:0% 0% 10% 0%;
+    border:1px solid black;
+}
+article div p, article div img {
+    position:relative;
+    float:left;
+    margin:0% 3% 1% 0%;
+}
+article div p {
+    margin:10%;
+}
+.linkit, .linkold {
+    cursor: pointer;
+}
+
+.linkit h3, .linkold h3 {
+    color: #33CCFF;
+}
+
+.linkold:hover {
+    background: #333;
+}

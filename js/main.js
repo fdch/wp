@@ -68,7 +68,7 @@ function getPeople(x) {
     $.each(lines, function(n, elem) {
       var name = elem.replace(/"_"/g," ");
       $("#loadPeople")
-      .append("<div id=\"member_" + elem + "\"><h4>" + name + "</h4><img src='img/people/" + elem + "'.jpg height=180 width=180 /><div id=\"bio_"+elem+"\"></div></div>");
+      .append("<div id=\"member_" + elem + "\"><h4>" + name + "</h4><img src='img/people/" + elem + "'.jpg height=180 width=180 /><div><p id=\"bio_"+elem+"\"></p></div></div>");
       $("#bio_"+elem+"").load("bio/"+elem+".txt");
     });
   });
