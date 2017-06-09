@@ -24,9 +24,10 @@ $("img").hover(
     this.setAttribute('src', images[i].src);
     var w = images[i].width;
     var h = images[i].height;
-    var r = w/r;
+    var r = w/h;
     var title = images[i].title;
-    alert(title + " is "+ w + "x"+h+" and has ratio:"+r);
+    this.setAttribute('width',500);
+    this.setAttribute('height',1/(h*r));
   }, function() {
     i++;
   });
