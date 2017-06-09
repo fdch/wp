@@ -91,7 +91,7 @@ function getFriend(x) {
   replaceContent(x);
   loadJSON("updates/"+x, function(response) {
     var f = JSON.parse(response);
-  }
+  });
   for (var key in f) {
     name = key;
     value = f[key];
