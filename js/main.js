@@ -89,7 +89,7 @@ function loadJSON(x,callback) {
 function getFriend(x) {
   var i;
   replaceContent(x);
-  loadJSON("updates/"+x, function(response) {
+  loadJSON("updates/friends", function(response) {
     var f = JSON.parse(response);
   });
   for (var key in f) {
