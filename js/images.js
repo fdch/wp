@@ -23,7 +23,7 @@ $("img").hover(
   function() {
     this.setAttribute('src', images[i].src);
   }, function() {
-    i = (i++)%images.length;
+    i++;
   });
 });
 
