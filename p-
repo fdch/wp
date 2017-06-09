@@ -17,14 +17,12 @@ git push
 
 DATE=$(date +"%D %T")
 echo "$(tput setaf 2)
-Committed to Waverly Project on $DATE
-"
+Committed to Waverly Project on $DATE $(tput sgr 0)"
 while [ $i -gt 0 ]
 do
 sleep 0.1
 echo -ne "="
 i=$[$i-1]
 done
-open http://fdch.github.io/wp
-echo "$(tput sgr 0)"
+open http://fdch.github.io/wp"
 exit

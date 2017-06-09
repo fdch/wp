@@ -15,7 +15,7 @@ $.get('../updates/people-list', function(data){
   lines = data.split("\n");
   var i;
   for (i = 0; i < lines.length; i++) {
-    images.push(createImage("../img/"+lines[i]+".jpg", lines[i]));
+    images.push(createImage("../img/people/"+lines[i]+".jpg", lines[i]));
   }
 });
 console.log(images);
