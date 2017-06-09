@@ -8,7 +8,8 @@ h1, h2, h3, h4, h5, h6, .menuitem {
     font-family: BebasNeue
 }
 h1 {font-size:3em}
-
+h3 {font-size:2em}
+h4 {font-size:2.3em}
 img {
     border: none;
     padding: 0;
@@ -52,16 +53,19 @@ body {
 }
 
 article div {
-    padding:0% 0% 10% 0%;
+    padding-bottom:15%;
 }
-article div p, article div img {
+article div img {
     position:relative;
     float:left;
-    margin:0% 3% 1% 0%;
+    margin-bottom:1%;
+    margin-right:3%;
 }
 article div p {
-    padding:1%;
+    text-align:justify;
+    text-indent:50px;
 }
+article div h4 {padding:0;margin:0;}
 .linkit, .linkold {
     cursor: pointer;
 }
