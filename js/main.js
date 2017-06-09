@@ -56,7 +56,7 @@ function getEvents(x) {
   eFormUrl = "https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json";
   
   loadJSON(eFormUrl, function(response) {
-    document.getElementById('loadEvents').createElement("article");
+    $("#loadEvents").append("<article></article>");
     var f = JSON.parse(response);
     var entry = f.feed.entry;
     for (var i in entry) {
