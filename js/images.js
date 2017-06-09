@@ -19,7 +19,12 @@ $.get('../updates/people-list', function(data){
   }
 });
 var i;
-$("img").hover(function() {this.src(images[i].src;)},function() {i++;});
+$("img").hover(
+  function() {
+    this.setAttribute('src', images[0]);
+  }, function() {
+    i++;
+  });
 });
 
 // output
