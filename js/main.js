@@ -87,16 +87,15 @@ function loadJSON(x,callback) {
 }
 
 function getFriend(x) {
-  var f;
   replaceContent(x);
   loadJSON("updates/friends", function(response) {
     f = JSON.parse(response);
+    for (var key in f) {
+      name = key;
+      value = f[key];
+      $("#loadFriends").append("<h5><a href=\"" + value + "\" target=_blank title=\"" + name + "\">" + name + "</a></h5>");
+    }
   });
-  for (var key in f) {
-    name = key;
-    value = f[key];
-    $("#loadFriends").append("<h5><a href=\"" + value + "\" target=_blank title=\"" + name + "\">" + name + "</a></h5>");
-  }
 }
 function getAbout(x) {
   replaceContent(x);
