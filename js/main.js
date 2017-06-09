@@ -76,7 +76,7 @@ function getEvents(x) {
       } else {
         eclass = "new";
       }
-      var nevent = "<post class="+eclass+">\
+      var nevent = "<div class="+eclass+">\
   <h2>"+etitl+"</h2>\
   <h3>"+eauth+"</h3>\
   <h4>"+edate.toDateString()+"</h4>\
@@ -85,7 +85,7 @@ function getEvents(x) {
   <h5>"+eloca+"</h5>\
   <h6>"+etime+"</h6>\
   <span>Event created on: "+estam+"</>\
-  </post>";
+  </div>";
       $("#loadEvents article").prepend(nevent);
     }
   });
