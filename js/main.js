@@ -57,6 +57,8 @@ function getEvents(x) {
   
   loadJSON(eFormUrl, function(response) {
     $("#loadEvents").append("<article></article>");
+    var today = new Date();
+    var eclass = "new";
     var f = JSON.parse(response);
     var entry = f.feed.entry;
     for (var i in entry) {
@@ -68,7 +70,20 @@ function getEvents(x) {
       var edesc = e.gsx$description.$t;
       var eloca = e.gsx$location.$t;
       var erefl = e.gsx$referencelink.$t;
-      var nevent = "<post><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></post>";
+      if (today.getTime() > edate.getTime()) {
+        eclass = "old";
+      } else {
+        eclass = "new";
+      }
+      var nevent = "<post class="+eclass+">\
+  <h3>"+etitl+"</h3>\
+  <h4>"+eauth+"</h4>\
+  <a href=\""+erefl+"\"><img src=\""+erefl+"\" title=\""+eauth+"\"/></a>\
+  <h5>"+edate+"</h5>\
+  <p>"+edesc+"</p>\
+  <h6>"+eloca+"</h6>\
+  <h6>"+etime+"</h6>\
+  </post>";
       $("#loadEvents article").prepend(nevent);
     }
   });
