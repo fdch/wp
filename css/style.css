@@ -47,13 +47,12 @@ body {
     margin: 0px;
     padding: 5%;
     border: 0px;
-    width: 100%;
+    width: 90%;
     background: url("../img/banner") no-repeat top;
 }
 
 article div {
     padding:0% 0% 10% 0%;
-    border:1px solid black;
 }
 article div p, article div img {
     position:relative;
@@ -61,7 +60,7 @@ article div p, article div img {
     margin:0% 3% 1% 0%;
 }
 article div p {
-    margin:10%;
+    padding:1%;
 }
 .linkit, .linkold {
     cursor: pointer;
