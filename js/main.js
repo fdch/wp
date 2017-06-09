@@ -73,16 +73,30 @@ function getPeople(x) {
     });
   });
 }
+
+function loadJSON(x,callback) {
+  var xobj = new XMLHttpRequest();
+  xobj.overrideMimeType("application/json");
+  xobj.open('GET', x, true);
+  xobj.onreadystatechange = function () {
+    if (xobj.readyState == 4 && xobj.status == "200") {
+      callback(xobj.responseText);
+    }
+  };
+  xobj.send(null);  
+}
+
 function getFriend(x) {
+  var i;
   replaceContent(x);
-  $.get('updates/friends', function(data){
-    line = data.split("\n");
-    $.each(line, function(n, c) {
-      if(c.startsWith("{")) var url = c.replace(/\{|\}/g,""); 
-      if(c.startsWith("[")) var name  = c.replace(/\[|\]/g,""); 
-      if (url && name) $("#loadFriends").append("<h5><a href=\"" + url + "\" target=_blank title=\"" + name + "\">" + name + "</a></h5>");
-    });
-  });
+  loadJSON("updates/"+x, function(response) {
+    var f = JSON.parse(response);
+  }
+  for (var key in f) {
+    name = key;
+    value = f[key];
+    $("#loadFriends").append("<h5><a href=\"" + value + "\" target=_blank title=\"" + name + "\">" + name + "</a></h5>");
+  }
 }
 function getAbout(x) {
   replaceContent(x);
