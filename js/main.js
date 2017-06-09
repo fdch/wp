@@ -37,13 +37,29 @@ function replaceContent(x) {
 function getSeason(x){
   $("#loadEvents").load(x);
 };
+
+function loadJSON(x,callback) {
+  var xobj = new XMLHttpRequest();
+  xobj.overrideMimeType("application/json");
+  xobj.open('GET', x, true);
+  xobj.onreadystatechange = function () {
+    if (xobj.readyState == 4 && xobj.status == "200") {
+      callback(xobj.responseText);
+    }
+  };
+  xobj.send(null);  
+}
+
 function getEvents(x) {
   replaceContent(x);
   makeMenu($("#menuEvents"), eventMenu.length, eventMenu, "button");
-$.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json", function(data) {
-    var earr = new Array();
-    var entry = data.feed.entry;
-    $(entry).each(function() {
+  eFormUrl = "https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9HFXJ8y6LjYZpEWLxtTM/o1nbw6e/public/values?alt=json";
+  
+  loadJSON(eFormUrl, function(response) {
+    var earr = [];
+    var f = JSON.parse(response);
+    //var entry = data.feed.entry;
+    for (var entry in f) {
       var that = this;
       var etime = that.gsx$timestamp.$t;
       var edate = that.gsx$date.$t;
@@ -54,12 +70,12 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1jMniwPCuLlYMUC9INNGqcOV9H
       var erefl = that.gsx$referencelink.$t;
       var nevent = "<post><h3>"+etitl+"</h3><h4>"+eauth+"</h4><a href=\""+erefl+"\"><img src=\""+erefl+"\" alt=\""+eauth+"\"/></a><h5>"+edate+"</h5><p>"+edesc+"</p><h6>"+eloca+"</h6><h6>"+etime+"</h6></post>";
       earr.push(nevent);
-    }); //end entry loop
+    } //end entry loop
     earr.push("<article>");
     earr.reverse();
     earr.push("</article>");
-    $("#loadEvents").innerHTML = earr.join("<br/>");
-  });//end getJSON
+    $("#loadEvents").innerHTML = earr.join("");
+  });
 }
 function getPeople(x) {
   replaceContent(x);
@@ -74,22 +90,10 @@ function getPeople(x) {
   });
 }
 
-function loadJSON(x,callback) {
-  var xobj = new XMLHttpRequest();
-  xobj.overrideMimeType("application/json");
-  xobj.open('GET', x, true);
-  xobj.onreadystatechange = function () {
-    if (xobj.readyState == 4 && xobj.status == "200") {
-      callback(xobj.responseText);
-    }
-  };
-  xobj.send(null);  
-}
-
 function getFriend(x) {
   replaceContent(x);
   loadJSON("updates/friends", function(response) {
-    f = JSON.parse(response);
+    var f = JSON.parse(response);
     for (var key in f) {
       name = key;
       value = f[key];
