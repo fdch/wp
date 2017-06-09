@@ -65,7 +65,7 @@ function getEvents(x) {
       var e = entry[i];
       var estam = e.gsx$timestamp.$t;
       var etime = e.gsx$time.$t;
-      var edate = new Date(e.gsx$date.$t + etime);
+      var edate = new Date(e.gsx$date.$t +" "+ etime);
       var etitl = e.gsx$title.$t;
       var eauth = e.gsx$author.$t;
       var edesc = e.gsx$description.$t;
@@ -80,7 +80,7 @@ function getEvents(x) {
   <h2>"+etitl+"</h2>\
   <h3>"+eauth+"</h3>\
   <a href=\""+erefl+"\"><img src=\""+erefl+"\" title=\""+eauth+"\"/></a>\
-  <h4>"+edate+"</h4>\
+  <h4>"+edate.toDateString()+"</h4>\
   <p>"+edesc+"</p>\
   <h5>"+eloca+"</h5>\
   <h6>"+etime+"</h6>\
