@@ -63,8 +63,9 @@ function getEvents(x) {
     var entry = f.feed.entry;
     for (var i in entry) {
       var e = entry[i];
-      var etime = e.gsx$timestamp.$t;
-      var edate = new Date(e.gsx$date.$t);
+      var estam = e.gsx$timestamp.$t;
+      var etime = e.gsx$time.$t;
+      var edate = new Date(e.gsx$date.$t + etime);
       var etitl = e.gsx$title.$t;
       var eauth = e.gsx$author.$t;
       var edesc = e.gsx$description.$t;
@@ -76,13 +77,14 @@ function getEvents(x) {
         eclass = "new";
       }
       var nevent = "<post class="+eclass+">\
-  <h3>"+etitl+"</h3>\
-  <h4>"+eauth+"</h4>\
+  <h2>"+etitl+"</h2>\
+  <h3>"+eauth+"</h3>\
   <a href=\""+erefl+"\"><img src=\""+erefl+"\" title=\""+eauth+"\"/></a>\
-  <h5>"+edate+"</h5>\
+  <h4>"+edate+"</h4>\
   <p>"+edesc+"</p>\
-  <h6>"+eloca+"</h6>\
+  <h5>"+eloca+"</h5>\
   <h6>"+etime+"</h6>\
+  <span>Event created on: "+estam+"</>\
   </post>";
       $("#loadEvents article").prepend(nevent);
     }
