@@ -70,7 +70,7 @@ function getEvents(x) {
       var eauth = e.gsx$author.$t;
       var edesc = e.gsx$description.$t;
       var eloca = e.gsx$location.$t;
-      var erefl = e.gsx$referencelink.$t;
+      var eiurl = e.gsx$imageurl.$t;
       if (today.getTime() > edate.getTime()) {
         eclass = "old";
       } else {
@@ -80,7 +80,7 @@ function getEvents(x) {
   <h2>"+etitl+"</h2>\
   <h3>"+eauth+"</h3>\
   <h4>"+edate.toDateString()+"</h4>\
-  <a href=\""+erefl+"\"><img src=\""+erefl+"\" title=\""+eauth+"\"/></a>\
+  <a href=\""+eiurl+"\"><img src=\""+eiurl+"\" title=\""+eauth+"\"/></a>\
   <p>"+edesc+"</p>\
   <h5>"+eloca+"</h5>\
   <h6>"+etime+"</h6>\
