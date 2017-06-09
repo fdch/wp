@@ -2,6 +2,7 @@
 //// Below are some editable variables
 ////////////
 var url = "https://waverlyproject.org";
+var repo = "https://github.com/fdch/wp";
 var email = "waverlyproject1@gmail.com";
 var facebookUrl = "https://www.facebook.com/waverlyproject/";
 var title = "Waverly Project";
