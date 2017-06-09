@@ -58,8 +58,8 @@ function getEvents(x) {
   loadJSON(eFormUrl, function(response) {
     var earr = [];
     var f = JSON.parse(response);
-    //var entry = data.feed.entry;
-    for (var entry in f) {
+    var entry = f.feed.entry;
+    for (var i in entry) {
       var that = this;
       var etime = that.gsx$timestamp.$t;
       var edate = that.gsx$date.$t;
