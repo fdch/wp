@@ -64,7 +64,7 @@ function getEvents(x) {
     for (var i in entry) {
       var e = entry[i];
       var etime = e.gsx$timestamp.$t;
-      var edate = e.gsx$date.$t;
+      var edate = new Date(e.gsx$date.$t);
       var etitl = e.gsx$title.$t;
       var eauth = e.gsx$author.$t;
       var edesc = e.gsx$description.$t;
