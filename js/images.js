@@ -18,8 +18,8 @@ $.get('../updates/people-list', function(data){
     images.push(createImage(imgpath+lines[i], lines[i]));
   }
 });
-
-
+var i;
+$("img").hover(function() {this.src(images[i].src;)},function() {i++;});
 });
 
 // output
