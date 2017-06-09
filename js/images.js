@@ -21,12 +21,11 @@ $.get('../updates/people-list', function(data){
 var i=0;
 $("img").hover(
   function() {
-    var that = this;
-    that.setAttribute('src', images[i].src);
-    var w = that.getAttribute("width");
-    var h = that.getAttribute("height");
+    this.setAttribute('src', images[i].src);
+    var w = images[i].width;
+    var h = images[i].height;
     var r = w/r;
-    var title = that.getAttribute('title');
+    var title = images[i].title;
     alert(title + " is "+ w + "x"+h+" and has ratio:"+r);
   }, function() {
     i++;
