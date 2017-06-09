@@ -18,12 +18,12 @@ $.get('../updates/people-list', function(data){
     images.push(createImage(imgpath+lines[i], lines[i]));
   }
 });
-var i;
+var i=0;
 $("img").hover(
   function() {
     this.setAttribute('src', images[i].src);
   }, function() {
-    i++;
+    i = (i++)%images.length;
   });
 });
 
