@@ -102,7 +102,11 @@ function getAbout(x) {
   $("#karly").append("<img src='img/karly' onClick='getEvents(events)' height=99/>");
 }
 function getSubmit(x) {
-  var n = window.open("", "WPEventForm", x[5]);
+  var exists;
+  if (!exists) var n = window.open("", "WPEventForm", x[5]);
+  else n.focus();
+  if (n != null) exists = 1;
+  else exists = 0;
   n.document.documentElement.innerHTML = x[2];
   n.document.getElementById("authOK").onclick = function () {
     if ( n.document.getElementById("krl").value != x[4] )
