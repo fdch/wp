@@ -79,8 +79,8 @@ function getEvents(x) {
       var nevent = "<post class="+eclass+">\
   <h2>"+etitl+"</h2>\
   <h3>"+eauth+"</h3>\
-  <a href=\""+erefl+"\"><img src=\""+erefl+"\" title=\""+eauth+"\"/></a>\
   <h4>"+edate.toDateString()+"</h4>\
+  <a href=\""+erefl+"\"><img src=\""+erefl+"\" title=\""+eauth+"\"/></a>\
   <p>"+edesc+"</p>\
   <h5>"+eloca+"</h5>\
   <h6>"+etime+"</h6>\
