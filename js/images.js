@@ -21,7 +21,7 @@ $.get('../updates/people-list', function(data){
 var i;
 $("img").hover(
   function() {
-    this.setAttribute('src', images[0]);
+    this.setAttribute('src', images[0].src);
   }, function() {
     i++;
   });
