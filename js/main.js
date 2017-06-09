@@ -130,8 +130,8 @@ $(document).ready(function(x) {
   function() {
     this.setAttribute('src', 'img/logo-2');
   }, function() {
-    this.setAttribute('src', 'img/logo')
-  }
+    this.setAttribute('src', 'img/logo');
+  });
 });
 ////////////
 //// End js load
