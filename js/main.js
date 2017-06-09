@@ -126,6 +126,12 @@ $(document).ready(function(x) {
   $("head").append(meta);
   $("body").append([titleData,analytics]);
   makeMenu($("#menu"), mitem.length, mitem, "span");
+  $("#logo img").hover(
+  function() {
+    this.setAttribute('src', 'img/logo-2');
+  }, function() {
+    this.setAttribute('src', 'img/logo')
+  }
 });
 ////////////
 //// End js load
