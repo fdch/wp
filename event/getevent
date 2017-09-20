@@ -1,0 +1,19 @@
+#!/bin/bash
+
+TITLE="TITLE";DATE="DATE";IMGL="IMAGEURL";AUTHOR="AUTHOR";PROGRAM="PROGRAM";DESC="DESCRIPTION";
+paste <(echo $TITLE) <(echo $DATE) <(echo $IMGL) <(echo $AUTHOR) <(echo $PROGRAM) <(echo $DESC) > myfile
+
+for f in ../event-backup/*
+do
+TITLE="";DATE="";IMGL="";AUTHOR="";PROGRAM="";DESC="";
+TITLE=$(awk -F"<h3>" '{gsub(/<\/h3>.*/,"",$0);print $2}' $f | sed '/^$/d')
+DATE=$(awk -F"<h4>" '{gsub(/<\/h4>.*/,"",$0);print $2}' $f | sed '/^$/d')
+IMGL=$(awk -F"src=\"" '{gsub(/\".*/,"",$0);print $2}' $f | sed '/^$/d')
+AUTHOR=$(awk -F"<h5>" '{gsub(/<\/h5>.*/,"",$0);print $2}' $f | sed '/^$/d')
+PROGRAM=$(awk -F"<ul>" '{gsub(/<\/ul>.*/,"",$0);print $2}' $f | sed '/^$/d')
+DESC=$(awk -F"<p>" '{gsub(/<\/p>.*/,"",$0);print $2}' $f | sed '/^$/d')
+paste <(echo "$TITLE\n") <(echo "$DATE\n") <(echo "$IMGL\n") <(echo "$AUTHOR\n") <(echo "$PROGRAM\n") <(echo "$DESC\n") >> myfile
+
+
+exit
+
