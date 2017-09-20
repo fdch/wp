@@ -80,7 +80,7 @@ function getEvents(x) {
   <h2>"+etitl+"</h2>\
   <h3>"+eauth+"</h3>\
   <h4>"+edate.toDateString()+"</h4>\
-  <a href=\""+eiurl+"\"><img width="+w/2+" src=\""+eiurl+"\" title=\""+eauth+"\"/></a>\
+  <a href=\""+eiurl+"\"><img width="+w+" src=\""+eiurl+"\" title=\""+eauth+"\"/></a>\
   <p>"+edesc+"</p>\
   <h5>"+eloca+"</h5>\
   <h6>"+etime+"</h6>\
@@ -97,7 +97,7 @@ function getPeople(x) {
     $.each(lines, function(n, elem) {
       var name = elem.replace(/"_"/g," ");
       $("#loadPeople")
-      .append("<div id=\"member_" + elem + "\"><h4>" + name + "</h4><img src='img/people/" + elem + "'.jpg width="+w/3+" /><div><p id=\"bio_"+elem+"\"></p></div></div>");
+      .append("<div id=\"member_" + elem + "\"><h4>" + name + "</h4><img src='img/people/" + elem + "'.jpg width="+w/2+" /><div><p id=\"bio_"+elem+"\"></p></div></div>");
       $("#bio_"+elem+"").load("bio/"+elem+".txt");
     });
   });
