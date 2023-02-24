@@ -8,7 +8,7 @@ var w, h;
 var mitem = ["About", "People", "Events", "Friends", "Submit"];
 ////
 var about = "<article><h3>"+mitem[0]+"</h3><img class=imageTop src=\"img/"+mitem[0].toLowerCase()+"\" height=180 /><div id=load"+mitem[0]+"></div><p>"+ aboutOutro +"</p><div id=karly></div></article>";
-var people = "<article><h3>"+mitem[1]+"</h3><img class=imageTop src=\"img/"+mitem[1].toLowerCase()+"\" height=180 /><div id=load"+mitem[1]+"></div></article>";
+var people = "<article><h3>"+mitem[1]+"</h3><img class=imageTop src=\"img/"+mitem[1].toLowerCase()+".png\" height=180 /><div id=load"+mitem[1]+"></div></article>";
 var events = "<article><h3>"+mitem[2]+"</h3><img class=imageTop src=\"img/"+mitem[2].toLowerCase()+"\" height=180 /><p>"+ eventsText + "</p><div id=menu"+mitem[2]+"></div><div id=load"+mitem[2]+"></div></article>";
 var friends = "<article><h3>"+mitem[3]+"</h3><img class=imageTop src=\"img/"+mitem[3].toLowerCase()+"\" height=180 /><div id=load"+mitem[3]+"></div></article>";
 ////
